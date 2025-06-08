@@ -244,7 +244,7 @@ void shortest_path(int n) {
 
     V_dist[n] = 0;
 
-    int q_size = n_nodi; /// contatore degli elementi in coda (V_visitato)
+    int q_size = n_nodi; /// contatore degli elementi in coda (V_visitato) /
 
     while (q_size != 0) {
 
