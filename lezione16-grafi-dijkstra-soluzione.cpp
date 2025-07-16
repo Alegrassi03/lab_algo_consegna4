@@ -56,7 +56,7 @@ typedef struct list {
 /// Definizione della struttura dati grafo
 //////////////////////////////////////////////////
 
-float *V;        // elenco dei nodi del grafo
+int *V;          // elenco dei nodi del grafo
 int *V_visitato; // nodo visitato?
 int *V_prev;     // nodo precedente dalla visita
 float *V_dist;   // distanza da sorgente
@@ -95,27 +95,19 @@ void node_print(int n) {
     if (V_visitato[n] == 1)
         output_graph << "penwidth = 4; ";
 
-    float col = pow(V[n],0.5); /// distanza in scala 0..1
-    float col1 = V_dist[n] / max_d; /// distanza in scala 0..1
-    if (V_dist[n] == INFTY)
-        col1 = 0;
-    float col2 =1;
-
-    col1=0.1;
-
-    output_graph << "fillcolor = \""<< col1 << " " << col2 << " " << col << "\"; style=filled; ";
+    float col = V_dist[n] / max_d; /// distanza in scala 0..1
+    output_graph << "fillcolor = \"0.0 0.0 " << col / 2 + 0.5 << "\"; style=filled; ";
     if (V_dist[n] < INFTY)
         output_graph << "label = "
-                     << "\"Val: " << V[n] << ", dist: " << V_dist[n] << "\" ];\n";
+                     << "\"Idx: " << n << ", dist: " << V_dist[n] << "\" ];\n";
     else
         output_graph << "label = "
-                     << "\"Val: " << V[n] << ", dist: INF\" ];\n";
+                     << "\"Idx: " << n << ", dist: INF\" ];\n";
 
     node_t *elem = E[n]->head;
     while (elem != NULL) { /// disegno arco
         output_graph << "node_" << n << "_" << n_operazione << " -> ";
-        // output_graph << "node_" << elem->val << "_" << n_operazione << " [ label=\"" << elem->w << "\", len=" << elem->w / 100 * 10 << " ]\n";
-        output_graph << "node_" << elem->val << "_" << n_operazione << " [ len=" << elem->w / 100 * 10 << " ]\n";
+        output_graph << "node_" << elem->val << "_" << n_operazione << " [ label=\"" << elem->w << "\", len=" << elem->w / 100 * 10 << " ]\n";
         elem = elem->next;
     }
 
@@ -256,7 +248,7 @@ void shortest_path(int n) {
 
     while (q_size != 0) {
 
-        // graph_print();
+        graph_print();
 
         /// trova il minimo in coda
         float best_dist = INFTY;
@@ -279,10 +271,7 @@ void shortest_path(int n) {
                 int v = elem->val; /// arco u --> v
 
                 /// alt ← dist[u] + Graph.Edges(u, v)
-                
                 float alt = V_dist[u] + elem->w; /// costo per arrivare al nuovo nodo passando per u
-                // float alt = V_dist[u] + elem->w + 1000*pow(abs(V[u]-V[v]),2) ; /// costo per arrivare al nuovo nodo passando per u
-
                 if (alt < V_dist[v]) {           // il percorso sorgente ---> u --> v migliora il percorso attuale sorgente --> v
                     V_dist[v] = alt;
                     V_prev[v] = u;
@@ -311,7 +300,7 @@ int DFS(int n) {
     V_visitato[n] = 1; // prima volta che incontro questo nodo
 
     if (details)
-        printf("Visito il nodo %d (val %f)\n", n, V[n]);
+        printf("Visito il nodo %d (val %d)\n", n, V[n]);
 
     /// esploro la lista di adiacenza
     node_t *elem = E[n]->head;
@@ -397,8 +386,10 @@ int main(int argc, char **argv) {
     int N = 10;
     n_nodi = N * N;
 
+    n_nodi = 10;
+
     //// init nodi
-    V = new float[n_nodi];
+    V = new int[n_nodi];
     V_visitato = new int[n_nodi];
     V_prev = new int[n_nodi];
     V_dist = new float[n_nodi];
@@ -408,13 +399,7 @@ int main(int argc, char **argv) {
 
     // costruzione grafo
     for (int i = 0; i < n_nodi; i++) {
-
-        int x = i % N;
-        int y = i / N;
-
-        // V[i] = 1;
-        V[i] = (1 - abs(x - N / 2) / (0.0 + N / 2)) * (1 - abs(y - N / 2) / (0.0 + N / 2));
-
+        V[i] = 2 * i;
         V_visitato[i] = 0; // flag = non visitato
         V_prev[i] = -1;    // non c'e' precedente
         V_dist[i] = INFTY; // infinito
@@ -424,62 +409,58 @@ int main(int argc, char **argv) {
         if (i == 0)
             global_ptr_ref = E[i];
 
-        for (int dx = -2; dx <= 2; dx += 1)
-            for (int dy = -2; dy <= 2; dy += 1)
+        int x = i % N;
+        int y = i / N;
 
-            if (abs(dx)+abs(dy)==1){
+        // for (int dx = -2; dx <= 2; dx += 1)
+        //     for (int dy = -2; dy <= 2; dy += 1)
+        //         if (abs(dx) + abs(dy) >= 1 &&
+        //             abs(dx) + abs(dy) <= 1
+        //             ) { // limito gli archi ai vicini con 1 variazione assoluta sulle coordinate
 
-                // if ((abs(dx) + abs(dy) >= 1 &&
-                //     abs(dx) + abs(dy) <= 2 &&
-                //     abs(dx) <2 &&
-                //     abs(dy) <2) ||
-                //     ((abs(dx)==2 && abs(dy)==1) || 
-                //      (abs(dx)==1 && abs(dy)==2) )
-                //     ) { // limito gli archi ai vicini con 1 variazione assoluta sulle coordinate
+        //             int nx = x + dx;
+        //             int ny = y + dy;
 
-                    int nx = x + dx;
-                    int ny = y + dy;
+        //             if (nx >= 0 && nx < N &&
+        //                 ny >= 0 && ny < N) { /// coordinate del nuovo nodo sono nel grafo
 
-                    if (nx >= 0 && nx < N &&
-                        ny >= 0 && ny < N) { /// coordinate del nuovo nodo sono nel grafo
-
-                        int j = nx + N * ny; /// indice del nuovo nodo
-                        list_insert_front(E[i], j, 15 * sqrt(dx * dx + dy * dy));
-                    }
-                }
+        //                 int j = nx + N * ny; /// indice del nuovo nodo
+        //                 list_insert_front(E[i], j, 15 * sqrt(dx*dx + dy*dy));
+        //             }
+        //         }
     }
 
     int partenza = 0;
     int arrivo = n_nodi - 1;
     int w_max = 100;
 
-    // for (int i = 0; i < n_nodi - 1; i++) {
-    //     /// arco costoso
-    //     list_insert_front(E[i], arrivo, w_max - 2 * i);
-    //     /// arco 1
-    //     if (i > 0)
-    //         list_insert_front(E[i-1], i , 1);
-    // }
+    for (int i = 0; i < n_nodi - 1; i++) {
+        /// arco costoso
+        list_insert_front(E[i], arrivo, w_max - 2 * i);
+        /// arco 1
+        if (i > 0)
+            list_insert_front(E[i-1], i , 1);
+    }
 
     graph_print();
 
     for (int i = 0; i < n_nodi; i++) {
         printf("Sono il nodo di indice %d nell'array\n", i);
-        printf("Il valore del nodo e' %f\n", V[i]);
+        printf("Il valore del nodo e' %d\n", V[i]);
         printf("La lista di adiacenza e'\n");
         list_print(E[i]);
     }
 
     shortest_path(0);
-
-    // printf("distanza %f\n",V_dist[99]);
+    // shortest_path(44);
+    graph_print();
 
     if (graph) {
         /// preparo footer e chiudo file
         output_graph << "}" << endl;
         output_graph.close();
         cout << " File graph.dot scritto" << endl
-             << "****** Creare il grafo con: sfdp graph.dot -Tpdf -o graph.pdf" << endl;
+             << "****** Creare il grafo con: neato graph.dot -Tpdf -o graph.pdf" << endl;
     }
 
     return 0;
