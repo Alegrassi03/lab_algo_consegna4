@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// compilazione: g++ lezione17-grafi-dijkstra.cpp
+// compilazione: g++ consegna4.cpp
 //
 // Obiettivo:
 // 1) grafo con archi pesati
@@ -24,7 +24,7 @@ int max_dim = 0;
 int ntests = 1;
 int ndiv = 1;
 int details = 0;
-int graph = 0;
+int graph = 1;
 
 /// file di output per grafo
 ofstream output_graph;

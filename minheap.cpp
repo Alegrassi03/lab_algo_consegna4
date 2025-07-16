@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// compilazione: g++ -xc++ lezione11-heap.cpp
+// compilazione: g++ -xc++ minheap.cpp
 //
 // Obiettivo:
 // 1) analisi rappresentazione albero completo <---> array
@@ -23,7 +23,7 @@ int max_dim = 0;
 int ntests = 1;
 int ndiv = 1;
 int details = 0;
-int graph = 0;
+int graph = 1;
 
 int n = 0; /// dimensione dell'array
 
@@ -145,7 +145,7 @@ void heap_insert(int elem) {
         heap[i] = elem;
 
         while (i != 0) {                          // non sono sulla radice
-            if (heap[parent_idx(i)] >= heap[i]) { /// proprieta' dell' heap e' rispettata -> esco
+            if (heap[parent_idx(i)] <= heap[i]) { /// proprieta' dell' heap e' rispettata -> esco
                 if (details)
                     printf("Il genitore ha valore %d >= del nodo %d, esco\n", heap[parent_idx(i)], heap[i]);
                 return;
@@ -168,7 +168,7 @@ void heap_insert(int elem) {
         printf("Heap pieno!\n");
 }
 
-void increase_key(int indice_nodo, int key) {
+void decrease_key(int indice_nodo, int key) {
     // key = nuovo valore
 
     if (indice_nodo < 0 || indice_nodo >= heap_size) {
@@ -176,8 +176,8 @@ void increase_key(int indice_nodo, int key) {
         return;
     }
 
-    if (heap[indice_nodo] > key) {
-        printf("la chiave non e' piu' grande!\n");
+    if (heap[indice_nodo] < key) {
+        printf("la chiave non e' piu' piccola!\n");
         return;
     }
 
@@ -205,7 +205,7 @@ void increase_key(int indice_nodo, int key) {
     }
 }
 
-int heap_remove_max() {
+int heap_remove_min() {
 
     if (heap_size <= 0) { /// heap vuoto!
         printf("Errore: heap vuoto\n");
@@ -238,14 +238,14 @@ int heap_remove_max() {
         int con_chi_mi_scambio = -1;
 
         /// controllo il nodo i con il suo figlio L
-        if (heap[i] < heap[child_L_idx(i)]) { // il nodo i e' piu' piccolo
+        if (heap[i] > heap[child_L_idx(i)]) { // il nodo i e' piu' piccolo
             /// attivare uno swap (la proprieta' heap non e' rispettata)
             con_chi_mi_scambio = child_L_idx(i);
             if (details)
                 printf("Figlio L e' piu' grande (valore %d)\n", heap[child_L_idx(i)]);
 
             if (child_R_idx(i) >= 0 && // esiste il nodo destro
-                heap[child_L_idx(i)] < heap[child_R_idx(i)]) {
+                heap[child_L_idx(i)] > heap[child_R_idx(i)]) {
                 con_chi_mi_scambio = child_R_idx(i);
                 if (details)
                     printf("Figlio R e' ancora piu' grande (valore %d)\n", heap[child_R_idx(i)]);
@@ -331,12 +331,12 @@ int main(int argc, char **argv) {
 
     tree_print_graph(0); // radice
 
-    increase_key(3, 30);
+    decrease_key(3, 30);
 
     tree_print_graph(0); // radice
 
     for (int i = 0; i < 13; i++) {
-        int valore = heap_remove_max();
+        int valore = heap_remove_min();
         printf("Il valore massimo estratto e' %d\n", valore);
 
         tree_print_graph(0); // radice

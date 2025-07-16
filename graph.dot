@@ -1,0 +1,1224 @@
+digraph g
+{ 
+node [shape=none]
+rankdir="LR"
+node_0_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_0_0 -> node_1_0 [ len=1.5 ]
+node_0_0 -> node_10_0 [ len=1.5 ]
+node_1_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_1_0 -> node_2_0 [ len=1.5 ]
+node_1_0 -> node_11_0 [ len=1.5 ]
+node_1_0 -> node_0_0 [ len=1.5 ]
+node_2_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_2_0 -> node_3_0 [ len=1.5 ]
+node_2_0 -> node_12_0 [ len=1.5 ]
+node_2_0 -> node_1_0 [ len=1.5 ]
+node_3_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_3_0 -> node_4_0 [ len=1.5 ]
+node_3_0 -> node_13_0 [ len=1.5 ]
+node_3_0 -> node_2_0 [ len=1.5 ]
+node_4_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_4_0 -> node_5_0 [ len=1.5 ]
+node_4_0 -> node_14_0 [ len=1.5 ]
+node_4_0 -> node_3_0 [ len=1.5 ]
+node_5_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_5_0 -> node_6_0 [ len=1.5 ]
+node_5_0 -> node_15_0 [ len=1.5 ]
+node_5_0 -> node_4_0 [ len=1.5 ]
+node_6_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_6_0 -> node_7_0 [ len=1.5 ]
+node_6_0 -> node_16_0 [ len=1.5 ]
+node_6_0 -> node_5_0 [ len=1.5 ]
+node_7_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_7_0 -> node_8_0 [ len=1.5 ]
+node_7_0 -> node_17_0 [ len=1.5 ]
+node_7_0 -> node_6_0 [ len=1.5 ]
+node_8_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_8_0 -> node_9_0 [ len=1.5 ]
+node_8_0 -> node_18_0 [ len=1.5 ]
+node_8_0 -> node_7_0 [ len=1.5 ]
+node_9_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_9_0 -> node_19_0 [ len=1.5 ]
+node_9_0 -> node_8_0 [ len=1.5 ]
+node_10_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_10_0 -> node_11_0 [ len=1.5 ]
+node_10_0 -> node_20_0 [ len=1.5 ]
+node_10_0 -> node_0_0 [ len=1.5 ]
+node_11_0
+[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: INF" ];
+node_11_0 -> node_12_0 [ len=1.5 ]
+node_11_0 -> node_21_0 [ len=1.5 ]
+node_11_0 -> node_1_0 [ len=1.5 ]
+node_11_0 -> node_10_0 [ len=1.5 ]
+node_12_0
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
+node_12_0 -> node_13_0 [ len=1.5 ]
+node_12_0 -> node_22_0 [ len=1.5 ]
+node_12_0 -> node_2_0 [ len=1.5 ]
+node_12_0 -> node_11_0 [ len=1.5 ]
+node_13_0
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
+node_13_0 -> node_14_0 [ len=1.5 ]
+node_13_0 -> node_23_0 [ len=1.5 ]
+node_13_0 -> node_3_0 [ len=1.5 ]
+node_13_0 -> node_12_0 [ len=1.5 ]
+node_14_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_14_0 -> node_15_0 [ len=1.5 ]
+node_14_0 -> node_24_0 [ len=1.5 ]
+node_14_0 -> node_4_0 [ len=1.5 ]
+node_14_0 -> node_13_0 [ len=1.5 ]
+node_15_0
+[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: INF" ];
+node_15_0 -> node_16_0 [ len=1.5 ]
+node_15_0 -> node_25_0 [ len=1.5 ]
+node_15_0 -> node_5_0 [ len=1.5 ]
+node_15_0 -> node_14_0 [ len=1.5 ]
+node_16_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_16_0 -> node_17_0 [ len=1.5 ]
+node_16_0 -> node_26_0 [ len=1.5 ]
+node_16_0 -> node_6_0 [ len=1.5 ]
+node_16_0 -> node_15_0 [ len=1.5 ]
+node_17_0
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
+node_17_0 -> node_18_0 [ len=1.5 ]
+node_17_0 -> node_27_0 [ len=1.5 ]
+node_17_0 -> node_7_0 [ len=1.5 ]
+node_17_0 -> node_16_0 [ len=1.5 ]
+node_18_0
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
+node_18_0 -> node_19_0 [ len=1.5 ]
+node_18_0 -> node_28_0 [ len=1.5 ]
+node_18_0 -> node_8_0 [ len=1.5 ]
+node_18_0 -> node_17_0 [ len=1.5 ]
+node_19_0
+[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: INF" ];
+node_19_0 -> node_29_0 [ len=1.5 ]
+node_19_0 -> node_9_0 [ len=1.5 ]
+node_19_0 -> node_18_0 [ len=1.5 ]
+node_20_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_20_0 -> node_21_0 [ len=1.5 ]
+node_20_0 -> node_30_0 [ len=1.5 ]
+node_20_0 -> node_10_0 [ len=1.5 ]
+node_21_0
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
+node_21_0 -> node_22_0 [ len=1.5 ]
+node_21_0 -> node_31_0 [ len=1.5 ]
+node_21_0 -> node_11_0 [ len=1.5 ]
+node_21_0 -> node_20_0 [ len=1.5 ]
+node_22_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_22_0 -> node_23_0 [ len=1.5 ]
+node_22_0 -> node_32_0 [ len=1.5 ]
+node_22_0 -> node_12_0 [ len=1.5 ]
+node_22_0 -> node_21_0 [ len=1.5 ]
+node_23_0
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
+node_23_0 -> node_24_0 [ len=1.5 ]
+node_23_0 -> node_33_0 [ len=1.5 ]
+node_23_0 -> node_13_0 [ len=1.5 ]
+node_23_0 -> node_22_0 [ len=1.5 ]
+node_24_0
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
+node_24_0 -> node_25_0 [ len=1.5 ]
+node_24_0 -> node_34_0 [ len=1.5 ]
+node_24_0 -> node_14_0 [ len=1.5 ]
+node_24_0 -> node_23_0 [ len=1.5 ]
+node_25_0
+[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: INF" ];
+node_25_0 -> node_26_0 [ len=1.5 ]
+node_25_0 -> node_35_0 [ len=1.5 ]
+node_25_0 -> node_15_0 [ len=1.5 ]
+node_25_0 -> node_24_0 [ len=1.5 ]
+node_26_0
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
+node_26_0 -> node_27_0 [ len=1.5 ]
+node_26_0 -> node_36_0 [ len=1.5 ]
+node_26_0 -> node_16_0 [ len=1.5 ]
+node_26_0 -> node_25_0 [ len=1.5 ]
+node_27_0
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
+node_27_0 -> node_28_0 [ len=1.5 ]
+node_27_0 -> node_37_0 [ len=1.5 ]
+node_27_0 -> node_17_0 [ len=1.5 ]
+node_27_0 -> node_26_0 [ len=1.5 ]
+node_28_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_28_0 -> node_29_0 [ len=1.5 ]
+node_28_0 -> node_38_0 [ len=1.5 ]
+node_28_0 -> node_18_0 [ len=1.5 ]
+node_28_0 -> node_27_0 [ len=1.5 ]
+node_29_0
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
+node_29_0 -> node_39_0 [ len=1.5 ]
+node_29_0 -> node_19_0 [ len=1.5 ]
+node_29_0 -> node_28_0 [ len=1.5 ]
+node_30_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_30_0 -> node_31_0 [ len=1.5 ]
+node_30_0 -> node_40_0 [ len=1.5 ]
+node_30_0 -> node_20_0 [ len=1.5 ]
+node_31_0
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
+node_31_0 -> node_32_0 [ len=1.5 ]
+node_31_0 -> node_41_0 [ len=1.5 ]
+node_31_0 -> node_21_0 [ len=1.5 ]
+node_31_0 -> node_30_0 [ len=1.5 ]
+node_32_0
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
+node_32_0 -> node_33_0 [ len=1.5 ]
+node_32_0 -> node_42_0 [ len=1.5 ]
+node_32_0 -> node_22_0 [ len=1.5 ]
+node_32_0 -> node_31_0 [ len=1.5 ]
+node_33_0
+[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: INF" ];
+node_33_0 -> node_34_0 [ len=1.5 ]
+node_33_0 -> node_43_0 [ len=1.5 ]
+node_33_0 -> node_23_0 [ len=1.5 ]
+node_33_0 -> node_32_0 [ len=1.5 ]
+node_34_0
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
+node_34_0 -> node_35_0 [ len=1.5 ]
+node_34_0 -> node_44_0 [ len=1.5 ]
+node_34_0 -> node_24_0 [ len=1.5 ]
+node_34_0 -> node_33_0 [ len=1.5 ]
+node_35_0
+[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: INF" ];
+node_35_0 -> node_36_0 [ len=1.5 ]
+node_35_0 -> node_45_0 [ len=1.5 ]
+node_35_0 -> node_25_0 [ len=1.5 ]
+node_35_0 -> node_34_0 [ len=1.5 ]
+node_36_0
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
+node_36_0 -> node_37_0 [ len=1.5 ]
+node_36_0 -> node_46_0 [ len=1.5 ]
+node_36_0 -> node_26_0 [ len=1.5 ]
+node_36_0 -> node_35_0 [ len=1.5 ]
+node_37_0
+[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: INF" ];
+node_37_0 -> node_38_0 [ len=1.5 ]
+node_37_0 -> node_47_0 [ len=1.5 ]
+node_37_0 -> node_27_0 [ len=1.5 ]
+node_37_0 -> node_36_0 [ len=1.5 ]
+node_38_0
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
+node_38_0 -> node_39_0 [ len=1.5 ]
+node_38_0 -> node_48_0 [ len=1.5 ]
+node_38_0 -> node_28_0 [ len=1.5 ]
+node_38_0 -> node_37_0 [ len=1.5 ]
+node_39_0
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
+node_39_0 -> node_49_0 [ len=1.5 ]
+node_39_0 -> node_29_0 [ len=1.5 ]
+node_39_0 -> node_38_0 [ len=1.5 ]
+node_40_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_40_0 -> node_41_0 [ len=1.5 ]
+node_40_0 -> node_50_0 [ len=1.5 ]
+node_40_0 -> node_30_0 [ len=1.5 ]
+node_41_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_41_0 -> node_42_0 [ len=1.5 ]
+node_41_0 -> node_51_0 [ len=1.5 ]
+node_41_0 -> node_31_0 [ len=1.5 ]
+node_41_0 -> node_40_0 [ len=1.5 ]
+node_42_0
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
+node_42_0 -> node_43_0 [ len=1.5 ]
+node_42_0 -> node_52_0 [ len=1.5 ]
+node_42_0 -> node_32_0 [ len=1.5 ]
+node_42_0 -> node_41_0 [ len=1.5 ]
+node_43_0
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
+node_43_0 -> node_44_0 [ len=1.5 ]
+node_43_0 -> node_53_0 [ len=1.5 ]
+node_43_0 -> node_33_0 [ len=1.5 ]
+node_43_0 -> node_42_0 [ len=1.5 ]
+node_44_0
+[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: INF" ];
+node_44_0 -> node_45_0 [ len=1.5 ]
+node_44_0 -> node_54_0 [ len=1.5 ]
+node_44_0 -> node_34_0 [ len=1.5 ]
+node_44_0 -> node_43_0 [ len=1.5 ]
+node_45_0
+[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: INF" ];
+node_45_0 -> node_46_0 [ len=1.5 ]
+node_45_0 -> node_55_0 [ len=1.5 ]
+node_45_0 -> node_35_0 [ len=1.5 ]
+node_45_0 -> node_44_0 [ len=1.5 ]
+node_46_0
+[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: INF" ];
+node_46_0 -> node_47_0 [ len=1.5 ]
+node_46_0 -> node_56_0 [ len=1.5 ]
+node_46_0 -> node_36_0 [ len=1.5 ]
+node_46_0 -> node_45_0 [ len=1.5 ]
+node_47_0
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
+node_47_0 -> node_48_0 [ len=1.5 ]
+node_47_0 -> node_57_0 [ len=1.5 ]
+node_47_0 -> node_37_0 [ len=1.5 ]
+node_47_0 -> node_46_0 [ len=1.5 ]
+node_48_0
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
+node_48_0 -> node_49_0 [ len=1.5 ]
+node_48_0 -> node_58_0 [ len=1.5 ]
+node_48_0 -> node_38_0 [ len=1.5 ]
+node_48_0 -> node_47_0 [ len=1.5 ]
+node_49_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_49_0 -> node_59_0 [ len=1.5 ]
+node_49_0 -> node_39_0 [ len=1.5 ]
+node_49_0 -> node_48_0 [ len=1.5 ]
+node_50_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_50_0 -> node_51_0 [ len=1.5 ]
+node_50_0 -> node_60_0 [ len=1.5 ]
+node_50_0 -> node_40_0 [ len=1.5 ]
+node_51_0
+[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: INF" ];
+node_51_0 -> node_52_0 [ len=1.5 ]
+node_51_0 -> node_61_0 [ len=1.5 ]
+node_51_0 -> node_41_0 [ len=1.5 ]
+node_51_0 -> node_50_0 [ len=1.5 ]
+node_52_0
+[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: INF" ];
+node_52_0 -> node_53_0 [ len=1.5 ]
+node_52_0 -> node_62_0 [ len=1.5 ]
+node_52_0 -> node_42_0 [ len=1.5 ]
+node_52_0 -> node_51_0 [ len=1.5 ]
+node_53_0
+[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: INF" ];
+node_53_0 -> node_54_0 [ len=1.5 ]
+node_53_0 -> node_63_0 [ len=1.5 ]
+node_53_0 -> node_43_0 [ len=1.5 ]
+node_53_0 -> node_52_0 [ len=1.5 ]
+node_54_0
+[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: INF" ];
+node_54_0 -> node_55_0 [ len=1.5 ]
+node_54_0 -> node_64_0 [ len=1.5 ]
+node_54_0 -> node_44_0 [ len=1.5 ]
+node_54_0 -> node_53_0 [ len=1.5 ]
+node_55_0
+[ shape = oval; fillcolor = "0.1 1 1"; style=filled; label = "Val: 1, dist: INF" ];
+node_55_0 -> node_56_0 [ len=1.5 ]
+node_55_0 -> node_65_0 [ len=1.5 ]
+node_55_0 -> node_45_0 [ len=1.5 ]
+node_55_0 -> node_54_0 [ len=1.5 ]
+node_56_0
+[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: INF" ];
+node_56_0 -> node_57_0 [ len=1.5 ]
+node_56_0 -> node_66_0 [ len=1.5 ]
+node_56_0 -> node_46_0 [ len=1.5 ]
+node_56_0 -> node_55_0 [ len=1.5 ]
+node_57_0
+[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: INF" ];
+node_57_0 -> node_58_0 [ len=1.5 ]
+node_57_0 -> node_67_0 [ len=1.5 ]
+node_57_0 -> node_47_0 [ len=1.5 ]
+node_57_0 -> node_56_0 [ len=1.5 ]
+node_58_0
+[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: INF" ];
+node_58_0 -> node_59_0 [ len=1.5 ]
+node_58_0 -> node_68_0 [ len=1.5 ]
+node_58_0 -> node_48_0 [ len=1.5 ]
+node_58_0 -> node_57_0 [ len=1.5 ]
+node_59_0
+[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: INF" ];
+node_59_0 -> node_69_0 [ len=1.5 ]
+node_59_0 -> node_49_0 [ len=1.5 ]
+node_59_0 -> node_58_0 [ len=1.5 ]
+node_60_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_60_0 -> node_61_0 [ len=1.5 ]
+node_60_0 -> node_70_0 [ len=1.5 ]
+node_60_0 -> node_50_0 [ len=1.5 ]
+node_61_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_61_0 -> node_62_0 [ len=1.5 ]
+node_61_0 -> node_71_0 [ len=1.5 ]
+node_61_0 -> node_51_0 [ len=1.5 ]
+node_61_0 -> node_60_0 [ len=1.5 ]
+node_62_0
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
+node_62_0 -> node_63_0 [ len=1.5 ]
+node_62_0 -> node_72_0 [ len=1.5 ]
+node_62_0 -> node_52_0 [ len=1.5 ]
+node_62_0 -> node_61_0 [ len=1.5 ]
+node_63_0
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
+node_63_0 -> node_64_0 [ len=1.5 ]
+node_63_0 -> node_73_0 [ len=1.5 ]
+node_63_0 -> node_53_0 [ len=1.5 ]
+node_63_0 -> node_62_0 [ len=1.5 ]
+node_64_0
+[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: INF" ];
+node_64_0 -> node_65_0 [ len=1.5 ]
+node_64_0 -> node_74_0 [ len=1.5 ]
+node_64_0 -> node_54_0 [ len=1.5 ]
+node_64_0 -> node_63_0 [ len=1.5 ]
+node_65_0
+[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: INF" ];
+node_65_0 -> node_66_0 [ len=1.5 ]
+node_65_0 -> node_75_0 [ len=1.5 ]
+node_65_0 -> node_55_0 [ len=1.5 ]
+node_65_0 -> node_64_0 [ len=1.5 ]
+node_66_0
+[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: INF" ];
+node_66_0 -> node_67_0 [ len=1.5 ]
+node_66_0 -> node_76_0 [ len=1.5 ]
+node_66_0 -> node_56_0 [ len=1.5 ]
+node_66_0 -> node_65_0 [ len=1.5 ]
+node_67_0
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
+node_67_0 -> node_68_0 [ len=1.5 ]
+node_67_0 -> node_77_0 [ len=1.5 ]
+node_67_0 -> node_57_0 [ len=1.5 ]
+node_67_0 -> node_66_0 [ len=1.5 ]
+node_68_0
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
+node_68_0 -> node_69_0 [ len=1.5 ]
+node_68_0 -> node_78_0 [ len=1.5 ]
+node_68_0 -> node_58_0 [ len=1.5 ]
+node_68_0 -> node_67_0 [ len=1.5 ]
+node_69_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_69_0 -> node_79_0 [ len=1.5 ]
+node_69_0 -> node_59_0 [ len=1.5 ]
+node_69_0 -> node_68_0 [ len=1.5 ]
+node_70_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_70_0 -> node_71_0 [ len=1.5 ]
+node_70_0 -> node_80_0 [ len=1.5 ]
+node_70_0 -> node_60_0 [ len=1.5 ]
+node_71_0
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
+node_71_0 -> node_72_0 [ len=1.5 ]
+node_71_0 -> node_81_0 [ len=1.5 ]
+node_71_0 -> node_61_0 [ len=1.5 ]
+node_71_0 -> node_70_0 [ len=1.5 ]
+node_72_0
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
+node_72_0 -> node_73_0 [ len=1.5 ]
+node_72_0 -> node_82_0 [ len=1.5 ]
+node_72_0 -> node_62_0 [ len=1.5 ]
+node_72_0 -> node_71_0 [ len=1.5 ]
+node_73_0
+[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: INF" ];
+node_73_0 -> node_74_0 [ len=1.5 ]
+node_73_0 -> node_83_0 [ len=1.5 ]
+node_73_0 -> node_63_0 [ len=1.5 ]
+node_73_0 -> node_72_0 [ len=1.5 ]
+node_74_0
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
+node_74_0 -> node_75_0 [ len=1.5 ]
+node_74_0 -> node_84_0 [ len=1.5 ]
+node_74_0 -> node_64_0 [ len=1.5 ]
+node_74_0 -> node_73_0 [ len=1.5 ]
+node_75_0
+[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: INF" ];
+node_75_0 -> node_76_0 [ len=1.5 ]
+node_75_0 -> node_85_0 [ len=1.5 ]
+node_75_0 -> node_65_0 [ len=1.5 ]
+node_75_0 -> node_74_0 [ len=1.5 ]
+node_76_0
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
+node_76_0 -> node_77_0 [ len=1.5 ]
+node_76_0 -> node_86_0 [ len=1.5 ]
+node_76_0 -> node_66_0 [ len=1.5 ]
+node_76_0 -> node_75_0 [ len=1.5 ]
+node_77_0
+[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: INF" ];
+node_77_0 -> node_78_0 [ len=1.5 ]
+node_77_0 -> node_87_0 [ len=1.5 ]
+node_77_0 -> node_67_0 [ len=1.5 ]
+node_77_0 -> node_76_0 [ len=1.5 ]
+node_78_0
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
+node_78_0 -> node_79_0 [ len=1.5 ]
+node_78_0 -> node_88_0 [ len=1.5 ]
+node_78_0 -> node_68_0 [ len=1.5 ]
+node_78_0 -> node_77_0 [ len=1.5 ]
+node_79_0
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
+node_79_0 -> node_89_0 [ len=1.5 ]
+node_79_0 -> node_69_0 [ len=1.5 ]
+node_79_0 -> node_78_0 [ len=1.5 ]
+node_80_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_80_0 -> node_81_0 [ len=1.5 ]
+node_80_0 -> node_90_0 [ len=1.5 ]
+node_80_0 -> node_70_0 [ len=1.5 ]
+node_81_0
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
+node_81_0 -> node_82_0 [ len=1.5 ]
+node_81_0 -> node_91_0 [ len=1.5 ]
+node_81_0 -> node_71_0 [ len=1.5 ]
+node_81_0 -> node_80_0 [ len=1.5 ]
+node_82_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_82_0 -> node_83_0 [ len=1.5 ]
+node_82_0 -> node_92_0 [ len=1.5 ]
+node_82_0 -> node_72_0 [ len=1.5 ]
+node_82_0 -> node_81_0 [ len=1.5 ]
+node_83_0
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
+node_83_0 -> node_84_0 [ len=1.5 ]
+node_83_0 -> node_93_0 [ len=1.5 ]
+node_83_0 -> node_73_0 [ len=1.5 ]
+node_83_0 -> node_82_0 [ len=1.5 ]
+node_84_0
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
+node_84_0 -> node_85_0 [ len=1.5 ]
+node_84_0 -> node_94_0 [ len=1.5 ]
+node_84_0 -> node_74_0 [ len=1.5 ]
+node_84_0 -> node_83_0 [ len=1.5 ]
+node_85_0
+[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: INF" ];
+node_85_0 -> node_86_0 [ len=1.5 ]
+node_85_0 -> node_95_0 [ len=1.5 ]
+node_85_0 -> node_75_0 [ len=1.5 ]
+node_85_0 -> node_84_0 [ len=1.5 ]
+node_86_0
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
+node_86_0 -> node_87_0 [ len=1.5 ]
+node_86_0 -> node_96_0 [ len=1.5 ]
+node_86_0 -> node_76_0 [ len=1.5 ]
+node_86_0 -> node_85_0 [ len=1.5 ]
+node_87_0
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
+node_87_0 -> node_88_0 [ len=1.5 ]
+node_87_0 -> node_97_0 [ len=1.5 ]
+node_87_0 -> node_77_0 [ len=1.5 ]
+node_87_0 -> node_86_0 [ len=1.5 ]
+node_88_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_88_0 -> node_89_0 [ len=1.5 ]
+node_88_0 -> node_98_0 [ len=1.5 ]
+node_88_0 -> node_78_0 [ len=1.5 ]
+node_88_0 -> node_87_0 [ len=1.5 ]
+node_89_0
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
+node_89_0 -> node_99_0 [ len=1.5 ]
+node_89_0 -> node_79_0 [ len=1.5 ]
+node_89_0 -> node_88_0 [ len=1.5 ]
+node_90_0
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
+node_90_0 -> node_91_0 [ len=1.5 ]
+node_90_0 -> node_80_0 [ len=1.5 ]
+node_91_0
+[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: INF" ];
+node_91_0 -> node_92_0 [ len=1.5 ]
+node_91_0 -> node_81_0 [ len=1.5 ]
+node_91_0 -> node_90_0 [ len=1.5 ]
+node_92_0
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
+node_92_0 -> node_93_0 [ len=1.5 ]
+node_92_0 -> node_82_0 [ len=1.5 ]
+node_92_0 -> node_91_0 [ len=1.5 ]
+node_93_0
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
+node_93_0 -> node_94_0 [ len=1.5 ]
+node_93_0 -> node_83_0 [ len=1.5 ]
+node_93_0 -> node_92_0 [ len=1.5 ]
+node_94_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_94_0 -> node_95_0 [ len=1.5 ]
+node_94_0 -> node_84_0 [ len=1.5 ]
+node_94_0 -> node_93_0 [ len=1.5 ]
+node_95_0
+[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: INF" ];
+node_95_0 -> node_96_0 [ len=1.5 ]
+node_95_0 -> node_85_0 [ len=1.5 ]
+node_95_0 -> node_94_0 [ len=1.5 ]
+node_96_0
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
+node_96_0 -> node_97_0 [ len=1.5 ]
+node_96_0 -> node_86_0 [ len=1.5 ]
+node_96_0 -> node_95_0 [ len=1.5 ]
+node_97_0
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
+node_97_0 -> node_98_0 [ len=1.5 ]
+node_97_0 -> node_87_0 [ len=1.5 ]
+node_97_0 -> node_96_0 [ len=1.5 ]
+node_98_0
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
+node_98_0 -> node_99_0 [ len=1.5 ]
+node_98_0 -> node_88_0 [ len=1.5 ]
+node_98_0 -> node_97_0 [ len=1.5 ]
+node_99_0
+[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: INF" ];
+node_99_0 -> node_89_0 [ len=1.5 ]
+node_99_0 -> node_98_0 [ len=1.5 ]
+node_0_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 0" ];
+node_0_1 -> node_1_1 [ len=1.5 ]
+node_0_1 -> node_10_1 [ len=1.5 ]
+node_1_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 15" ];
+node_1_1 -> node_2_1 [ len=1.5 ]
+node_1_1 -> node_11_1 [ len=1.5 ]
+node_1_1 -> node_0_1 [ len=1.5 ]
+node_1_1 -> node_0_1 [ color=blue, penwidth=5, len=0.1 ]
+node_2_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 30" ];
+node_2_1 -> node_3_1 [ len=1.5 ]
+node_2_1 -> node_12_1 [ len=1.5 ]
+node_2_1 -> node_1_1 [ len=1.5 ]
+node_2_1 -> node_1_1 [ color=blue, penwidth=5, len=0.1 ]
+node_3_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 45" ];
+node_3_1 -> node_4_1 [ len=1.5 ]
+node_3_1 -> node_13_1 [ len=1.5 ]
+node_3_1 -> node_2_1 [ len=1.5 ]
+node_3_1 -> node_2_1 [ color=blue, penwidth=5, len=0.1 ]
+node_4_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 60" ];
+node_4_1 -> node_5_1 [ len=1.5 ]
+node_4_1 -> node_14_1 [ len=1.5 ]
+node_4_1 -> node_3_1 [ len=1.5 ]
+node_4_1 -> node_3_1 [ color=blue, penwidth=5, len=0.1 ]
+node_5_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 75" ];
+node_5_1 -> node_6_1 [ len=1.5 ]
+node_5_1 -> node_15_1 [ len=1.5 ]
+node_5_1 -> node_4_1 [ len=1.5 ]
+node_5_1 -> node_4_1 [ color=blue, penwidth=5, len=0.1 ]
+node_6_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 90" ];
+node_6_1 -> node_7_1 [ len=1.5 ]
+node_6_1 -> node_16_1 [ len=1.5 ]
+node_6_1 -> node_5_1 [ len=1.5 ]
+node_6_1 -> node_5_1 [ color=blue, penwidth=5, len=0.1 ]
+node_7_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 105" ];
+node_7_1 -> node_8_1 [ len=1.5 ]
+node_7_1 -> node_17_1 [ len=1.5 ]
+node_7_1 -> node_6_1 [ len=1.5 ]
+node_7_1 -> node_6_1 [ color=blue, penwidth=5, len=0.1 ]
+node_8_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 120" ];
+node_8_1 -> node_9_1 [ len=1.5 ]
+node_8_1 -> node_18_1 [ len=1.5 ]
+node_8_1 -> node_7_1 [ len=1.5 ]
+node_8_1 -> node_7_1 [ color=blue, penwidth=5, len=0.1 ]
+node_9_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 135" ];
+node_9_1 -> node_19_1 [ len=1.5 ]
+node_9_1 -> node_8_1 [ len=1.5 ]
+node_9_1 -> node_8_1 [ color=blue, penwidth=5, len=0.1 ]
+node_10_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 15" ];
+node_10_1 -> node_11_1 [ len=1.5 ]
+node_10_1 -> node_20_1 [ len=1.5 ]
+node_10_1 -> node_0_1 [ len=1.5 ]
+node_10_1 -> node_0_1 [ color=blue, penwidth=5, len=0.1 ]
+node_11_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: 30" ];
+node_11_1 -> node_12_1 [ len=1.5 ]
+node_11_1 -> node_21_1 [ len=1.5 ]
+node_11_1 -> node_1_1 [ len=1.5 ]
+node_11_1 -> node_10_1 [ len=1.5 ]
+node_11_1 -> node_1_1 [ color=blue, penwidth=5, len=0.1 ]
+node_12_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 45" ];
+node_12_1 -> node_13_1 [ len=1.5 ]
+node_12_1 -> node_22_1 [ len=1.5 ]
+node_12_1 -> node_2_1 [ len=1.5 ]
+node_12_1 -> node_11_1 [ len=1.5 ]
+node_12_1 -> node_2_1 [ color=blue, penwidth=5, len=0.1 ]
+node_13_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 60" ];
+node_13_1 -> node_14_1 [ len=1.5 ]
+node_13_1 -> node_23_1 [ len=1.5 ]
+node_13_1 -> node_3_1 [ len=1.5 ]
+node_13_1 -> node_12_1 [ len=1.5 ]
+node_13_1 -> node_3_1 [ color=blue, penwidth=5, len=0.1 ]
+node_14_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 75" ];
+node_14_1 -> node_15_1 [ len=1.5 ]
+node_14_1 -> node_24_1 [ len=1.5 ]
+node_14_1 -> node_4_1 [ len=1.5 ]
+node_14_1 -> node_13_1 [ len=1.5 ]
+node_14_1 -> node_4_1 [ color=blue, penwidth=5, len=0.1 ]
+node_15_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: 90" ];
+node_15_1 -> node_16_1 [ len=1.5 ]
+node_15_1 -> node_25_1 [ len=1.5 ]
+node_15_1 -> node_5_1 [ len=1.5 ]
+node_15_1 -> node_14_1 [ len=1.5 ]
+node_15_1 -> node_5_1 [ color=blue, penwidth=5, len=0.1 ]
+node_16_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 105" ];
+node_16_1 -> node_17_1 [ len=1.5 ]
+node_16_1 -> node_26_1 [ len=1.5 ]
+node_16_1 -> node_6_1 [ len=1.5 ]
+node_16_1 -> node_15_1 [ len=1.5 ]
+node_16_1 -> node_6_1 [ color=blue, penwidth=5, len=0.1 ]
+node_17_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 120" ];
+node_17_1 -> node_18_1 [ len=1.5 ]
+node_17_1 -> node_27_1 [ len=1.5 ]
+node_17_1 -> node_7_1 [ len=1.5 ]
+node_17_1 -> node_16_1 [ len=1.5 ]
+node_17_1 -> node_7_1 [ color=blue, penwidth=5, len=0.1 ]
+node_18_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 135" ];
+node_18_1 -> node_19_1 [ len=1.5 ]
+node_18_1 -> node_28_1 [ len=1.5 ]
+node_18_1 -> node_8_1 [ len=1.5 ]
+node_18_1 -> node_17_1 [ len=1.5 ]
+node_18_1 -> node_8_1 [ color=blue, penwidth=5, len=0.1 ]
+node_19_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: 150" ];
+node_19_1 -> node_29_1 [ len=1.5 ]
+node_19_1 -> node_9_1 [ len=1.5 ]
+node_19_1 -> node_18_1 [ len=1.5 ]
+node_19_1 -> node_9_1 [ color=blue, penwidth=5, len=0.1 ]
+node_20_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 30" ];
+node_20_1 -> node_21_1 [ len=1.5 ]
+node_20_1 -> node_30_1 [ len=1.5 ]
+node_20_1 -> node_10_1 [ len=1.5 ]
+node_20_1 -> node_10_1 [ color=blue, penwidth=5, len=0.1 ]
+node_21_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 45" ];
+node_21_1 -> node_22_1 [ len=1.5 ]
+node_21_1 -> node_31_1 [ len=1.5 ]
+node_21_1 -> node_11_1 [ len=1.5 ]
+node_21_1 -> node_20_1 [ len=1.5 ]
+node_21_1 -> node_11_1 [ color=blue, penwidth=5, len=0.1 ]
+node_22_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 60" ];
+node_22_1 -> node_23_1 [ len=1.5 ]
+node_22_1 -> node_32_1 [ len=1.5 ]
+node_22_1 -> node_12_1 [ len=1.5 ]
+node_22_1 -> node_21_1 [ len=1.5 ]
+node_22_1 -> node_12_1 [ color=blue, penwidth=5, len=0.1 ]
+node_23_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 75" ];
+node_23_1 -> node_24_1 [ len=1.5 ]
+node_23_1 -> node_33_1 [ len=1.5 ]
+node_23_1 -> node_13_1 [ len=1.5 ]
+node_23_1 -> node_22_1 [ len=1.5 ]
+node_23_1 -> node_13_1 [ color=blue, penwidth=5, len=0.1 ]
+node_24_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 90" ];
+node_24_1 -> node_25_1 [ len=1.5 ]
+node_24_1 -> node_34_1 [ len=1.5 ]
+node_24_1 -> node_14_1 [ len=1.5 ]
+node_24_1 -> node_23_1 [ len=1.5 ]
+node_24_1 -> node_14_1 [ color=blue, penwidth=5, len=0.1 ]
+node_25_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: 105" ];
+node_25_1 -> node_26_1 [ len=1.5 ]
+node_25_1 -> node_35_1 [ len=1.5 ]
+node_25_1 -> node_15_1 [ len=1.5 ]
+node_25_1 -> node_24_1 [ len=1.5 ]
+node_25_1 -> node_15_1 [ color=blue, penwidth=5, len=0.1 ]
+node_26_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 120" ];
+node_26_1 -> node_27_1 [ len=1.5 ]
+node_26_1 -> node_36_1 [ len=1.5 ]
+node_26_1 -> node_16_1 [ len=1.5 ]
+node_26_1 -> node_25_1 [ len=1.5 ]
+node_26_1 -> node_16_1 [ color=blue, penwidth=5, len=0.1 ]
+node_27_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 135" ];
+node_27_1 -> node_28_1 [ len=1.5 ]
+node_27_1 -> node_37_1 [ len=1.5 ]
+node_27_1 -> node_17_1 [ len=1.5 ]
+node_27_1 -> node_26_1 [ len=1.5 ]
+node_27_1 -> node_17_1 [ color=blue, penwidth=5, len=0.1 ]
+node_28_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 150" ];
+node_28_1 -> node_29_1 [ len=1.5 ]
+node_28_1 -> node_38_1 [ len=1.5 ]
+node_28_1 -> node_18_1 [ len=1.5 ]
+node_28_1 -> node_27_1 [ len=1.5 ]
+node_28_1 -> node_18_1 [ color=blue, penwidth=5, len=0.1 ]
+node_29_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 165" ];
+node_29_1 -> node_39_1 [ len=1.5 ]
+node_29_1 -> node_19_1 [ len=1.5 ]
+node_29_1 -> node_28_1 [ len=1.5 ]
+node_29_1 -> node_19_1 [ color=blue, penwidth=5, len=0.1 ]
+node_30_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 45" ];
+node_30_1 -> node_31_1 [ len=1.5 ]
+node_30_1 -> node_40_1 [ len=1.5 ]
+node_30_1 -> node_20_1 [ len=1.5 ]
+node_30_1 -> node_20_1 [ color=blue, penwidth=5, len=0.1 ]
+node_31_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 60" ];
+node_31_1 -> node_32_1 [ len=1.5 ]
+node_31_1 -> node_41_1 [ len=1.5 ]
+node_31_1 -> node_21_1 [ len=1.5 ]
+node_31_1 -> node_30_1 [ len=1.5 ]
+node_31_1 -> node_21_1 [ color=blue, penwidth=5, len=0.1 ]
+node_32_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 75" ];
+node_32_1 -> node_33_1 [ len=1.5 ]
+node_32_1 -> node_42_1 [ len=1.5 ]
+node_32_1 -> node_22_1 [ len=1.5 ]
+node_32_1 -> node_31_1 [ len=1.5 ]
+node_32_1 -> node_22_1 [ color=blue, penwidth=5, len=0.1 ]
+node_33_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: 90" ];
+node_33_1 -> node_34_1 [ len=1.5 ]
+node_33_1 -> node_43_1 [ len=1.5 ]
+node_33_1 -> node_23_1 [ len=1.5 ]
+node_33_1 -> node_32_1 [ len=1.5 ]
+node_33_1 -> node_23_1 [ color=blue, penwidth=5, len=0.1 ]
+node_34_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 105" ];
+node_34_1 -> node_35_1 [ len=1.5 ]
+node_34_1 -> node_44_1 [ len=1.5 ]
+node_34_1 -> node_24_1 [ len=1.5 ]
+node_34_1 -> node_33_1 [ len=1.5 ]
+node_34_1 -> node_24_1 [ color=blue, penwidth=5, len=0.1 ]
+node_35_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: 120" ];
+node_35_1 -> node_36_1 [ len=1.5 ]
+node_35_1 -> node_45_1 [ len=1.5 ]
+node_35_1 -> node_25_1 [ len=1.5 ]
+node_35_1 -> node_34_1 [ len=1.5 ]
+node_35_1 -> node_25_1 [ color=blue, penwidth=5, len=0.1 ]
+node_36_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 135" ];
+node_36_1 -> node_37_1 [ len=1.5 ]
+node_36_1 -> node_46_1 [ len=1.5 ]
+node_36_1 -> node_26_1 [ len=1.5 ]
+node_36_1 -> node_35_1 [ len=1.5 ]
+node_36_1 -> node_26_1 [ color=blue, penwidth=5, len=0.1 ]
+node_37_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: 150" ];
+node_37_1 -> node_38_1 [ len=1.5 ]
+node_37_1 -> node_47_1 [ len=1.5 ]
+node_37_1 -> node_27_1 [ len=1.5 ]
+node_37_1 -> node_36_1 [ len=1.5 ]
+node_37_1 -> node_27_1 [ color=blue, penwidth=5, len=0.1 ]
+node_38_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 165" ];
+node_38_1 -> node_39_1 [ len=1.5 ]
+node_38_1 -> node_48_1 [ len=1.5 ]
+node_38_1 -> node_28_1 [ len=1.5 ]
+node_38_1 -> node_37_1 [ len=1.5 ]
+node_38_1 -> node_28_1 [ color=blue, penwidth=5, len=0.1 ]
+node_39_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 180" ];
+node_39_1 -> node_49_1 [ len=1.5 ]
+node_39_1 -> node_29_1 [ len=1.5 ]
+node_39_1 -> node_38_1 [ len=1.5 ]
+node_39_1 -> node_29_1 [ color=blue, penwidth=5, len=0.1 ]
+node_40_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 60" ];
+node_40_1 -> node_41_1 [ len=1.5 ]
+node_40_1 -> node_50_1 [ len=1.5 ]
+node_40_1 -> node_30_1 [ len=1.5 ]
+node_40_1 -> node_30_1 [ color=blue, penwidth=5, len=0.1 ]
+node_41_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 75" ];
+node_41_1 -> node_42_1 [ len=1.5 ]
+node_41_1 -> node_51_1 [ len=1.5 ]
+node_41_1 -> node_31_1 [ len=1.5 ]
+node_41_1 -> node_40_1 [ len=1.5 ]
+node_41_1 -> node_31_1 [ color=blue, penwidth=5, len=0.1 ]
+node_42_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 90" ];
+node_42_1 -> node_43_1 [ len=1.5 ]
+node_42_1 -> node_52_1 [ len=1.5 ]
+node_42_1 -> node_32_1 [ len=1.5 ]
+node_42_1 -> node_41_1 [ len=1.5 ]
+node_42_1 -> node_32_1 [ color=blue, penwidth=5, len=0.1 ]
+node_43_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 105" ];
+node_43_1 -> node_44_1 [ len=1.5 ]
+node_43_1 -> node_53_1 [ len=1.5 ]
+node_43_1 -> node_33_1 [ len=1.5 ]
+node_43_1 -> node_42_1 [ len=1.5 ]
+node_43_1 -> node_33_1 [ color=blue, penwidth=5, len=0.1 ]
+node_44_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: 120" ];
+node_44_1 -> node_45_1 [ len=1.5 ]
+node_44_1 -> node_54_1 [ len=1.5 ]
+node_44_1 -> node_34_1 [ len=1.5 ]
+node_44_1 -> node_43_1 [ len=1.5 ]
+node_44_1 -> node_34_1 [ color=blue, penwidth=5, len=0.1 ]
+node_45_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: 135" ];
+node_45_1 -> node_46_1 [ len=1.5 ]
+node_45_1 -> node_55_1 [ len=1.5 ]
+node_45_1 -> node_35_1 [ len=1.5 ]
+node_45_1 -> node_44_1 [ len=1.5 ]
+node_45_1 -> node_35_1 [ color=blue, penwidth=5, len=0.1 ]
+node_46_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: 150" ];
+node_46_1 -> node_47_1 [ len=1.5 ]
+node_46_1 -> node_56_1 [ len=1.5 ]
+node_46_1 -> node_36_1 [ len=1.5 ]
+node_46_1 -> node_45_1 [ len=1.5 ]
+node_46_1 -> node_36_1 [ color=blue, penwidth=5, len=0.1 ]
+node_47_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 165" ];
+node_47_1 -> node_48_1 [ len=1.5 ]
+node_47_1 -> node_57_1 [ len=1.5 ]
+node_47_1 -> node_37_1 [ len=1.5 ]
+node_47_1 -> node_46_1 [ len=1.5 ]
+node_47_1 -> node_37_1 [ color=blue, penwidth=5, len=0.1 ]
+node_48_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 180" ];
+node_48_1 -> node_49_1 [ len=1.5 ]
+node_48_1 -> node_58_1 [ len=1.5 ]
+node_48_1 -> node_38_1 [ len=1.5 ]
+node_48_1 -> node_47_1 [ len=1.5 ]
+node_48_1 -> node_38_1 [ color=blue, penwidth=5, len=0.1 ]
+node_49_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 195" ];
+node_49_1 -> node_59_1 [ len=1.5 ]
+node_49_1 -> node_39_1 [ len=1.5 ]
+node_49_1 -> node_48_1 [ len=1.5 ]
+node_49_1 -> node_39_1 [ color=blue, penwidth=5, len=0.1 ]
+node_50_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 75" ];
+node_50_1 -> node_51_1 [ len=1.5 ]
+node_50_1 -> node_60_1 [ len=1.5 ]
+node_50_1 -> node_40_1 [ len=1.5 ]
+node_50_1 -> node_40_1 [ color=blue, penwidth=5, len=0.1 ]
+node_51_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: 90" ];
+node_51_1 -> node_52_1 [ len=1.5 ]
+node_51_1 -> node_61_1 [ len=1.5 ]
+node_51_1 -> node_41_1 [ len=1.5 ]
+node_51_1 -> node_50_1 [ len=1.5 ]
+node_51_1 -> node_41_1 [ color=blue, penwidth=5, len=0.1 ]
+node_52_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: 105" ];
+node_52_1 -> node_53_1 [ len=1.5 ]
+node_52_1 -> node_62_1 [ len=1.5 ]
+node_52_1 -> node_42_1 [ len=1.5 ]
+node_52_1 -> node_51_1 [ len=1.5 ]
+node_52_1 -> node_42_1 [ color=blue, penwidth=5, len=0.1 ]
+node_53_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: 120" ];
+node_53_1 -> node_54_1 [ len=1.5 ]
+node_53_1 -> node_63_1 [ len=1.5 ]
+node_53_1 -> node_43_1 [ len=1.5 ]
+node_53_1 -> node_52_1 [ len=1.5 ]
+node_53_1 -> node_43_1 [ color=blue, penwidth=5, len=0.1 ]
+node_54_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: 135" ];
+node_54_1 -> node_55_1 [ len=1.5 ]
+node_54_1 -> node_64_1 [ len=1.5 ]
+node_54_1 -> node_44_1 [ len=1.5 ]
+node_54_1 -> node_53_1 [ len=1.5 ]
+node_54_1 -> node_44_1 [ color=blue, penwidth=5, len=0.1 ]
+node_55_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 1"; style=filled; label = "Val: 1, dist: 150" ];
+node_55_1 -> node_56_1 [ len=1.5 ]
+node_55_1 -> node_65_1 [ len=1.5 ]
+node_55_1 -> node_45_1 [ len=1.5 ]
+node_55_1 -> node_54_1 [ len=1.5 ]
+node_55_1 -> node_45_1 [ color=blue, penwidth=5, len=0.1 ]
+node_56_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: 165" ];
+node_56_1 -> node_57_1 [ len=1.5 ]
+node_56_1 -> node_66_1 [ len=1.5 ]
+node_56_1 -> node_46_1 [ len=1.5 ]
+node_56_1 -> node_55_1 [ len=1.5 ]
+node_56_1 -> node_46_1 [ color=blue, penwidth=5, len=0.1 ]
+node_57_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: 180" ];
+node_57_1 -> node_58_1 [ len=1.5 ]
+node_57_1 -> node_67_1 [ len=1.5 ]
+node_57_1 -> node_47_1 [ len=1.5 ]
+node_57_1 -> node_56_1 [ len=1.5 ]
+node_57_1 -> node_47_1 [ color=blue, penwidth=5, len=0.1 ]
+node_58_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: 195" ];
+node_58_1 -> node_59_1 [ len=1.5 ]
+node_58_1 -> node_68_1 [ len=1.5 ]
+node_58_1 -> node_48_1 [ len=1.5 ]
+node_58_1 -> node_57_1 [ len=1.5 ]
+node_58_1 -> node_48_1 [ color=blue, penwidth=5, len=0.1 ]
+node_59_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: 210" ];
+node_59_1 -> node_69_1 [ len=1.5 ]
+node_59_1 -> node_49_1 [ len=1.5 ]
+node_59_1 -> node_58_1 [ len=1.5 ]
+node_59_1 -> node_49_1 [ color=blue, penwidth=5, len=0.1 ]
+node_60_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 90" ];
+node_60_1 -> node_61_1 [ len=1.5 ]
+node_60_1 -> node_70_1 [ len=1.5 ]
+node_60_1 -> node_50_1 [ len=1.5 ]
+node_60_1 -> node_50_1 [ color=blue, penwidth=5, len=0.1 ]
+node_61_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 105" ];
+node_61_1 -> node_62_1 [ len=1.5 ]
+node_61_1 -> node_71_1 [ len=1.5 ]
+node_61_1 -> node_51_1 [ len=1.5 ]
+node_61_1 -> node_60_1 [ len=1.5 ]
+node_61_1 -> node_51_1 [ color=blue, penwidth=5, len=0.1 ]
+node_62_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 120" ];
+node_62_1 -> node_63_1 [ len=1.5 ]
+node_62_1 -> node_72_1 [ len=1.5 ]
+node_62_1 -> node_52_1 [ len=1.5 ]
+node_62_1 -> node_61_1 [ len=1.5 ]
+node_62_1 -> node_52_1 [ color=blue, penwidth=5, len=0.1 ]
+node_63_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 135" ];
+node_63_1 -> node_64_1 [ len=1.5 ]
+node_63_1 -> node_73_1 [ len=1.5 ]
+node_63_1 -> node_53_1 [ len=1.5 ]
+node_63_1 -> node_62_1 [ len=1.5 ]
+node_63_1 -> node_53_1 [ color=blue, penwidth=5, len=0.1 ]
+node_64_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: 150" ];
+node_64_1 -> node_65_1 [ len=1.5 ]
+node_64_1 -> node_74_1 [ len=1.5 ]
+node_64_1 -> node_54_1 [ len=1.5 ]
+node_64_1 -> node_63_1 [ len=1.5 ]
+node_64_1 -> node_54_1 [ color=blue, penwidth=5, len=0.1 ]
+node_65_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: 165" ];
+node_65_1 -> node_66_1 [ len=1.5 ]
+node_65_1 -> node_75_1 [ len=1.5 ]
+node_65_1 -> node_55_1 [ len=1.5 ]
+node_65_1 -> node_64_1 [ len=1.5 ]
+node_65_1 -> node_55_1 [ color=blue, penwidth=5, len=0.1 ]
+node_66_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: 180" ];
+node_66_1 -> node_67_1 [ len=1.5 ]
+node_66_1 -> node_76_1 [ len=1.5 ]
+node_66_1 -> node_56_1 [ len=1.5 ]
+node_66_1 -> node_65_1 [ len=1.5 ]
+node_66_1 -> node_56_1 [ color=blue, penwidth=5, len=0.1 ]
+node_67_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 195" ];
+node_67_1 -> node_68_1 [ len=1.5 ]
+node_67_1 -> node_77_1 [ len=1.5 ]
+node_67_1 -> node_57_1 [ len=1.5 ]
+node_67_1 -> node_66_1 [ len=1.5 ]
+node_67_1 -> node_57_1 [ color=blue, penwidth=5, len=0.1 ]
+node_68_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 210" ];
+node_68_1 -> node_69_1 [ len=1.5 ]
+node_68_1 -> node_78_1 [ len=1.5 ]
+node_68_1 -> node_58_1 [ len=1.5 ]
+node_68_1 -> node_67_1 [ len=1.5 ]
+node_68_1 -> node_58_1 [ color=blue, penwidth=5, len=0.1 ]
+node_69_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 225" ];
+node_69_1 -> node_79_1 [ len=1.5 ]
+node_69_1 -> node_59_1 [ len=1.5 ]
+node_69_1 -> node_68_1 [ len=1.5 ]
+node_69_1 -> node_59_1 [ color=blue, penwidth=5, len=0.1 ]
+node_70_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 105" ];
+node_70_1 -> node_71_1 [ len=1.5 ]
+node_70_1 -> node_80_1 [ len=1.5 ]
+node_70_1 -> node_60_1 [ len=1.5 ]
+node_70_1 -> node_60_1 [ color=blue, penwidth=5, len=0.1 ]
+node_71_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 120" ];
+node_71_1 -> node_72_1 [ len=1.5 ]
+node_71_1 -> node_81_1 [ len=1.5 ]
+node_71_1 -> node_61_1 [ len=1.5 ]
+node_71_1 -> node_70_1 [ len=1.5 ]
+node_71_1 -> node_61_1 [ color=blue, penwidth=5, len=0.1 ]
+node_72_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 135" ];
+node_72_1 -> node_73_1 [ len=1.5 ]
+node_72_1 -> node_82_1 [ len=1.5 ]
+node_72_1 -> node_62_1 [ len=1.5 ]
+node_72_1 -> node_71_1 [ len=1.5 ]
+node_72_1 -> node_62_1 [ color=blue, penwidth=5, len=0.1 ]
+node_73_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: 150" ];
+node_73_1 -> node_74_1 [ len=1.5 ]
+node_73_1 -> node_83_1 [ len=1.5 ]
+node_73_1 -> node_63_1 [ len=1.5 ]
+node_73_1 -> node_72_1 [ len=1.5 ]
+node_73_1 -> node_63_1 [ color=blue, penwidth=5, len=0.1 ]
+node_74_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 165" ];
+node_74_1 -> node_75_1 [ len=1.5 ]
+node_74_1 -> node_84_1 [ len=1.5 ]
+node_74_1 -> node_64_1 [ len=1.5 ]
+node_74_1 -> node_73_1 [ len=1.5 ]
+node_74_1 -> node_64_1 [ color=blue, penwidth=5, len=0.1 ]
+node_75_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: 180" ];
+node_75_1 -> node_76_1 [ len=1.5 ]
+node_75_1 -> node_85_1 [ len=1.5 ]
+node_75_1 -> node_65_1 [ len=1.5 ]
+node_75_1 -> node_74_1 [ len=1.5 ]
+node_75_1 -> node_65_1 [ color=blue, penwidth=5, len=0.1 ]
+node_76_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 195" ];
+node_76_1 -> node_77_1 [ len=1.5 ]
+node_76_1 -> node_86_1 [ len=1.5 ]
+node_76_1 -> node_66_1 [ len=1.5 ]
+node_76_1 -> node_75_1 [ len=1.5 ]
+node_76_1 -> node_66_1 [ color=blue, penwidth=5, len=0.1 ]
+node_77_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: 210" ];
+node_77_1 -> node_78_1 [ len=1.5 ]
+node_77_1 -> node_87_1 [ len=1.5 ]
+node_77_1 -> node_67_1 [ len=1.5 ]
+node_77_1 -> node_76_1 [ len=1.5 ]
+node_77_1 -> node_67_1 [ color=blue, penwidth=5, len=0.1 ]
+node_78_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 225" ];
+node_78_1 -> node_79_1 [ len=1.5 ]
+node_78_1 -> node_88_1 [ len=1.5 ]
+node_78_1 -> node_68_1 [ len=1.5 ]
+node_78_1 -> node_77_1 [ len=1.5 ]
+node_78_1 -> node_68_1 [ color=blue, penwidth=5, len=0.1 ]
+node_79_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 240" ];
+node_79_1 -> node_89_1 [ len=1.5 ]
+node_79_1 -> node_69_1 [ len=1.5 ]
+node_79_1 -> node_78_1 [ len=1.5 ]
+node_79_1 -> node_69_1 [ color=blue, penwidth=5, len=0.1 ]
+node_80_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 120" ];
+node_80_1 -> node_81_1 [ len=1.5 ]
+node_80_1 -> node_90_1 [ len=1.5 ]
+node_80_1 -> node_70_1 [ len=1.5 ]
+node_80_1 -> node_70_1 [ color=blue, penwidth=5, len=0.1 ]
+node_81_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 135" ];
+node_81_1 -> node_82_1 [ len=1.5 ]
+node_81_1 -> node_91_1 [ len=1.5 ]
+node_81_1 -> node_71_1 [ len=1.5 ]
+node_81_1 -> node_80_1 [ len=1.5 ]
+node_81_1 -> node_71_1 [ color=blue, penwidth=5, len=0.1 ]
+node_82_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 150" ];
+node_82_1 -> node_83_1 [ len=1.5 ]
+node_82_1 -> node_92_1 [ len=1.5 ]
+node_82_1 -> node_72_1 [ len=1.5 ]
+node_82_1 -> node_81_1 [ len=1.5 ]
+node_82_1 -> node_72_1 [ color=blue, penwidth=5, len=0.1 ]
+node_83_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 165" ];
+node_83_1 -> node_84_1 [ len=1.5 ]
+node_83_1 -> node_93_1 [ len=1.5 ]
+node_83_1 -> node_73_1 [ len=1.5 ]
+node_83_1 -> node_82_1 [ len=1.5 ]
+node_83_1 -> node_73_1 [ color=blue, penwidth=5, len=0.1 ]
+node_84_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 180" ];
+node_84_1 -> node_85_1 [ len=1.5 ]
+node_84_1 -> node_94_1 [ len=1.5 ]
+node_84_1 -> node_74_1 [ len=1.5 ]
+node_84_1 -> node_83_1 [ len=1.5 ]
+node_84_1 -> node_74_1 [ color=blue, penwidth=5, len=0.1 ]
+node_85_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: 195" ];
+node_85_1 -> node_86_1 [ len=1.5 ]
+node_85_1 -> node_95_1 [ len=1.5 ]
+node_85_1 -> node_75_1 [ len=1.5 ]
+node_85_1 -> node_84_1 [ len=1.5 ]
+node_85_1 -> node_75_1 [ color=blue, penwidth=5, len=0.1 ]
+node_86_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 210" ];
+node_86_1 -> node_87_1 [ len=1.5 ]
+node_86_1 -> node_96_1 [ len=1.5 ]
+node_86_1 -> node_76_1 [ len=1.5 ]
+node_86_1 -> node_85_1 [ len=1.5 ]
+node_86_1 -> node_76_1 [ color=blue, penwidth=5, len=0.1 ]
+node_87_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 225" ];
+node_87_1 -> node_88_1 [ len=1.5 ]
+node_87_1 -> node_97_1 [ len=1.5 ]
+node_87_1 -> node_77_1 [ len=1.5 ]
+node_87_1 -> node_86_1 [ len=1.5 ]
+node_87_1 -> node_77_1 [ color=blue, penwidth=5, len=0.1 ]
+node_88_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 240" ];
+node_88_1 -> node_89_1 [ len=1.5 ]
+node_88_1 -> node_98_1 [ len=1.5 ]
+node_88_1 -> node_78_1 [ len=1.5 ]
+node_88_1 -> node_87_1 [ len=1.5 ]
+node_88_1 -> node_78_1 [ color=blue, penwidth=5, len=0.1 ]
+node_89_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 255" ];
+node_89_1 -> node_99_1 [ len=1.5 ]
+node_89_1 -> node_79_1 [ len=1.5 ]
+node_89_1 -> node_88_1 [ len=1.5 ]
+node_89_1 -> node_79_1 [ color=blue, penwidth=5, len=0.1 ]
+node_90_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 135" ];
+node_90_1 -> node_91_1 [ len=1.5 ]
+node_90_1 -> node_80_1 [ len=1.5 ]
+node_90_1 -> node_80_1 [ color=blue, penwidth=5, len=0.1 ]
+node_91_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: 150" ];
+node_91_1 -> node_92_1 [ len=1.5 ]
+node_91_1 -> node_81_1 [ len=1.5 ]
+node_91_1 -> node_90_1 [ len=1.5 ]
+node_91_1 -> node_81_1 [ color=blue, penwidth=5, len=0.1 ]
+node_92_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 165" ];
+node_92_1 -> node_93_1 [ len=1.5 ]
+node_92_1 -> node_82_1 [ len=1.5 ]
+node_92_1 -> node_91_1 [ len=1.5 ]
+node_92_1 -> node_82_1 [ color=blue, penwidth=5, len=0.1 ]
+node_93_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 180" ];
+node_93_1 -> node_94_1 [ len=1.5 ]
+node_93_1 -> node_83_1 [ len=1.5 ]
+node_93_1 -> node_92_1 [ len=1.5 ]
+node_93_1 -> node_83_1 [ color=blue, penwidth=5, len=0.1 ]
+node_94_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 195" ];
+node_94_1 -> node_95_1 [ len=1.5 ]
+node_94_1 -> node_84_1 [ len=1.5 ]
+node_94_1 -> node_93_1 [ len=1.5 ]
+node_94_1 -> node_84_1 [ color=blue, penwidth=5, len=0.1 ]
+node_95_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: 210" ];
+node_95_1 -> node_96_1 [ len=1.5 ]
+node_95_1 -> node_85_1 [ len=1.5 ]
+node_95_1 -> node_94_1 [ len=1.5 ]
+node_95_1 -> node_85_1 [ color=blue, penwidth=5, len=0.1 ]
+node_96_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 225" ];
+node_96_1 -> node_97_1 [ len=1.5 ]
+node_96_1 -> node_86_1 [ len=1.5 ]
+node_96_1 -> node_95_1 [ len=1.5 ]
+node_96_1 -> node_86_1 [ color=blue, penwidth=5, len=0.1 ]
+node_97_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 240" ];
+node_97_1 -> node_98_1 [ len=1.5 ]
+node_97_1 -> node_87_1 [ len=1.5 ]
+node_97_1 -> node_96_1 [ len=1.5 ]
+node_97_1 -> node_87_1 [ color=blue, penwidth=5, len=0.1 ]
+node_98_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 255" ];
+node_98_1 -> node_99_1 [ len=1.5 ]
+node_98_1 -> node_88_1 [ len=1.5 ]
+node_98_1 -> node_97_1 [ len=1.5 ]
+node_98_1 -> node_88_1 [ color=blue, penwidth=5, len=0.1 ]
+node_99_1
+[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: 270" ];
+node_99_1 -> node_89_1 [ len=1.5 ]
+node_99_1 -> node_98_1 [ len=1.5 ]
+node_99_1 -> node_89_1 [ color=blue, penwidth=5, len=0.1 ]
+}
