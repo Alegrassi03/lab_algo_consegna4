@@ -1,1224 +1,1234 @@
 digraph g
 { 
 node [shape=none]
-rankdir="LR"
+rankdir="TB"
+edge[tailclip=false,arrowtail=dot];
 node_0_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_0_0 -> node_1_0 [ len=1.5 ]
-node_0_0 -> node_10_0 [ len=1.5 ]
-node_1_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_1_0 -> node_2_0 [ len=1.5 ]
-node_1_0 -> node_11_0 [ len=1.5 ]
-node_1_0 -> node_0_0 [ len=1.5 ]
-node_2_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_2_0 -> node_3_0 [ len=1.5 ]
-node_2_0 -> node_12_0 [ len=1.5 ]
-node_2_0 -> node_1_0 [ len=1.5 ]
-node_3_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_3_0 -> node_4_0 [ len=1.5 ]
-node_3_0 -> node_13_0 [ len=1.5 ]
-node_3_0 -> node_2_0 [ len=1.5 ]
-node_4_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_4_0 -> node_5_0 [ len=1.5 ]
-node_4_0 -> node_14_0 [ len=1.5 ]
-node_4_0 -> node_3_0 [ len=1.5 ]
-node_5_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_5_0 -> node_6_0 [ len=1.5 ]
-node_5_0 -> node_15_0 [ len=1.5 ]
-node_5_0 -> node_4_0 [ len=1.5 ]
-node_6_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_6_0 -> node_7_0 [ len=1.5 ]
-node_6_0 -> node_16_0 [ len=1.5 ]
-node_6_0 -> node_5_0 [ len=1.5 ]
-node_7_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_7_0 -> node_8_0 [ len=1.5 ]
-node_7_0 -> node_17_0 [ len=1.5 ]
-node_7_0 -> node_6_0 [ len=1.5 ]
-node_8_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_8_0 -> node_9_0 [ len=1.5 ]
-node_8_0 -> node_18_0 [ len=1.5 ]
-node_8_0 -> node_7_0 [ len=1.5 ]
-node_9_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_9_0 -> node_19_0 [ len=1.5 ]
-node_9_0 -> node_8_0 [ len=1.5 ]
-node_10_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_10_0 -> node_11_0 [ len=1.5 ]
-node_10_0 -> node_20_0 [ len=1.5 ]
-node_10_0 -> node_0_0 [ len=1.5 ]
-node_11_0
-[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: INF" ];
-node_11_0 -> node_12_0 [ len=1.5 ]
-node_11_0 -> node_21_0 [ len=1.5 ]
-node_11_0 -> node_1_0 [ len=1.5 ]
-node_11_0 -> node_10_0 [ len=1.5 ]
-node_12_0
-[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
-node_12_0 -> node_13_0 [ len=1.5 ]
-node_12_0 -> node_22_0 [ len=1.5 ]
-node_12_0 -> node_2_0 [ len=1.5 ]
-node_12_0 -> node_11_0 [ len=1.5 ]
-node_13_0
-[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
-node_13_0 -> node_14_0 [ len=1.5 ]
-node_13_0 -> node_23_0 [ len=1.5 ]
-node_13_0 -> node_3_0 [ len=1.5 ]
-node_13_0 -> node_12_0 [ len=1.5 ]
-node_14_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_14_0 -> node_15_0 [ len=1.5 ]
-node_14_0 -> node_24_0 [ len=1.5 ]
-node_14_0 -> node_4_0 [ len=1.5 ]
-node_14_0 -> node_13_0 [ len=1.5 ]
-node_15_0
-[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: INF" ];
-node_15_0 -> node_16_0 [ len=1.5 ]
-node_15_0 -> node_25_0 [ len=1.5 ]
-node_15_0 -> node_5_0 [ len=1.5 ]
-node_15_0 -> node_14_0 [ len=1.5 ]
-node_16_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_16_0 -> node_17_0 [ len=1.5 ]
-node_16_0 -> node_26_0 [ len=1.5 ]
-node_16_0 -> node_6_0 [ len=1.5 ]
-node_16_0 -> node_15_0 [ len=1.5 ]
-node_17_0
-[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
-node_17_0 -> node_18_0 [ len=1.5 ]
-node_17_0 -> node_27_0 [ len=1.5 ]
-node_17_0 -> node_7_0 [ len=1.5 ]
-node_17_0 -> node_16_0 [ len=1.5 ]
-node_18_0
-[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
-node_18_0 -> node_19_0 [ len=1.5 ]
-node_18_0 -> node_28_0 [ len=1.5 ]
-node_18_0 -> node_8_0 [ len=1.5 ]
-node_18_0 -> node_17_0 [ len=1.5 ]
-node_19_0
-[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: INF" ];
-node_19_0 -> node_29_0 [ len=1.5 ]
-node_19_0 -> node_9_0 [ len=1.5 ]
-node_19_0 -> node_18_0 [ len=1.5 ]
-node_20_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_20_0 -> node_21_0 [ len=1.5 ]
-node_20_0 -> node_30_0 [ len=1.5 ]
-node_20_0 -> node_10_0 [ len=1.5 ]
-node_21_0
-[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
-node_21_0 -> node_22_0 [ len=1.5 ]
-node_21_0 -> node_31_0 [ len=1.5 ]
-node_21_0 -> node_11_0 [ len=1.5 ]
-node_21_0 -> node_20_0 [ len=1.5 ]
-node_22_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_22_0 -> node_23_0 [ len=1.5 ]
-node_22_0 -> node_32_0 [ len=1.5 ]
-node_22_0 -> node_12_0 [ len=1.5 ]
-node_22_0 -> node_21_0 [ len=1.5 ]
-node_23_0
-[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
-node_23_0 -> node_24_0 [ len=1.5 ]
-node_23_0 -> node_33_0 [ len=1.5 ]
-node_23_0 -> node_13_0 [ len=1.5 ]
-node_23_0 -> node_22_0 [ len=1.5 ]
-node_24_0
-[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
-node_24_0 -> node_25_0 [ len=1.5 ]
-node_24_0 -> node_34_0 [ len=1.5 ]
-node_24_0 -> node_14_0 [ len=1.5 ]
-node_24_0 -> node_23_0 [ len=1.5 ]
-node_25_0
-[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: INF" ];
-node_25_0 -> node_26_0 [ len=1.5 ]
-node_25_0 -> node_35_0 [ len=1.5 ]
-node_25_0 -> node_15_0 [ len=1.5 ]
-node_25_0 -> node_24_0 [ len=1.5 ]
-node_26_0
-[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
-node_26_0 -> node_27_0 [ len=1.5 ]
-node_26_0 -> node_36_0 [ len=1.5 ]
-node_26_0 -> node_16_0 [ len=1.5 ]
-node_26_0 -> node_25_0 [ len=1.5 ]
-node_27_0
-[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
-node_27_0 -> node_28_0 [ len=1.5 ]
-node_27_0 -> node_37_0 [ len=1.5 ]
-node_27_0 -> node_17_0 [ len=1.5 ]
-node_27_0 -> node_26_0 [ len=1.5 ]
-node_28_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_28_0 -> node_29_0 [ len=1.5 ]
-node_28_0 -> node_38_0 [ len=1.5 ]
-node_28_0 -> node_18_0 [ len=1.5 ]
-node_28_0 -> node_27_0 [ len=1.5 ]
-node_29_0
-[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
-node_29_0 -> node_39_0 [ len=1.5 ]
-node_29_0 -> node_19_0 [ len=1.5 ]
-node_29_0 -> node_28_0 [ len=1.5 ]
-node_30_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_30_0 -> node_31_0 [ len=1.5 ]
-node_30_0 -> node_40_0 [ len=1.5 ]
-node_30_0 -> node_20_0 [ len=1.5 ]
-node_31_0
-[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
-node_31_0 -> node_32_0 [ len=1.5 ]
-node_31_0 -> node_41_0 [ len=1.5 ]
-node_31_0 -> node_21_0 [ len=1.5 ]
-node_31_0 -> node_30_0 [ len=1.5 ]
-node_32_0
-[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
-node_32_0 -> node_33_0 [ len=1.5 ]
-node_32_0 -> node_42_0 [ len=1.5 ]
-node_32_0 -> node_22_0 [ len=1.5 ]
-node_32_0 -> node_31_0 [ len=1.5 ]
-node_33_0
-[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: INF" ];
-node_33_0 -> node_34_0 [ len=1.5 ]
-node_33_0 -> node_43_0 [ len=1.5 ]
-node_33_0 -> node_23_0 [ len=1.5 ]
-node_33_0 -> node_32_0 [ len=1.5 ]
-node_34_0
-[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
-node_34_0 -> node_35_0 [ len=1.5 ]
-node_34_0 -> node_44_0 [ len=1.5 ]
-node_34_0 -> node_24_0 [ len=1.5 ]
-node_34_0 -> node_33_0 [ len=1.5 ]
-node_35_0
-[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: INF" ];
-node_35_0 -> node_36_0 [ len=1.5 ]
-node_35_0 -> node_45_0 [ len=1.5 ]
-node_35_0 -> node_25_0 [ len=1.5 ]
-node_35_0 -> node_34_0 [ len=1.5 ]
-node_36_0
-[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
-node_36_0 -> node_37_0 [ len=1.5 ]
-node_36_0 -> node_46_0 [ len=1.5 ]
-node_36_0 -> node_26_0 [ len=1.5 ]
-node_36_0 -> node_35_0 [ len=1.5 ]
-node_37_0
-[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: INF" ];
-node_37_0 -> node_38_0 [ len=1.5 ]
-node_37_0 -> node_47_0 [ len=1.5 ]
-node_37_0 -> node_27_0 [ len=1.5 ]
-node_37_0 -> node_36_0 [ len=1.5 ]
-node_38_0
-[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
-node_38_0 -> node_39_0 [ len=1.5 ]
-node_38_0 -> node_48_0 [ len=1.5 ]
-node_38_0 -> node_28_0 [ len=1.5 ]
-node_38_0 -> node_37_0 [ len=1.5 ]
-node_39_0
-[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
-node_39_0 -> node_49_0 [ len=1.5 ]
-node_39_0 -> node_29_0 [ len=1.5 ]
-node_39_0 -> node_38_0 [ len=1.5 ]
-node_40_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_40_0 -> node_41_0 [ len=1.5 ]
-node_40_0 -> node_50_0 [ len=1.5 ]
-node_40_0 -> node_30_0 [ len=1.5 ]
-node_41_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_41_0 -> node_42_0 [ len=1.5 ]
-node_41_0 -> node_51_0 [ len=1.5 ]
-node_41_0 -> node_31_0 [ len=1.5 ]
-node_41_0 -> node_40_0 [ len=1.5 ]
-node_42_0
-[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
-node_42_0 -> node_43_0 [ len=1.5 ]
-node_42_0 -> node_52_0 [ len=1.5 ]
-node_42_0 -> node_32_0 [ len=1.5 ]
-node_42_0 -> node_41_0 [ len=1.5 ]
-node_43_0
-[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
-node_43_0 -> node_44_0 [ len=1.5 ]
-node_43_0 -> node_53_0 [ len=1.5 ]
-node_43_0 -> node_33_0 [ len=1.5 ]
-node_43_0 -> node_42_0 [ len=1.5 ]
-node_44_0
-[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: INF" ];
-node_44_0 -> node_45_0 [ len=1.5 ]
-node_44_0 -> node_54_0 [ len=1.5 ]
-node_44_0 -> node_34_0 [ len=1.5 ]
-node_44_0 -> node_43_0 [ len=1.5 ]
-node_45_0
-[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: INF" ];
-node_45_0 -> node_46_0 [ len=1.5 ]
-node_45_0 -> node_55_0 [ len=1.5 ]
-node_45_0 -> node_35_0 [ len=1.5 ]
-node_45_0 -> node_44_0 [ len=1.5 ]
-node_46_0
-[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: INF" ];
-node_46_0 -> node_47_0 [ len=1.5 ]
-node_46_0 -> node_56_0 [ len=1.5 ]
-node_46_0 -> node_36_0 [ len=1.5 ]
-node_46_0 -> node_45_0 [ len=1.5 ]
-node_47_0
-[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
-node_47_0 -> node_48_0 [ len=1.5 ]
-node_47_0 -> node_57_0 [ len=1.5 ]
-node_47_0 -> node_37_0 [ len=1.5 ]
-node_47_0 -> node_46_0 [ len=1.5 ]
-node_48_0
-[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
-node_48_0 -> node_49_0 [ len=1.5 ]
-node_48_0 -> node_58_0 [ len=1.5 ]
-node_48_0 -> node_38_0 [ len=1.5 ]
-node_48_0 -> node_47_0 [ len=1.5 ]
-node_49_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_49_0 -> node_59_0 [ len=1.5 ]
-node_49_0 -> node_39_0 [ len=1.5 ]
-node_49_0 -> node_48_0 [ len=1.5 ]
-node_50_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_50_0 -> node_51_0 [ len=1.5 ]
-node_50_0 -> node_60_0 [ len=1.5 ]
-node_50_0 -> node_40_0 [ len=1.5 ]
-node_51_0
-[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: INF" ];
-node_51_0 -> node_52_0 [ len=1.5 ]
-node_51_0 -> node_61_0 [ len=1.5 ]
-node_51_0 -> node_41_0 [ len=1.5 ]
-node_51_0 -> node_50_0 [ len=1.5 ]
-node_52_0
-[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: INF" ];
-node_52_0 -> node_53_0 [ len=1.5 ]
-node_52_0 -> node_62_0 [ len=1.5 ]
-node_52_0 -> node_42_0 [ len=1.5 ]
-node_52_0 -> node_51_0 [ len=1.5 ]
-node_53_0
-[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: INF" ];
-node_53_0 -> node_54_0 [ len=1.5 ]
-node_53_0 -> node_63_0 [ len=1.5 ]
-node_53_0 -> node_43_0 [ len=1.5 ]
-node_53_0 -> node_52_0 [ len=1.5 ]
-node_54_0
-[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: INF" ];
-node_54_0 -> node_55_0 [ len=1.5 ]
-node_54_0 -> node_64_0 [ len=1.5 ]
-node_54_0 -> node_44_0 [ len=1.5 ]
-node_54_0 -> node_53_0 [ len=1.5 ]
-node_55_0
-[ shape = oval; fillcolor = "0.1 1 1"; style=filled; label = "Val: 1, dist: INF" ];
-node_55_0 -> node_56_0 [ len=1.5 ]
-node_55_0 -> node_65_0 [ len=1.5 ]
-node_55_0 -> node_45_0 [ len=1.5 ]
-node_55_0 -> node_54_0 [ len=1.5 ]
-node_56_0
-[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: INF" ];
-node_56_0 -> node_57_0 [ len=1.5 ]
-node_56_0 -> node_66_0 [ len=1.5 ]
-node_56_0 -> node_46_0 [ len=1.5 ]
-node_56_0 -> node_55_0 [ len=1.5 ]
-node_57_0
-[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: INF" ];
-node_57_0 -> node_58_0 [ len=1.5 ]
-node_57_0 -> node_67_0 [ len=1.5 ]
-node_57_0 -> node_47_0 [ len=1.5 ]
-node_57_0 -> node_56_0 [ len=1.5 ]
-node_58_0
-[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: INF" ];
-node_58_0 -> node_59_0 [ len=1.5 ]
-node_58_0 -> node_68_0 [ len=1.5 ]
-node_58_0 -> node_48_0 [ len=1.5 ]
-node_58_0 -> node_57_0 [ len=1.5 ]
-node_59_0
-[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: INF" ];
-node_59_0 -> node_69_0 [ len=1.5 ]
-node_59_0 -> node_49_0 [ len=1.5 ]
-node_59_0 -> node_58_0 [ len=1.5 ]
-node_60_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_60_0 -> node_61_0 [ len=1.5 ]
-node_60_0 -> node_70_0 [ len=1.5 ]
-node_60_0 -> node_50_0 [ len=1.5 ]
-node_61_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_61_0 -> node_62_0 [ len=1.5 ]
-node_61_0 -> node_71_0 [ len=1.5 ]
-node_61_0 -> node_51_0 [ len=1.5 ]
-node_61_0 -> node_60_0 [ len=1.5 ]
-node_62_0
-[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
-node_62_0 -> node_63_0 [ len=1.5 ]
-node_62_0 -> node_72_0 [ len=1.5 ]
-node_62_0 -> node_52_0 [ len=1.5 ]
-node_62_0 -> node_61_0 [ len=1.5 ]
-node_63_0
-[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
-node_63_0 -> node_64_0 [ len=1.5 ]
-node_63_0 -> node_73_0 [ len=1.5 ]
-node_63_0 -> node_53_0 [ len=1.5 ]
-node_63_0 -> node_62_0 [ len=1.5 ]
-node_64_0
-[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: INF" ];
-node_64_0 -> node_65_0 [ len=1.5 ]
-node_64_0 -> node_74_0 [ len=1.5 ]
-node_64_0 -> node_54_0 [ len=1.5 ]
-node_64_0 -> node_63_0 [ len=1.5 ]
-node_65_0
-[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: INF" ];
-node_65_0 -> node_66_0 [ len=1.5 ]
-node_65_0 -> node_75_0 [ len=1.5 ]
-node_65_0 -> node_55_0 [ len=1.5 ]
-node_65_0 -> node_64_0 [ len=1.5 ]
-node_66_0
-[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: INF" ];
-node_66_0 -> node_67_0 [ len=1.5 ]
-node_66_0 -> node_76_0 [ len=1.5 ]
-node_66_0 -> node_56_0 [ len=1.5 ]
-node_66_0 -> node_65_0 [ len=1.5 ]
-node_67_0
-[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
-node_67_0 -> node_68_0 [ len=1.5 ]
-node_67_0 -> node_77_0 [ len=1.5 ]
-node_67_0 -> node_57_0 [ len=1.5 ]
-node_67_0 -> node_66_0 [ len=1.5 ]
-node_68_0
-[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
-node_68_0 -> node_69_0 [ len=1.5 ]
-node_68_0 -> node_78_0 [ len=1.5 ]
-node_68_0 -> node_58_0 [ len=1.5 ]
-node_68_0 -> node_67_0 [ len=1.5 ]
-node_69_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_69_0 -> node_79_0 [ len=1.5 ]
-node_69_0 -> node_59_0 [ len=1.5 ]
-node_69_0 -> node_68_0 [ len=1.5 ]
-node_70_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_70_0 -> node_71_0 [ len=1.5 ]
-node_70_0 -> node_80_0 [ len=1.5 ]
-node_70_0 -> node_60_0 [ len=1.5 ]
-node_71_0
-[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
-node_71_0 -> node_72_0 [ len=1.5 ]
-node_71_0 -> node_81_0 [ len=1.5 ]
-node_71_0 -> node_61_0 [ len=1.5 ]
-node_71_0 -> node_70_0 [ len=1.5 ]
-node_72_0
-[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
-node_72_0 -> node_73_0 [ len=1.5 ]
-node_72_0 -> node_82_0 [ len=1.5 ]
-node_72_0 -> node_62_0 [ len=1.5 ]
-node_72_0 -> node_71_0 [ len=1.5 ]
-node_73_0
-[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: INF" ];
-node_73_0 -> node_74_0 [ len=1.5 ]
-node_73_0 -> node_83_0 [ len=1.5 ]
-node_73_0 -> node_63_0 [ len=1.5 ]
-node_73_0 -> node_72_0 [ len=1.5 ]
-node_74_0
-[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
-node_74_0 -> node_75_0 [ len=1.5 ]
-node_74_0 -> node_84_0 [ len=1.5 ]
-node_74_0 -> node_64_0 [ len=1.5 ]
-node_74_0 -> node_73_0 [ len=1.5 ]
-node_75_0
-[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: INF" ];
-node_75_0 -> node_76_0 [ len=1.5 ]
-node_75_0 -> node_85_0 [ len=1.5 ]
-node_75_0 -> node_65_0 [ len=1.5 ]
-node_75_0 -> node_74_0 [ len=1.5 ]
-node_76_0
-[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: INF" ];
-node_76_0 -> node_77_0 [ len=1.5 ]
-node_76_0 -> node_86_0 [ len=1.5 ]
-node_76_0 -> node_66_0 [ len=1.5 ]
-node_76_0 -> node_75_0 [ len=1.5 ]
-node_77_0
-[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: INF" ];
-node_77_0 -> node_78_0 [ len=1.5 ]
-node_77_0 -> node_87_0 [ len=1.5 ]
-node_77_0 -> node_67_0 [ len=1.5 ]
-node_77_0 -> node_76_0 [ len=1.5 ]
-node_78_0
-[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
-node_78_0 -> node_79_0 [ len=1.5 ]
-node_78_0 -> node_88_0 [ len=1.5 ]
-node_78_0 -> node_68_0 [ len=1.5 ]
-node_78_0 -> node_77_0 [ len=1.5 ]
-node_79_0
-[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
-node_79_0 -> node_89_0 [ len=1.5 ]
-node_79_0 -> node_69_0 [ len=1.5 ]
-node_79_0 -> node_78_0 [ len=1.5 ]
-node_80_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_80_0 -> node_81_0 [ len=1.5 ]
-node_80_0 -> node_90_0 [ len=1.5 ]
-node_80_0 -> node_70_0 [ len=1.5 ]
-node_81_0
-[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
-node_81_0 -> node_82_0 [ len=1.5 ]
-node_81_0 -> node_91_0 [ len=1.5 ]
-node_81_0 -> node_71_0 [ len=1.5 ]
-node_81_0 -> node_80_0 [ len=1.5 ]
-node_82_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_82_0 -> node_83_0 [ len=1.5 ]
-node_82_0 -> node_92_0 [ len=1.5 ]
-node_82_0 -> node_72_0 [ len=1.5 ]
-node_82_0 -> node_81_0 [ len=1.5 ]
-node_83_0
-[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
-node_83_0 -> node_84_0 [ len=1.5 ]
-node_83_0 -> node_93_0 [ len=1.5 ]
-node_83_0 -> node_73_0 [ len=1.5 ]
-node_83_0 -> node_82_0 [ len=1.5 ]
-node_84_0
-[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
-node_84_0 -> node_85_0 [ len=1.5 ]
-node_84_0 -> node_94_0 [ len=1.5 ]
-node_84_0 -> node_74_0 [ len=1.5 ]
-node_84_0 -> node_83_0 [ len=1.5 ]
-node_85_0
-[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: INF" ];
-node_85_0 -> node_86_0 [ len=1.5 ]
-node_85_0 -> node_95_0 [ len=1.5 ]
-node_85_0 -> node_75_0 [ len=1.5 ]
-node_85_0 -> node_84_0 [ len=1.5 ]
-node_86_0
-[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: INF" ];
-node_86_0 -> node_87_0 [ len=1.5 ]
-node_86_0 -> node_96_0 [ len=1.5 ]
-node_86_0 -> node_76_0 [ len=1.5 ]
-node_86_0 -> node_85_0 [ len=1.5 ]
-node_87_0
-[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: INF" ];
-node_87_0 -> node_88_0 [ len=1.5 ]
-node_87_0 -> node_97_0 [ len=1.5 ]
-node_87_0 -> node_77_0 [ len=1.5 ]
-node_87_0 -> node_86_0 [ len=1.5 ]
-node_88_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_88_0 -> node_89_0 [ len=1.5 ]
-node_88_0 -> node_98_0 [ len=1.5 ]
-node_88_0 -> node_78_0 [ len=1.5 ]
-node_88_0 -> node_87_0 [ len=1.5 ]
-node_89_0
-[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
-node_89_0 -> node_99_0 [ len=1.5 ]
-node_89_0 -> node_79_0 [ len=1.5 ]
-node_89_0 -> node_88_0 [ len=1.5 ]
-node_90_0
-[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: INF" ];
-node_90_0 -> node_91_0 [ len=1.5 ]
-node_90_0 -> node_80_0 [ len=1.5 ]
-node_91_0
-[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: INF" ];
-node_91_0 -> node_92_0 [ len=1.5 ]
-node_91_0 -> node_81_0 [ len=1.5 ]
-node_91_0 -> node_90_0 [ len=1.5 ]
-node_92_0
-[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
-node_92_0 -> node_93_0 [ len=1.5 ]
-node_92_0 -> node_82_0 [ len=1.5 ]
-node_92_0 -> node_91_0 [ len=1.5 ]
-node_93_0
-[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
-node_93_0 -> node_94_0 [ len=1.5 ]
-node_93_0 -> node_83_0 [ len=1.5 ]
-node_93_0 -> node_92_0 [ len=1.5 ]
-node_94_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_94_0 -> node_95_0 [ len=1.5 ]
-node_94_0 -> node_84_0 [ len=1.5 ]
-node_94_0 -> node_93_0 [ len=1.5 ]
-node_95_0
-[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: INF" ];
-node_95_0 -> node_96_0 [ len=1.5 ]
-node_95_0 -> node_85_0 [ len=1.5 ]
-node_95_0 -> node_94_0 [ len=1.5 ]
-node_96_0
-[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: INF" ];
-node_96_0 -> node_97_0 [ len=1.5 ]
-node_96_0 -> node_86_0 [ len=1.5 ]
-node_96_0 -> node_95_0 [ len=1.5 ]
-node_97_0
-[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: INF" ];
-node_97_0 -> node_98_0 [ len=1.5 ]
-node_97_0 -> node_87_0 [ len=1.5 ]
-node_97_0 -> node_96_0 [ len=1.5 ]
-node_98_0
-[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: INF" ];
-node_98_0 -> node_99_0 [ len=1.5 ]
-node_98_0 -> node_88_0 [ len=1.5 ]
-node_98_0 -> node_97_0 [ len=1.5 ]
-node_99_0
-[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: INF" ];
-node_99_0 -> node_89_0 [ len=1.5 ]
-node_99_0 -> node_98_0 [ len=1.5 ]
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
 node_0_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 0" ];
-node_0_1 -> node_1_1 [ len=1.5 ]
-node_0_1 -> node_10_1 [ len=1.5 ]
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+node_0_1:s -> node_1_1:id ;
 node_1_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 15" ];
-node_1_1 -> node_2_1 [ len=1.5 ]
-node_1_1 -> node_11_1 [ len=1.5 ]
-node_1_1 -> node_0_1 [ len=1.5 ]
-node_1_1 -> node_0_1 [ color=blue, penwidth=5, len=0.1 ]
-node_2_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 30" ];
-node_2_1 -> node_3_1 [ len=1.5 ]
-node_2_1 -> node_12_1 [ len=1.5 ]
-node_2_1 -> node_1_1 [ len=1.5 ]
-node_2_1 -> node_1_1 [ color=blue, penwidth=5, len=0.1 ]
-node_3_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 45" ];
-node_3_1 -> node_4_1 [ len=1.5 ]
-node_3_1 -> node_13_1 [ len=1.5 ]
-node_3_1 -> node_2_1 [ len=1.5 ]
-node_3_1 -> node_2_1 [ color=blue, penwidth=5, len=0.1 ]
-node_4_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 60" ];
-node_4_1 -> node_5_1 [ len=1.5 ]
-node_4_1 -> node_14_1 [ len=1.5 ]
-node_4_1 -> node_3_1 [ len=1.5 ]
-node_4_1 -> node_3_1 [ color=blue, penwidth=5, len=0.1 ]
-node_5_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 75" ];
-node_5_1 -> node_6_1 [ len=1.5 ]
-node_5_1 -> node_15_1 [ len=1.5 ]
-node_5_1 -> node_4_1 [ len=1.5 ]
-node_5_1 -> node_4_1 [ color=blue, penwidth=5, len=0.1 ]
-node_6_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 90" ];
-node_6_1 -> node_7_1 [ len=1.5 ]
-node_6_1 -> node_16_1 [ len=1.5 ]
-node_6_1 -> node_5_1 [ len=1.5 ]
-node_6_1 -> node_5_1 [ color=blue, penwidth=5, len=0.1 ]
-node_7_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 105" ];
-node_7_1 -> node_8_1 [ len=1.5 ]
-node_7_1 -> node_17_1 [ len=1.5 ]
-node_7_1 -> node_6_1 [ len=1.5 ]
-node_7_1 -> node_6_1 [ color=blue, penwidth=5, len=0.1 ]
-node_8_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 120" ];
-node_8_1 -> node_9_1 [ len=1.5 ]
-node_8_1 -> node_18_1 [ len=1.5 ]
-node_8_1 -> node_7_1 [ len=1.5 ]
-node_8_1 -> node_7_1 [ color=blue, penwidth=5, len=0.1 ]
-node_9_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 135" ];
-node_9_1 -> node_19_1 [ len=1.5 ]
-node_9_1 -> node_8_1 [ len=1.5 ]
-node_9_1 -> node_8_1 [ color=blue, penwidth=5, len=0.1 ]
-node_10_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 15" ];
-node_10_1 -> node_11_1 [ len=1.5 ]
-node_10_1 -> node_20_1 [ len=1.5 ]
-node_10_1 -> node_0_1 [ len=1.5 ]
-node_10_1 -> node_0_1 [ color=blue, penwidth=5, len=0.1 ]
-node_11_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: 30" ];
-node_11_1 -> node_12_1 [ len=1.5 ]
-node_11_1 -> node_21_1 [ len=1.5 ]
-node_11_1 -> node_1_1 [ len=1.5 ]
-node_11_1 -> node_10_1 [ len=1.5 ]
-node_11_1 -> node_1_1 [ color=blue, penwidth=5, len=0.1 ]
-node_12_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 45" ];
-node_12_1 -> node_13_1 [ len=1.5 ]
-node_12_1 -> node_22_1 [ len=1.5 ]
-node_12_1 -> node_2_1 [ len=1.5 ]
-node_12_1 -> node_11_1 [ len=1.5 ]
-node_12_1 -> node_2_1 [ color=blue, penwidth=5, len=0.1 ]
-node_13_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 60" ];
-node_13_1 -> node_14_1 [ len=1.5 ]
-node_13_1 -> node_23_1 [ len=1.5 ]
-node_13_1 -> node_3_1 [ len=1.5 ]
-node_13_1 -> node_12_1 [ len=1.5 ]
-node_13_1 -> node_3_1 [ color=blue, penwidth=5, len=0.1 ]
-node_14_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 75" ];
-node_14_1 -> node_15_1 [ len=1.5 ]
-node_14_1 -> node_24_1 [ len=1.5 ]
-node_14_1 -> node_4_1 [ len=1.5 ]
-node_14_1 -> node_13_1 [ len=1.5 ]
-node_14_1 -> node_4_1 [ color=blue, penwidth=5, len=0.1 ]
-node_15_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: 90" ];
-node_15_1 -> node_16_1 [ len=1.5 ]
-node_15_1 -> node_25_1 [ len=1.5 ]
-node_15_1 -> node_5_1 [ len=1.5 ]
-node_15_1 -> node_14_1 [ len=1.5 ]
-node_15_1 -> node_5_1 [ color=blue, penwidth=5, len=0.1 ]
-node_16_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 105" ];
-node_16_1 -> node_17_1 [ len=1.5 ]
-node_16_1 -> node_26_1 [ len=1.5 ]
-node_16_1 -> node_6_1 [ len=1.5 ]
-node_16_1 -> node_15_1 [ len=1.5 ]
-node_16_1 -> node_6_1 [ color=blue, penwidth=5, len=0.1 ]
-node_17_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 120" ];
-node_17_1 -> node_18_1 [ len=1.5 ]
-node_17_1 -> node_27_1 [ len=1.5 ]
-node_17_1 -> node_7_1 [ len=1.5 ]
-node_17_1 -> node_16_1 [ len=1.5 ]
-node_17_1 -> node_7_1 [ color=blue, penwidth=5, len=0.1 ]
-node_18_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 135" ];
-node_18_1 -> node_19_1 [ len=1.5 ]
-node_18_1 -> node_28_1 [ len=1.5 ]
-node_18_1 -> node_8_1 [ len=1.5 ]
-node_18_1 -> node_17_1 [ len=1.5 ]
-node_18_1 -> node_8_1 [ color=blue, penwidth=5, len=0.1 ]
-node_19_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: 150" ];
-node_19_1 -> node_29_1 [ len=1.5 ]
-node_19_1 -> node_9_1 [ len=1.5 ]
-node_19_1 -> node_18_1 [ len=1.5 ]
-node_19_1 -> node_9_1 [ color=blue, penwidth=5, len=0.1 ]
-node_20_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 30" ];
-node_20_1 -> node_21_1 [ len=1.5 ]
-node_20_1 -> node_30_1 [ len=1.5 ]
-node_20_1 -> node_10_1 [ len=1.5 ]
-node_20_1 -> node_10_1 [ color=blue, penwidth=5, len=0.1 ]
-node_21_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 45" ];
-node_21_1 -> node_22_1 [ len=1.5 ]
-node_21_1 -> node_31_1 [ len=1.5 ]
-node_21_1 -> node_11_1 [ len=1.5 ]
-node_21_1 -> node_20_1 [ len=1.5 ]
-node_21_1 -> node_11_1 [ color=blue, penwidth=5, len=0.1 ]
-node_22_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 60" ];
-node_22_1 -> node_23_1 [ len=1.5 ]
-node_22_1 -> node_32_1 [ len=1.5 ]
-node_22_1 -> node_12_1 [ len=1.5 ]
-node_22_1 -> node_21_1 [ len=1.5 ]
-node_22_1 -> node_12_1 [ color=blue, penwidth=5, len=0.1 ]
-node_23_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 75" ];
-node_23_1 -> node_24_1 [ len=1.5 ]
-node_23_1 -> node_33_1 [ len=1.5 ]
-node_23_1 -> node_13_1 [ len=1.5 ]
-node_23_1 -> node_22_1 [ len=1.5 ]
-node_23_1 -> node_13_1 [ color=blue, penwidth=5, len=0.1 ]
-node_24_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 90" ];
-node_24_1 -> node_25_1 [ len=1.5 ]
-node_24_1 -> node_34_1 [ len=1.5 ]
-node_24_1 -> node_14_1 [ len=1.5 ]
-node_24_1 -> node_23_1 [ len=1.5 ]
-node_24_1 -> node_14_1 [ color=blue, penwidth=5, len=0.1 ]
-node_25_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: 105" ];
-node_25_1 -> node_26_1 [ len=1.5 ]
-node_25_1 -> node_35_1 [ len=1.5 ]
-node_25_1 -> node_15_1 [ len=1.5 ]
-node_25_1 -> node_24_1 [ len=1.5 ]
-node_25_1 -> node_15_1 [ color=blue, penwidth=5, len=0.1 ]
-node_26_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 120" ];
-node_26_1 -> node_27_1 [ len=1.5 ]
-node_26_1 -> node_36_1 [ len=1.5 ]
-node_26_1 -> node_16_1 [ len=1.5 ]
-node_26_1 -> node_25_1 [ len=1.5 ]
-node_26_1 -> node_16_1 [ color=blue, penwidth=5, len=0.1 ]
-node_27_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 135" ];
-node_27_1 -> node_28_1 [ len=1.5 ]
-node_27_1 -> node_37_1 [ len=1.5 ]
-node_27_1 -> node_17_1 [ len=1.5 ]
-node_27_1 -> node_26_1 [ len=1.5 ]
-node_27_1 -> node_17_1 [ color=blue, penwidth=5, len=0.1 ]
-node_28_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 150" ];
-node_28_1 -> node_29_1 [ len=1.5 ]
-node_28_1 -> node_38_1 [ len=1.5 ]
-node_28_1 -> node_18_1 [ len=1.5 ]
-node_28_1 -> node_27_1 [ len=1.5 ]
-node_28_1 -> node_18_1 [ color=blue, penwidth=5, len=0.1 ]
-node_29_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 165" ];
-node_29_1 -> node_39_1 [ len=1.5 ]
-node_29_1 -> node_19_1 [ len=1.5 ]
-node_29_1 -> node_28_1 [ len=1.5 ]
-node_29_1 -> node_19_1 [ color=blue, penwidth=5, len=0.1 ]
-node_30_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 45" ];
-node_30_1 -> node_31_1 [ len=1.5 ]
-node_30_1 -> node_40_1 [ len=1.5 ]
-node_30_1 -> node_20_1 [ len=1.5 ]
-node_30_1 -> node_20_1 [ color=blue, penwidth=5, len=0.1 ]
-node_31_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 60" ];
-node_31_1 -> node_32_1 [ len=1.5 ]
-node_31_1 -> node_41_1 [ len=1.5 ]
-node_31_1 -> node_21_1 [ len=1.5 ]
-node_31_1 -> node_30_1 [ len=1.5 ]
-node_31_1 -> node_21_1 [ color=blue, penwidth=5, len=0.1 ]
-node_32_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 75" ];
-node_32_1 -> node_33_1 [ len=1.5 ]
-node_32_1 -> node_42_1 [ len=1.5 ]
-node_32_1 -> node_22_1 [ len=1.5 ]
-node_32_1 -> node_31_1 [ len=1.5 ]
-node_32_1 -> node_22_1 [ color=blue, penwidth=5, len=0.1 ]
-node_33_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: 90" ];
-node_33_1 -> node_34_1 [ len=1.5 ]
-node_33_1 -> node_43_1 [ len=1.5 ]
-node_33_1 -> node_23_1 [ len=1.5 ]
-node_33_1 -> node_32_1 [ len=1.5 ]
-node_33_1 -> node_23_1 [ color=blue, penwidth=5, len=0.1 ]
-node_34_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 105" ];
-node_34_1 -> node_35_1 [ len=1.5 ]
-node_34_1 -> node_44_1 [ len=1.5 ]
-node_34_1 -> node_24_1 [ len=1.5 ]
-node_34_1 -> node_33_1 [ len=1.5 ]
-node_34_1 -> node_24_1 [ color=blue, penwidth=5, len=0.1 ]
-node_35_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: 120" ];
-node_35_1 -> node_36_1 [ len=1.5 ]
-node_35_1 -> node_45_1 [ len=1.5 ]
-node_35_1 -> node_25_1 [ len=1.5 ]
-node_35_1 -> node_34_1 [ len=1.5 ]
-node_35_1 -> node_25_1 [ color=blue, penwidth=5, len=0.1 ]
-node_36_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 135" ];
-node_36_1 -> node_37_1 [ len=1.5 ]
-node_36_1 -> node_46_1 [ len=1.5 ]
-node_36_1 -> node_26_1 [ len=1.5 ]
-node_36_1 -> node_35_1 [ len=1.5 ]
-node_36_1 -> node_26_1 [ color=blue, penwidth=5, len=0.1 ]
-node_37_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: 150" ];
-node_37_1 -> node_38_1 [ len=1.5 ]
-node_37_1 -> node_47_1 [ len=1.5 ]
-node_37_1 -> node_27_1 [ len=1.5 ]
-node_37_1 -> node_36_1 [ len=1.5 ]
-node_37_1 -> node_27_1 [ color=blue, penwidth=5, len=0.1 ]
-node_38_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 165" ];
-node_38_1 -> node_39_1 [ len=1.5 ]
-node_38_1 -> node_48_1 [ len=1.5 ]
-node_38_1 -> node_28_1 [ len=1.5 ]
-node_38_1 -> node_37_1 [ len=1.5 ]
-node_38_1 -> node_28_1 [ color=blue, penwidth=5, len=0.1 ]
-node_39_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 180" ];
-node_39_1 -> node_49_1 [ len=1.5 ]
-node_39_1 -> node_29_1 [ len=1.5 ]
-node_39_1 -> node_38_1 [ len=1.5 ]
-node_39_1 -> node_29_1 [ color=blue, penwidth=5, len=0.1 ]
-node_40_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 60" ];
-node_40_1 -> node_41_1 [ len=1.5 ]
-node_40_1 -> node_50_1 [ len=1.5 ]
-node_40_1 -> node_30_1 [ len=1.5 ]
-node_40_1 -> node_30_1 [ color=blue, penwidth=5, len=0.1 ]
-node_41_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 75" ];
-node_41_1 -> node_42_1 [ len=1.5 ]
-node_41_1 -> node_51_1 [ len=1.5 ]
-node_41_1 -> node_31_1 [ len=1.5 ]
-node_41_1 -> node_40_1 [ len=1.5 ]
-node_41_1 -> node_31_1 [ color=blue, penwidth=5, len=0.1 ]
-node_42_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 90" ];
-node_42_1 -> node_43_1 [ len=1.5 ]
-node_42_1 -> node_52_1 [ len=1.5 ]
-node_42_1 -> node_32_1 [ len=1.5 ]
-node_42_1 -> node_41_1 [ len=1.5 ]
-node_42_1 -> node_32_1 [ color=blue, penwidth=5, len=0.1 ]
-node_43_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 105" ];
-node_43_1 -> node_44_1 [ len=1.5 ]
-node_43_1 -> node_53_1 [ len=1.5 ]
-node_43_1 -> node_33_1 [ len=1.5 ]
-node_43_1 -> node_42_1 [ len=1.5 ]
-node_43_1 -> node_33_1 [ color=blue, penwidth=5, len=0.1 ]
-node_44_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: 120" ];
-node_44_1 -> node_45_1 [ len=1.5 ]
-node_44_1 -> node_54_1 [ len=1.5 ]
-node_44_1 -> node_34_1 [ len=1.5 ]
-node_44_1 -> node_43_1 [ len=1.5 ]
-node_44_1 -> node_34_1 [ color=blue, penwidth=5, len=0.1 ]
-node_45_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: 135" ];
-node_45_1 -> node_46_1 [ len=1.5 ]
-node_45_1 -> node_55_1 [ len=1.5 ]
-node_45_1 -> node_35_1 [ len=1.5 ]
-node_45_1 -> node_44_1 [ len=1.5 ]
-node_45_1 -> node_35_1 [ color=blue, penwidth=5, len=0.1 ]
-node_46_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: 150" ];
-node_46_1 -> node_47_1 [ len=1.5 ]
-node_46_1 -> node_56_1 [ len=1.5 ]
-node_46_1 -> node_36_1 [ len=1.5 ]
-node_46_1 -> node_45_1 [ len=1.5 ]
-node_46_1 -> node_36_1 [ color=blue, penwidth=5, len=0.1 ]
-node_47_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 165" ];
-node_47_1 -> node_48_1 [ len=1.5 ]
-node_47_1 -> node_57_1 [ len=1.5 ]
-node_47_1 -> node_37_1 [ len=1.5 ]
-node_47_1 -> node_46_1 [ len=1.5 ]
-node_47_1 -> node_37_1 [ color=blue, penwidth=5, len=0.1 ]
-node_48_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 180" ];
-node_48_1 -> node_49_1 [ len=1.5 ]
-node_48_1 -> node_58_1 [ len=1.5 ]
-node_48_1 -> node_38_1 [ len=1.5 ]
-node_48_1 -> node_47_1 [ len=1.5 ]
-node_48_1 -> node_38_1 [ color=blue, penwidth=5, len=0.1 ]
-node_49_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 195" ];
-node_49_1 -> node_59_1 [ len=1.5 ]
-node_49_1 -> node_39_1 [ len=1.5 ]
-node_49_1 -> node_48_1 [ len=1.5 ]
-node_49_1 -> node_39_1 [ color=blue, penwidth=5, len=0.1 ]
-node_50_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 75" ];
-node_50_1 -> node_51_1 [ len=1.5 ]
-node_50_1 -> node_60_1 [ len=1.5 ]
-node_50_1 -> node_40_1 [ len=1.5 ]
-node_50_1 -> node_40_1 [ color=blue, penwidth=5, len=0.1 ]
-node_51_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: 90" ];
-node_51_1 -> node_52_1 [ len=1.5 ]
-node_51_1 -> node_61_1 [ len=1.5 ]
-node_51_1 -> node_41_1 [ len=1.5 ]
-node_51_1 -> node_50_1 [ len=1.5 ]
-node_51_1 -> node_41_1 [ color=blue, penwidth=5, len=0.1 ]
-node_52_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: 105" ];
-node_52_1 -> node_53_1 [ len=1.5 ]
-node_52_1 -> node_62_1 [ len=1.5 ]
-node_52_1 -> node_42_1 [ len=1.5 ]
-node_52_1 -> node_51_1 [ len=1.5 ]
-node_52_1 -> node_42_1 [ color=blue, penwidth=5, len=0.1 ]
-node_53_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: 120" ];
-node_53_1 -> node_54_1 [ len=1.5 ]
-node_53_1 -> node_63_1 [ len=1.5 ]
-node_53_1 -> node_43_1 [ len=1.5 ]
-node_53_1 -> node_52_1 [ len=1.5 ]
-node_53_1 -> node_43_1 [ color=blue, penwidth=5, len=0.1 ]
-node_54_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: 135" ];
-node_54_1 -> node_55_1 [ len=1.5 ]
-node_54_1 -> node_64_1 [ len=1.5 ]
-node_54_1 -> node_44_1 [ len=1.5 ]
-node_54_1 -> node_53_1 [ len=1.5 ]
-node_54_1 -> node_44_1 [ color=blue, penwidth=5, len=0.1 ]
-node_55_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 1"; style=filled; label = "Val: 1, dist: 150" ];
-node_55_1 -> node_56_1 [ len=1.5 ]
-node_55_1 -> node_65_1 [ len=1.5 ]
-node_55_1 -> node_45_1 [ len=1.5 ]
-node_55_1 -> node_54_1 [ len=1.5 ]
-node_55_1 -> node_45_1 [ color=blue, penwidth=5, len=0.1 ]
-node_56_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: 165" ];
-node_56_1 -> node_57_1 [ len=1.5 ]
-node_56_1 -> node_66_1 [ len=1.5 ]
-node_56_1 -> node_46_1 [ len=1.5 ]
-node_56_1 -> node_55_1 [ len=1.5 ]
-node_56_1 -> node_46_1 [ color=blue, penwidth=5, len=0.1 ]
-node_57_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: 180" ];
-node_57_1 -> node_58_1 [ len=1.5 ]
-node_57_1 -> node_67_1 [ len=1.5 ]
-node_57_1 -> node_47_1 [ len=1.5 ]
-node_57_1 -> node_56_1 [ len=1.5 ]
-node_57_1 -> node_47_1 [ color=blue, penwidth=5, len=0.1 ]
-node_58_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: 195" ];
-node_58_1 -> node_59_1 [ len=1.5 ]
-node_58_1 -> node_68_1 [ len=1.5 ]
-node_58_1 -> node_48_1 [ len=1.5 ]
-node_58_1 -> node_57_1 [ len=1.5 ]
-node_58_1 -> node_48_1 [ color=blue, penwidth=5, len=0.1 ]
-node_59_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: 210" ];
-node_59_1 -> node_69_1 [ len=1.5 ]
-node_59_1 -> node_49_1 [ len=1.5 ]
-node_59_1 -> node_58_1 [ len=1.5 ]
-node_59_1 -> node_49_1 [ color=blue, penwidth=5, len=0.1 ]
-node_60_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 90" ];
-node_60_1 -> node_61_1 [ len=1.5 ]
-node_60_1 -> node_70_1 [ len=1.5 ]
-node_60_1 -> node_50_1 [ len=1.5 ]
-node_60_1 -> node_50_1 [ color=blue, penwidth=5, len=0.1 ]
-node_61_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 105" ];
-node_61_1 -> node_62_1 [ len=1.5 ]
-node_61_1 -> node_71_1 [ len=1.5 ]
-node_61_1 -> node_51_1 [ len=1.5 ]
-node_61_1 -> node_60_1 [ len=1.5 ]
-node_61_1 -> node_51_1 [ color=blue, penwidth=5, len=0.1 ]
-node_62_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 120" ];
-node_62_1 -> node_63_1 [ len=1.5 ]
-node_62_1 -> node_72_1 [ len=1.5 ]
-node_62_1 -> node_52_1 [ len=1.5 ]
-node_62_1 -> node_61_1 [ len=1.5 ]
-node_62_1 -> node_52_1 [ color=blue, penwidth=5, len=0.1 ]
-node_63_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 135" ];
-node_63_1 -> node_64_1 [ len=1.5 ]
-node_63_1 -> node_73_1 [ len=1.5 ]
-node_63_1 -> node_53_1 [ len=1.5 ]
-node_63_1 -> node_62_1 [ len=1.5 ]
-node_63_1 -> node_53_1 [ color=blue, penwidth=5, len=0.1 ]
-node_64_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: 150" ];
-node_64_1 -> node_65_1 [ len=1.5 ]
-node_64_1 -> node_74_1 [ len=1.5 ]
-node_64_1 -> node_54_1 [ len=1.5 ]
-node_64_1 -> node_63_1 [ len=1.5 ]
-node_64_1 -> node_54_1 [ color=blue, penwidth=5, len=0.1 ]
-node_65_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: 165" ];
-node_65_1 -> node_66_1 [ len=1.5 ]
-node_65_1 -> node_75_1 [ len=1.5 ]
-node_65_1 -> node_55_1 [ len=1.5 ]
-node_65_1 -> node_64_1 [ len=1.5 ]
-node_65_1 -> node_55_1 [ color=blue, penwidth=5, len=0.1 ]
-node_66_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: 180" ];
-node_66_1 -> node_67_1 [ len=1.5 ]
-node_66_1 -> node_76_1 [ len=1.5 ]
-node_66_1 -> node_56_1 [ len=1.5 ]
-node_66_1 -> node_65_1 [ len=1.5 ]
-node_66_1 -> node_56_1 [ color=blue, penwidth=5, len=0.1 ]
-node_67_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 195" ];
-node_67_1 -> node_68_1 [ len=1.5 ]
-node_67_1 -> node_77_1 [ len=1.5 ]
-node_67_1 -> node_57_1 [ len=1.5 ]
-node_67_1 -> node_66_1 [ len=1.5 ]
-node_67_1 -> node_57_1 [ color=blue, penwidth=5, len=0.1 ]
-node_68_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 210" ];
-node_68_1 -> node_69_1 [ len=1.5 ]
-node_68_1 -> node_78_1 [ len=1.5 ]
-node_68_1 -> node_58_1 [ len=1.5 ]
-node_68_1 -> node_67_1 [ len=1.5 ]
-node_68_1 -> node_58_1 [ color=blue, penwidth=5, len=0.1 ]
-node_69_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 225" ];
-node_69_1 -> node_79_1 [ len=1.5 ]
-node_69_1 -> node_59_1 [ len=1.5 ]
-node_69_1 -> node_68_1 [ len=1.5 ]
-node_69_1 -> node_59_1 [ color=blue, penwidth=5, len=0.1 ]
-node_70_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 105" ];
-node_70_1 -> node_71_1 [ len=1.5 ]
-node_70_1 -> node_80_1 [ len=1.5 ]
-node_70_1 -> node_60_1 [ len=1.5 ]
-node_70_1 -> node_60_1 [ color=blue, penwidth=5, len=0.1 ]
-node_71_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 120" ];
-node_71_1 -> node_72_1 [ len=1.5 ]
-node_71_1 -> node_81_1 [ len=1.5 ]
-node_71_1 -> node_61_1 [ len=1.5 ]
-node_71_1 -> node_70_1 [ len=1.5 ]
-node_71_1 -> node_61_1 [ color=blue, penwidth=5, len=0.1 ]
-node_72_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 135" ];
-node_72_1 -> node_73_1 [ len=1.5 ]
-node_72_1 -> node_82_1 [ len=1.5 ]
-node_72_1 -> node_62_1 [ len=1.5 ]
-node_72_1 -> node_71_1 [ len=1.5 ]
-node_72_1 -> node_62_1 [ color=blue, penwidth=5, len=0.1 ]
-node_73_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: 150" ];
-node_73_1 -> node_74_1 [ len=1.5 ]
-node_73_1 -> node_83_1 [ len=1.5 ]
-node_73_1 -> node_63_1 [ len=1.5 ]
-node_73_1 -> node_72_1 [ len=1.5 ]
-node_73_1 -> node_63_1 [ color=blue, penwidth=5, len=0.1 ]
-node_74_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 165" ];
-node_74_1 -> node_75_1 [ len=1.5 ]
-node_74_1 -> node_84_1 [ len=1.5 ]
-node_74_1 -> node_64_1 [ len=1.5 ]
-node_74_1 -> node_73_1 [ len=1.5 ]
-node_74_1 -> node_64_1 [ color=blue, penwidth=5, len=0.1 ]
-node_75_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: 180" ];
-node_75_1 -> node_76_1 [ len=1.5 ]
-node_75_1 -> node_85_1 [ len=1.5 ]
-node_75_1 -> node_65_1 [ len=1.5 ]
-node_75_1 -> node_74_1 [ len=1.5 ]
-node_75_1 -> node_65_1 [ color=blue, penwidth=5, len=0.1 ]
-node_76_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: 195" ];
-node_76_1 -> node_77_1 [ len=1.5 ]
-node_76_1 -> node_86_1 [ len=1.5 ]
-node_76_1 -> node_66_1 [ len=1.5 ]
-node_76_1 -> node_75_1 [ len=1.5 ]
-node_76_1 -> node_66_1 [ color=blue, penwidth=5, len=0.1 ]
-node_77_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: 210" ];
-node_77_1 -> node_78_1 [ len=1.5 ]
-node_77_1 -> node_87_1 [ len=1.5 ]
-node_77_1 -> node_67_1 [ len=1.5 ]
-node_77_1 -> node_76_1 [ len=1.5 ]
-node_77_1 -> node_67_1 [ color=blue, penwidth=5, len=0.1 ]
-node_78_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 225" ];
-node_78_1 -> node_79_1 [ len=1.5 ]
-node_78_1 -> node_88_1 [ len=1.5 ]
-node_78_1 -> node_68_1 [ len=1.5 ]
-node_78_1 -> node_77_1 [ len=1.5 ]
-node_78_1 -> node_68_1 [ color=blue, penwidth=5, len=0.1 ]
-node_79_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 240" ];
-node_79_1 -> node_89_1 [ len=1.5 ]
-node_79_1 -> node_69_1 [ len=1.5 ]
-node_79_1 -> node_78_1 [ len=1.5 ]
-node_79_1 -> node_69_1 [ color=blue, penwidth=5, len=0.1 ]
-node_80_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 120" ];
-node_80_1 -> node_81_1 [ len=1.5 ]
-node_80_1 -> node_90_1 [ len=1.5 ]
-node_80_1 -> node_70_1 [ len=1.5 ]
-node_80_1 -> node_70_1 [ color=blue, penwidth=5, len=0.1 ]
-node_81_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 135" ];
-node_81_1 -> node_82_1 [ len=1.5 ]
-node_81_1 -> node_91_1 [ len=1.5 ]
-node_81_1 -> node_71_1 [ len=1.5 ]
-node_81_1 -> node_80_1 [ len=1.5 ]
-node_81_1 -> node_71_1 [ color=blue, penwidth=5, len=0.1 ]
-node_82_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 150" ];
-node_82_1 -> node_83_1 [ len=1.5 ]
-node_82_1 -> node_92_1 [ len=1.5 ]
-node_82_1 -> node_72_1 [ len=1.5 ]
-node_82_1 -> node_81_1 [ len=1.5 ]
-node_82_1 -> node_72_1 [ color=blue, penwidth=5, len=0.1 ]
-node_83_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 165" ];
-node_83_1 -> node_84_1 [ len=1.5 ]
-node_83_1 -> node_93_1 [ len=1.5 ]
-node_83_1 -> node_73_1 [ len=1.5 ]
-node_83_1 -> node_82_1 [ len=1.5 ]
-node_83_1 -> node_73_1 [ color=blue, penwidth=5, len=0.1 ]
-node_84_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 180" ];
-node_84_1 -> node_85_1 [ len=1.5 ]
-node_84_1 -> node_94_1 [ len=1.5 ]
-node_84_1 -> node_74_1 [ len=1.5 ]
-node_84_1 -> node_83_1 [ len=1.5 ]
-node_84_1 -> node_74_1 [ color=blue, penwidth=5, len=0.1 ]
-node_85_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: 195" ];
-node_85_1 -> node_86_1 [ len=1.5 ]
-node_85_1 -> node_95_1 [ len=1.5 ]
-node_85_1 -> node_75_1 [ len=1.5 ]
-node_85_1 -> node_84_1 [ len=1.5 ]
-node_85_1 -> node_75_1 [ color=blue, penwidth=5, len=0.1 ]
-node_86_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: 210" ];
-node_86_1 -> node_87_1 [ len=1.5 ]
-node_86_1 -> node_96_1 [ len=1.5 ]
-node_86_1 -> node_76_1 [ len=1.5 ]
-node_86_1 -> node_85_1 [ len=1.5 ]
-node_86_1 -> node_76_1 [ color=blue, penwidth=5, len=0.1 ]
-node_87_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 225" ];
-node_87_1 -> node_88_1 [ len=1.5 ]
-node_87_1 -> node_97_1 [ len=1.5 ]
-node_87_1 -> node_77_1 [ len=1.5 ]
-node_87_1 -> node_86_1 [ len=1.5 ]
-node_87_1 -> node_77_1 [ color=blue, penwidth=5, len=0.1 ]
-node_88_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 240" ];
-node_88_1 -> node_89_1 [ len=1.5 ]
-node_88_1 -> node_98_1 [ len=1.5 ]
-node_88_1 -> node_78_1 [ len=1.5 ]
-node_88_1 -> node_87_1 [ len=1.5 ]
-node_88_1 -> node_78_1 [ color=blue, penwidth=5, len=0.1 ]
-node_89_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 255" ];
-node_89_1 -> node_99_1 [ len=1.5 ]
-node_89_1 -> node_79_1 [ len=1.5 ]
-node_89_1 -> node_88_1 [ len=1.5 ]
-node_89_1 -> node_79_1 [ color=blue, penwidth=5, len=0.1 ]
-node_90_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: 135" ];
-node_90_1 -> node_91_1 [ len=1.5 ]
-node_90_1 -> node_80_1 [ len=1.5 ]
-node_90_1 -> node_80_1 [ color=blue, penwidth=5, len=0.1 ]
-node_91_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: 150" ];
-node_91_1 -> node_92_1 [ len=1.5 ]
-node_91_1 -> node_81_1 [ len=1.5 ]
-node_91_1 -> node_90_1 [ len=1.5 ]
-node_91_1 -> node_81_1 [ color=blue, penwidth=5, len=0.1 ]
-node_92_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 165" ];
-node_92_1 -> node_93_1 [ len=1.5 ]
-node_92_1 -> node_82_1 [ len=1.5 ]
-node_92_1 -> node_91_1 [ len=1.5 ]
-node_92_1 -> node_82_1 [ color=blue, penwidth=5, len=0.1 ]
-node_93_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 180" ];
-node_93_1 -> node_94_1 [ len=1.5 ]
-node_93_1 -> node_83_1 [ len=1.5 ]
-node_93_1 -> node_92_1 [ len=1.5 ]
-node_93_1 -> node_83_1 [ color=blue, penwidth=5, len=0.1 ]
-node_94_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 195" ];
-node_94_1 -> node_95_1 [ len=1.5 ]
-node_94_1 -> node_84_1 [ len=1.5 ]
-node_94_1 -> node_93_1 [ len=1.5 ]
-node_94_1 -> node_84_1 [ color=blue, penwidth=5, len=0.1 ]
-node_95_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: 210" ];
-node_95_1 -> node_96_1 [ len=1.5 ]
-node_95_1 -> node_85_1 [ len=1.5 ]
-node_95_1 -> node_94_1 [ len=1.5 ]
-node_95_1 -> node_85_1 [ color=blue, penwidth=5, len=0.1 ]
-node_96_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 225" ];
-node_96_1 -> node_97_1 [ len=1.5 ]
-node_96_1 -> node_86_1 [ len=1.5 ]
-node_96_1 -> node_95_1 [ len=1.5 ]
-node_96_1 -> node_86_1 [ color=blue, penwidth=5, len=0.1 ]
-node_97_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 240" ];
-node_97_1 -> node_98_1 [ len=1.5 ]
-node_97_1 -> node_87_1 [ len=1.5 ]
-node_97_1 -> node_96_1 [ len=1.5 ]
-node_97_1 -> node_87_1 [ color=blue, penwidth=5, len=0.1 ]
-node_98_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 255" ];
-node_98_1 -> node_99_1 [ len=1.5 ]
-node_98_1 -> node_88_1 [ len=1.5 ]
-node_98_1 -> node_97_1 [ len=1.5 ]
-node_98_1 -> node_88_1 [ color=blue, penwidth=5, len=0.1 ]
-node_99_1
-[ shape = oval; penwidth = 4; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: 270" ];
-node_99_1 -> node_89_1 [ len=1.5 ]
-node_99_1 -> node_98_1 [ len=1.5 ]
-node_99_1 -> node_89_1 [ color=blue, penwidth=5, len=0.1 ]
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+node_0_2
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_2;node_2_2;
+node_0_2:s -> node_1_2:id ;
+node_0_2:s -> node_2_2:id ;
+node_1_2
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+node_2_2
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+node_0_3
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_3;node_2_3;
+node_0_3:s -> node_1_3:id ;
+node_0_3:s -> node_2_3:id ;
+node_1_3
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+node_1_3:s -> node_3_3:id ;
+node_3_3
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+node_2_3
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+node_0_4
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_4;node_2_4;
+node_0_4:s -> node_1_4:id ;
+node_0_4:s -> node_2_4:id ;
+node_1_4
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+rank = same; node_3_4;node_4_4;
+node_1_4:s -> node_3_4:id ;
+node_1_4:s -> node_4_4:id ;
+node_3_4
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+node_4_4
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+node_2_4
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+node_0_5
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_5;node_2_5;
+node_0_5:s -> node_1_5:id ;
+node_0_5:s -> node_2_5:id ;
+node_1_5
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+rank = same; node_3_5;node_4_5;
+node_1_5:s -> node_3_5:id ;
+node_1_5:s -> node_4_5:id ;
+node_3_5
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+node_4_5
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+node_2_5
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+node_2_5:s -> node_5_5:id ;
+node_5_5
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+node_0_6
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_6;node_2_6;
+node_0_6:s -> node_1_6:id ;
+node_0_6:s -> node_2_6:id ;
+node_1_6
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+rank = same; node_3_6;node_4_6;
+node_1_6:s -> node_3_6:id ;
+node_1_6:s -> node_4_6:id ;
+node_3_6
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+node_4_6
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+node_2_6
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+rank = same; node_5_6;node_6_6;
+node_2_6:s -> node_5_6:id ;
+node_2_6:s -> node_6_6:id ;
+node_5_6
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+node_6_6
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_7
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_7;node_2_7;
+node_0_7:s -> node_1_7:id ;
+node_0_7:s -> node_2_7:id ;
+node_1_7
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+rank = same; node_3_7;node_4_7;
+node_1_7:s -> node_3_7:id ;
+node_1_7:s -> node_4_7:id ;
+node_3_7
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+node_3_7:s -> node_7_7:id ;
+node_7_7
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">7</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+node_4_7
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+node_2_7
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+rank = same; node_5_7;node_6_7;
+node_2_7:s -> node_5_7:id ;
+node_2_7:s -> node_6_7:id ;
+node_5_7
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+node_6_7
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_8
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_8;node_2_8;
+node_0_8:s -> node_1_8:id ;
+node_0_8:s -> node_2_8:id ;
+node_1_8
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+rank = same; node_3_8;node_4_8;
+node_1_8:s -> node_3_8:id ;
+node_1_8:s -> node_4_8:id ;
+node_3_8
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+rank = same; node_7_8;node_8_8;
+node_3_8:s -> node_7_8:id ;
+node_3_8:s -> node_8_8:id ;
+node_7_8
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">7</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+node_8_8
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">8</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_4_8
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+node_2_8
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+rank = same; node_5_8;node_6_8;
+node_2_8:s -> node_5_8:id ;
+node_2_8:s -> node_6_8:id ;
+node_5_8
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+node_6_8
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_9
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_9;node_2_9;
+node_0_9:s -> node_1_9:id ;
+node_0_9:s -> node_2_9:id ;
+node_1_9
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+rank = same; node_3_9;node_4_9;
+node_1_9:s -> node_3_9:id ;
+node_1_9:s -> node_4_9:id ;
+node_3_9
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+rank = same; node_7_9;node_8_9;
+node_3_9:s -> node_7_9:id ;
+node_3_9:s -> node_8_9:id ;
+node_7_9
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">7</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+node_8_9
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">8</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_4_9
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+node_4_9:s -> node_9_9:id ;
+node_9_9
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">9</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_2_9
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+rank = same; node_5_9;node_6_9;
+node_2_9:s -> node_5_9:id ;
+node_2_9:s -> node_6_9:id ;
+node_5_9
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+node_6_9
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_10
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_10;node_2_10;
+node_0_10:s -> node_1_10:id ;
+node_0_10:s -> node_2_10:id ;
+node_1_10
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+rank = same; node_3_10;node_4_10;
+node_1_10:s -> node_3_10:id ;
+node_1_10:s -> node_4_10:id ;
+node_3_10
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+rank = same; node_7_10;node_8_10;
+node_3_10:s -> node_7_10:id ;
+node_3_10:s -> node_8_10:id ;
+node_7_10
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">7</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+node_8_10
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">8</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_4_10
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+rank = same; node_9_10;node_10_10;
+node_4_10:s -> node_9_10:id ;
+node_4_10:s -> node_10_10:id ;
+node_9_10
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">9</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_10_10
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">10</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_2_10
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+rank = same; node_5_10;node_6_10;
+node_2_10:s -> node_5_10:id ;
+node_2_10:s -> node_6_10:id ;
+node_5_10
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+node_6_10
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_11;node_2_11;
+node_0_11:s -> node_1_11:id ;
+node_0_11:s -> node_2_11:id ;
+node_1_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+rank = same; node_3_11;node_4_11;
+node_1_11:s -> node_3_11:id ;
+node_1_11:s -> node_4_11:id ;
+node_3_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+rank = same; node_7_11;node_8_11;
+node_3_11:s -> node_7_11:id ;
+node_3_11:s -> node_8_11:id ;
+node_7_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">7</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+node_8_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">8</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_4_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+rank = same; node_9_11;node_10_11;
+node_4_11:s -> node_9_11:id ;
+node_4_11:s -> node_10_11:id ;
+node_9_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">9</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_10_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">10</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_2_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+rank = same; node_5_11;node_6_11;
+node_2_11:s -> node_5_11:id ;
+node_2_11:s -> node_6_11:id ;
+node_5_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+node_5_11:s -> node_11_11:id ;
+node_11_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">11</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_6_11
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_12;node_2_12;
+node_0_12:s -> node_1_12:id ;
+node_0_12:s -> node_2_12:id ;
+node_1_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+rank = same; node_3_12;node_4_12;
+node_1_12:s -> node_3_12:id ;
+node_1_12:s -> node_4_12:id ;
+node_3_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+rank = same; node_7_12;node_8_12;
+node_3_12:s -> node_7_12:id ;
+node_3_12:s -> node_8_12:id ;
+node_7_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">7</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+node_8_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">8</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_4_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+rank = same; node_9_12;node_10_12;
+node_4_12:s -> node_9_12:id ;
+node_4_12:s -> node_10_12:id ;
+node_9_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">9</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_10_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">10</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_2_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+rank = same; node_5_12;node_6_12;
+node_2_12:s -> node_5_12:id ;
+node_2_12:s -> node_6_12:id ;
+node_5_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+node_5_12:s -> node_11_12:id ;
+node_11_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">11</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_6_12
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">10</TD>
+</TR></TABLE>>];
+rank = same; node_1_13;node_2_13;
+node_0_13:s -> node_1_13:id ;
+node_0_13:s -> node_2_13:id ;
+node_1_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+rank = same; node_3_13;node_4_13;
+node_1_13:s -> node_3_13:id ;
+node_1_13:s -> node_4_13:id ;
+node_3_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+rank = same; node_7_13;node_8_13;
+node_3_13:s -> node_7_13:id ;
+node_3_13:s -> node_8_13:id ;
+node_7_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">7</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+node_8_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">8</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_4_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+rank = same; node_9_13;node_10_13;
+node_4_13:s -> node_9_13:id ;
+node_4_13:s -> node_10_13:id ;
+node_9_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">9</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_10_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">10</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_2_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+rank = same; node_5_13;node_6_13;
+node_2_13:s -> node_5_13:id ;
+node_2_13:s -> node_6_13:id ;
+node_5_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+node_5_13:s -> node_11_13:id ;
+node_11_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">11</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_6_13
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_14
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">11</TD>
+</TR></TABLE>>];
+rank = same; node_1_14;node_2_14;
+node_0_14:s -> node_1_14:id ;
+node_0_14:s -> node_2_14:id ;
+node_1_14
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+rank = same; node_3_14;node_4_14;
+node_1_14:s -> node_3_14:id ;
+node_1_14:s -> node_4_14:id ;
+node_3_14
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+rank = same; node_7_14;node_8_14;
+node_3_14:s -> node_7_14:id ;
+node_3_14:s -> node_8_14:id ;
+node_7_14
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">7</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_8_14
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">8</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_4_14
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+rank = same; node_9_14;node_10_14;
+node_4_14:s -> node_9_14:id ;
+node_4_14:s -> node_10_14:id ;
+node_9_14
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">9</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_10_14
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">10</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_2_14
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+rank = same; node_5_14;node_6_14;
+node_2_14:s -> node_5_14:id ;
+node_2_14:s -> node_6_14:id ;
+node_5_14
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+node_6_14
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_15
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">12</TD>
+</TR></TABLE>>];
+rank = same; node_1_15;node_2_15;
+node_0_15:s -> node_1_15:id ;
+node_0_15:s -> node_2_15:id ;
+node_1_15
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+rank = same; node_3_15;node_4_15;
+node_1_15:s -> node_3_15:id ;
+node_1_15:s -> node_4_15:id ;
+node_3_15
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+rank = same; node_7_15;node_8_15;
+node_3_15:s -> node_7_15:id ;
+node_3_15:s -> node_8_15:id ;
+node_7_15
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">7</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_8_15
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">8</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_4_15
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+node_4_15:s -> node_9_15:id ;
+node_9_15
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">9</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_2_15
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+rank = same; node_5_15;node_6_15;
+node_2_15:s -> node_5_15:id ;
+node_2_15:s -> node_6_15:id ;
+node_5_15
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_6_15
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_16
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">13</TD>
+</TR></TABLE>>];
+rank = same; node_1_16;node_2_16;
+node_0_16:s -> node_1_16:id ;
+node_0_16:s -> node_2_16:id ;
+node_1_16
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+rank = same; node_3_16;node_4_16;
+node_1_16:s -> node_3_16:id ;
+node_1_16:s -> node_4_16:id ;
+node_3_16
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+rank = same; node_7_16;node_8_16;
+node_3_16:s -> node_7_16:id ;
+node_3_16:s -> node_8_16:id ;
+node_7_16
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">7</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_8_16
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">8</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_4_16
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_2_16
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+rank = same; node_5_16;node_6_16;
+node_2_16:s -> node_5_16:id ;
+node_2_16:s -> node_6_16:id ;
+node_5_16
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_6_16
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_17
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">14</TD>
+</TR></TABLE>>];
+rank = same; node_1_17;node_2_17;
+node_0_17:s -> node_1_17:id ;
+node_0_17:s -> node_2_17:id ;
+node_1_17
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+rank = same; node_3_17;node_4_17;
+node_1_17:s -> node_3_17:id ;
+node_1_17:s -> node_4_17:id ;
+node_3_17
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_3_17:s -> node_7_17:id ;
+node_7_17
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">7</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_4_17
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_2_17
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+rank = same; node_5_17;node_6_17;
+node_2_17:s -> node_5_17:id ;
+node_2_17:s -> node_6_17:id ;
+node_5_17
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_6_17
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+node_0_18
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">15</TD>
+</TR></TABLE>>];
+rank = same; node_1_18;node_2_18;
+node_0_18:s -> node_1_18:id ;
+node_0_18:s -> node_2_18:id ;
+node_1_18
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+rank = same; node_3_18;node_4_18;
+node_1_18:s -> node_3_18:id ;
+node_1_18:s -> node_4_18:id ;
+node_3_18
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_4_18
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_2_18
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+rank = same; node_5_18;node_6_18;
+node_2_18:s -> node_5_18:id ;
+node_2_18:s -> node_6_18:id ;
+node_5_18
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_6_18
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">6</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_0_19
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">16</TD>
+</TR></TABLE>>];
+rank = same; node_1_19;node_2_19;
+node_0_19:s -> node_1_19:id ;
+node_0_19:s -> node_2_19:id ;
+node_1_19
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+rank = same; node_3_19;node_4_19;
+node_1_19:s -> node_3_19:id ;
+node_1_19:s -> node_4_19:id ;
+node_3_19
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+node_4_19
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_2_19
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_2_19:s -> node_5_19:id ;
+node_5_19
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">5</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_0_20
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">17</TD>
+</TR></TABLE>>];
+rank = same; node_1_20;node_2_20;
+node_0_20:s -> node_1_20:id ;
+node_0_20:s -> node_2_20:id ;
+node_1_20
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+rank = same; node_3_20;node_4_20;
+node_1_20:s -> node_3_20:id ;
+node_1_20:s -> node_4_20:id ;
+node_3_20
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_4_20
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">4</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_2_20
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_0_21
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">18</TD>
+</TR></TABLE>>];
+rank = same; node_1_21;node_2_21;
+node_0_21:s -> node_1_21:id ;
+node_0_21:s -> node_2_21:id ;
+node_1_21
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+node_1_21:s -> node_3_21:id ;
+node_3_21
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">3</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_2_21
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_0_22
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">19</TD>
+</TR></TABLE>>];
+rank = same; node_1_22;node_2_22;
+node_0_22:s -> node_1_22:id ;
+node_0_22:s -> node_2_22:id ;
+node_1_22
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_2_22
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">2</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_0_23
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">20</TD>
+</TR></TABLE>>];
+node_0_23:s -> node_1_23:id ;
+node_1_23
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">1</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_0_24
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_0_25
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
+node_0_26
+[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
+<TR> <TD CELLPADDING="3" BORDER="0"  ALIGN="LEFT" bgcolor="#f0f0f0" PORT="id">0</TD> </TR><TR>
+<TD PORT="val" bgcolor="#a0FFa0">21</TD>
+</TR></TABLE>>];
 }
