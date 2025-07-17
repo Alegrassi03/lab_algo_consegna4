@@ -54,7 +54,7 @@ void heap_insert(int nodo, float distanza) {
     heap_pos[nodo] = i;
     heap_size++;
 
-    // heapify up inline
+
     while (i > 0 && heap[parent(i)] > heap[i]) {
         int p = parent(i);
 
