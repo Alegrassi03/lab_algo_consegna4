@@ -331,7 +331,7 @@ int main(int argc, char **argv) {
 
     tree_print_graph(0); // radice
 
-    decrease_key(3, 30);
+    decrease_key(3, 7);
 
 
     heap_insert(455);

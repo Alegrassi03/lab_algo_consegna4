@@ -32,28 +32,6 @@ int n_operazione = 0; /// contatore di operazioni per visualizzare i vari step
 
 int ct_visit = 0; // contatore durante visita
 
-
-
-//////////////////////////////////////////////////
-/// Heap
-//////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-//////////////////////////////////////////////////
-/// Heap
-//////////////////////////////////////////////////
-
-
-
-
 //////////////////////////////////////////////////
 /// Definizione della struttura dati lista
 //////////////////////////////////////////////////
@@ -276,26 +254,44 @@ void shortest_path(int n) {
 
     int q_size = n_nodi; /// contatore degli elementi in coda (V_visitato)
 
-    V_dist[n] = 0;
-    for (int i = 0; i < n_nodi; i++) {
-        min_heap_insert(i, V_dist[i]);
-    }
+    while (q_size != 0) {
 
-    while (heap_size > 0) {
-        int u = heap_extract_min();
-        if (V_visitato[u]) continue;
-        V_visitato[u] = 1;
+        // graph_print();
 
-        node_t *elem = E[u]->head;
-        while (elem != NULL) {
-            int v = elem->val;
-            float alt = V_dist[u] + elem->w;
-            if (alt < V_dist[v]) {
-                V_dist[v] = alt;
-                V_prev[v] = u;
-                decrease_key(v, alt);
+        /// trova il minimo in coda
+        float best_dist = INFTY;
+        int best_idx = -1;
+        for (int i = 0; i < n_nodi; i++) {
+            if (V_visitato[i] == 0 && V_dist[i] < best_dist) { /// nodo e' in coda e e' migliore del nodo corrente
+                best_dist = V_dist[i];
+                best_idx = i;
             }
-            elem = elem->next;
+        }
+        if (best_idx >= 0) {
+            /// estrai dalla coda
+            int u = best_idx;
+            V_visitato[u] = 1;
+            q_size--;
+
+            /// esploro la lista di adiacenza
+            node_t *elem = E[u]->head;
+            while (elem != NULL) {
+                int v = elem->val; /// arco u --> v
+
+                /// alt ← dist[u] + Graph.Edges(u, v)
+                
+                float alt = V_dist[u] + elem->w; /// costo per arrivare al nuovo nodo passando per u
+                // float alt = V_dist[u] + elem->w + 1000*pow(abs(V[u]-V[v]),2) ; /// costo per arrivare al nuovo nodo passando per u
+
+                if (alt < V_dist[v]) {           // il percorso sorgente ---> u --> v migliora il percorso attuale sorgente --> v
+                    V_dist[v] = alt;
+                    V_prev[v] = u;
+                }
+                elem = elem->next;
+            }
+
+        } else { /// coda non vuota E nodi non raggiungibili ---> FINITO
+            q_size = 0;
         }
     }
 

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// compilazione: g++ lezione17-grafi-dijkstra.cpp
+// compilazione: g++ Consegna4.cpp
 //
 // Obiettivo:
 // 1) grafo con archi pesati
@@ -31,6 +31,84 @@ ofstream output_graph;
 int n_operazione = 0; /// contatore di operazioni per visualizzare i vari step
 
 int ct_visit = 0; // contatore durante visita
+
+
+//////////////////////////////////////////////////
+/// Heap
+//////////////////////////////////////////////////
+
+const int MAX_SIZE = 10000;
+int heap[MAX_SIZE];
+int heap_pos[MAX_SIZE];    // heap_pos[v] = posizione del nodo v nel heap[]
+int heap_node[MAX_SIZE];   // heap_node[i] = nodo v in heap[i]
+int heap_size = 0;
+
+
+
+int parent(int i) { return (i - 1) / 2; }
+int left(int i) { return 2 * i + 1; }
+int right(int i) { return 2 * i + 2; }
+
+void swap_heap(int i, int j) {
+    swap(heap[i], heap[j]);
+    swap(heap_node[i], heap_node[j]);
+    heap_pos[heap_node[i]] = i;
+    heap_pos[heap_node[j]] = j;
+}
+
+void heapify_down(int i) {
+    int l = left(i);
+    int r = right(i);
+    int smallest = i;
+
+    if (l < heap_size && heap[l] < heap[smallest])
+        smallest = l;
+    if (r < heap_size && heap[r] < heap[smallest])
+        smallest = r;
+
+    if (smallest != i) {
+        swap_heap(i, smallest);
+        heapify_down(smallest);
+    }
+}
+
+void heapify_up(int i) {
+    while (i > 0 && heap[parent(i)] > heap[i]) {
+        swap_heap(i, parent(i));
+        i = parent(i);
+    }
+}
+
+void heap_insert(int nodo, int distanza) {
+    heap[heap_size] = distanza;
+    heap_node[heap_size] = nodo;
+    heap_pos[nodo] = heap_size;
+    heapify_up(heap_size);
+    heap_size++;
+}
+
+int heap_remove_min() {
+    if (heap_size == 0) return -1;
+    int min_nodo = heap_node[0];
+
+    swap_heap(0, heap_size - 1);
+    heap_size--;
+    heapify_down(0);
+
+    return min_nodo;
+}
+
+void decrease_key(int nodo, int nuova_distanza) {
+    int i = heap_pos[nodo];
+    heap[i] = nuova_distanza;
+    heapify_up(i);
+}
+
+
+//////////////////////////////////////////////////
+/// Heap
+//////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////
 /// Definizione della struttura dati lista
@@ -254,44 +332,26 @@ void shortest_path(int n) {
 
     int q_size = n_nodi; /// contatore degli elementi in coda (V_visitato)
 
-    while (q_size != 0) {
+    V_dist[n] = 0;
+    for (int i = 0; i < n_nodi; i++) {
+        heap_insert(i, V_dist[i]);
+    }
 
-        // graph_print();
+    while (heap_size > 0) {
+        int u = heap_remove_min();
+        if (V_visitato[u]) continue;
+        V_visitato[u] = 1;
 
-        /// trova il minimo in coda
-        float best_dist = INFTY;
-        int best_idx = -1;
-        for (int i = 0; i < n_nodi; i++) {
-            if (V_visitato[i] == 0 && V_dist[i] < best_dist) { /// nodo e' in coda e e' migliore del nodo corrente
-                best_dist = V_dist[i];
-                best_idx = i;
+        node_t *elem = E[u]->head;
+        while (elem != NULL) {
+            int v = elem->val;
+            float alt = V_dist[u] + elem->w;
+            if (alt < V_dist[v]) {
+                V_dist[v] = alt;
+                V_prev[v] = u;
+                decrease_key(v, alt);
             }
-        }
-        if (best_idx >= 0) {
-            /// estrai dalla coda
-            int u = best_idx;
-            V_visitato[u] = 1;
-            q_size--;
-
-            /// esploro la lista di adiacenza
-            node_t *elem = E[u]->head;
-            while (elem != NULL) {
-                int v = elem->val; /// arco u --> v
-
-                /// alt ← dist[u] + Graph.Edges(u, v)
-                
-                float alt = V_dist[u] + elem->w; /// costo per arrivare al nuovo nodo passando per u
-                // float alt = V_dist[u] + elem->w + 1000*pow(abs(V[u]-V[v]),2) ; /// costo per arrivare al nuovo nodo passando per u
-
-                if (alt < V_dist[v]) {           // il percorso sorgente ---> u --> v migliora il percorso attuale sorgente --> v
-                    V_dist[v] = alt;
-                    V_prev[v] = u;
-                }
-                elem = elem->next;
-            }
-
-        } else { /// coda non vuota E nodi non raggiungibili ---> FINITO
-            q_size = 0;
+            elem = elem->next;
         }
     }
 
