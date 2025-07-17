@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// compilazione: g++ -xc++ minheap.cpp
+// compilazione: g++ -xc++ min-heap.cpp
 //
 // Obiettivo:
 // 1) analisi rappresentazione albero completo <---> array
@@ -185,7 +185,7 @@ void decrease_key(int indice_nodo, int key) {
 
     int i = indice_nodo;
     while (i != 0) {                          // non sono sulla radice
-        if (heap[parent_idx(i)] >= heap[i]) { /// proprieta' dell' heap e' rispettata -> esco
+        if (heap[parent_idx(i)] <= heap[i]) { /// proprieta' dell' heap e' rispettata -> esco
             if (details)
                 printf("Il genitore ha valore %d >= del nodo %d, esco\n", heap[parent_idx(i)], heap[i]);
             return;
@@ -332,6 +332,10 @@ int main(int argc, char **argv) {
     tree_print_graph(0); // radice
 
     decrease_key(3, 30);
+
+
+    heap_insert(455);
+      heap_insert(2);
 
     tree_print_graph(0); // radice
 

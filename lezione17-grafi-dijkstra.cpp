@@ -32,6 +32,28 @@ int n_operazione = 0; /// contatore di operazioni per visualizzare i vari step
 
 int ct_visit = 0; // contatore durante visita
 
+
+
+//////////////////////////////////////////////////
+/// Heap
+//////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////
+/// Heap
+//////////////////////////////////////////////////
+
+
+
+
 //////////////////////////////////////////////////
 /// Definizione della struttura dati lista
 //////////////////////////////////////////////////
@@ -243,55 +265,6 @@ void print_array_graph(int *A, int n, string c, int a, int l, int m, int r) {
     output_graph << ">];" << endl;
 }
 
-void bellman_ford(int sorgente) {
-    // Inizializzazione
-    for (int i = 0; i < n_nodi; i++) {
-        V_dist[i] = INFTY;
-        V_prev[i] = -1;
-        V_visitato[i] = 0;
-    }
-    V_dist[sorgente] = 0;
-
-    // Relax di tutti gli archi per (n_nodi - 1) volte
-    for (int i = 0; i < n_nodi - 1; i++) {
-        for (int u = 0; u < n_nodi; u++) {
-            node_t *elem = E[u]->head;
-            while (elem != NULL) {
-                int v = elem->val;
-                float peso = elem->w;
-                if (V_dist[u] + peso < V_dist[v]) {
-                    V_dist[v] = V_dist[u] + peso;
-                    V_prev[v] = u;
-                }
-                elem = elem->next;
-            }
-        }
-    }
-
-    // Controllo cicli negativi
-    for (int u = 0; u < n_nodi; u++) {
-        node_t *elem = E[u]->head;
-        while (elem != NULL) {
-            int v = elem->val;
-            float peso = elem->w;
-            if (V_dist[u] + peso < V_dist[v]) {
-                cout << "ciclo peso negativo rilevato!" << endl;
-                return;
-            }
-            elem = elem->next;
-        }
-    }
-
-    // Opzionale: segna i nodi visitati per la visualizzazione
-    for (int i = 0; i < n_nodi; i++) {
-        if (V_dist[i] < INFTY)
-            V_visitato[i] = 1;
-    }
-
-    graph_print();
-}
-
-
 void shortest_path(int n) {
 
     /*      V_visitato[i]=0;  // flag = non visitato
@@ -303,44 +276,26 @@ void shortest_path(int n) {
 
     int q_size = n_nodi; /// contatore degli elementi in coda (V_visitato)
 
-    while (q_size != 0) {
+    V_dist[n] = 0;
+    for (int i = 0; i < n_nodi; i++) {
+        min_heap_insert(i, V_dist[i]);
+    }
 
-        // graph_print();
+    while (heap_size > 0) {
+        int u = heap_extract_min();
+        if (V_visitato[u]) continue;
+        V_visitato[u] = 1;
 
-        /// trova il minimo in coda
-        float best_dist = INFTY;
-        int best_idx = -1;
-        for (int i = 0; i < n_nodi; i++) {
-            if (V_visitato[i] == 0 && V_dist[i] < best_dist) { /// nodo e' in coda e e' migliore del nodo corrente
-                best_dist = V_dist[i];
-                best_idx = i;
+        node_t *elem = E[u]->head;
+        while (elem != NULL) {
+            int v = elem->val;
+            float alt = V_dist[u] + elem->w;
+            if (alt < V_dist[v]) {
+                V_dist[v] = alt;
+                V_prev[v] = u;
+                decrease_key(v, alt);
             }
-        }
-        if (best_idx >= 0) {
-            /// estrai dalla coda
-            int u = best_idx;
-            V_visitato[u] = 1;
-            q_size--;
-
-            /// esploro la lista di adiacenza
-            node_t *elem = E[u]->head;
-            while (elem != NULL) {
-                int v = elem->val; /// arco u --> v
-
-                /// alt ← dist[u] + Graph.Edges(u, v)
-                
-                float alt = V_dist[u] + elem->w; /// costo per arrivare al nuovo nodo passando per u
-                // float alt = V_dist[u] + elem->w + 1000*pow(abs(V[u]-V[v]),2) ; /// costo per arrivare al nuovo nodo passando per u
-
-                if (alt < V_dist[v]) {           // il percorso sorgente ---> u --> v migliora il percorso attuale sorgente --> v
-                    V_dist[v] = alt;
-                    V_prev[v] = u;
-                }
-                elem = elem->next;
-            }
-
-        } else { /// coda non vuota E nodi non raggiungibili ---> FINITO
-            q_size = 0;
+            elem = elem->next;
         }
     }
 
