@@ -36,73 +36,111 @@ int ct_visit = 0; // contatore durante visita
 //////////////////////////////////////////////////
 /// Heap
 //////////////////////////////////////////////////
+const int MAX_SIZE =256;
 
-const int MAX_SIZE = 10000;
-int heap[MAX_SIZE];
-int heap_pos[MAX_SIZE];    // heap_pos[v] = posizione del nodo v nel heap[]
-int heap_node[MAX_SIZE];   // heap_node[i] = nodo v in heap[i]
+float heap[MAX_SIZE];
+int heap_node[MAX_SIZE];
+int heap_pos[MAX_SIZE];
 int heap_size = 0;
-
-
 
 int parent(int i) { return (i - 1) / 2; }
 int left(int i) { return 2 * i + 1; }
 int right(int i) { return 2 * i + 2; }
 
-void swap_heap(int i, int j) {
-    swap(heap[i], heap[j]);
-    swap(heap_node[i], heap_node[j]);
-    heap_pos[heap_node[i]] = i;
-    heap_pos[heap_node[j]] = j;
-}
-
-void heapify_down(int i) {
-    int l = left(i);
-    int r = right(i);
-    int smallest = i;
-
-    if (l < heap_size && heap[l] < heap[smallest])
-        smallest = l;
-    if (r < heap_size && heap[r] < heap[smallest])
-        smallest = r;
-
-    if (smallest != i) {
-        swap_heap(i, smallest);
-        heapify_down(smallest);
-    }
-}
-
-void heapify_up(int i) {
-    while (i > 0 && heap[parent(i)] > heap[i]) {
-        swap_heap(i, parent(i));
-        i = parent(i);
-    }
-}
-
-void heap_insert(int nodo, int distanza) {
-    heap[heap_size] = distanza;
-    heap_node[heap_size] = nodo;
-    heap_pos[nodo] = heap_size;
-    heapify_up(heap_size);
+void heap_insert(int nodo, float distanza) {
+    int i = heap_size;
+    heap[i] = distanza;
+    heap_node[i] = nodo;
+    heap_pos[nodo] = i;
     heap_size++;
+
+    // heapify up inline
+    while (i > 0 && heap[parent(i)] > heap[i]) {
+        int p = parent(i);
+
+        // swap heap[i] <-> heap[p]
+        float tmp_dist = heap[i];
+        heap[i] = heap[p];
+        heap[p] = tmp_dist;
+
+        int tmp_node = heap_node[i];
+        heap_node[i] = heap_node[p];
+        heap_node[p] = tmp_node;
+
+        heap_pos[heap_node[i]] = i;
+        heap_pos[heap_node[p]] = p;
+
+        i = p;
+    }
 }
 
 int heap_remove_min() {
     if (heap_size == 0) return -1;
     int min_nodo = heap_node[0];
 
-    swap_heap(0, heap_size - 1);
+    // swap root with last element
+    heap[0] = heap[heap_size - 1];
+    heap_node[0] = heap_node[heap_size - 1];
+    heap_pos[heap_node[0]] = 0;
     heap_size--;
-    heapify_down(0);
+
+    // heapify down inline
+    int i = 0;
+    while (true) {
+        int l = left(i);
+        int r = right(i);
+        int smallest = i;
+
+        if (l < heap_size && heap[l] < heap[smallest]) smallest = l;
+        if (r < heap_size && heap[r] < heap[smallest]) smallest = r;
+
+        if (smallest != i) {
+            // swap i <-> smallest
+            float tmp_dist = heap[i];
+            heap[i] = heap[smallest];
+            heap[smallest] = tmp_dist;
+
+            int tmp_node = heap_node[i];
+            heap_node[i] = heap_node[smallest];
+            heap_node[smallest] = tmp_node;
+
+            heap_pos[heap_node[i]] = i;
+            heap_pos[heap_node[smallest]] = smallest;
+
+            i = smallest;
+        } else {
+            break;
+        }
+    }
 
     return min_nodo;
 }
 
-void decrease_key(int nodo, int nuova_distanza) {
+void decrease_key(int nodo, float nuova_distanza) {
     int i = heap_pos[nodo];
     heap[i] = nuova_distanza;
-    heapify_up(i);
+
+    // heapify up inline
+    while (i > 0 && heap[parent(i)] > heap[i]) {
+        int p = parent(i);
+
+        float tmp_dist = heap[i];
+        heap[i] = heap[p];
+        heap[p] = tmp_dist;
+
+        int tmp_node = heap_node[i];
+        heap_node[i] = heap_node[p];
+        heap_node[p] = tmp_node;
+
+        heap_pos[heap_node[i]] = i;
+        heap_pos[heap_node[p]] = p;
+
+        i = p;
+    }
 }
+
+
+
 
 
 //////////////////////////////////////////////////
