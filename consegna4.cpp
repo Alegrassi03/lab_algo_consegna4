@@ -46,7 +46,7 @@ int heap_size = 0;
 int parent(int i) { 
     return (i - 1) / 2;
  }
- 
+
 int left(int i) { 
     return 2 * i + 1; 
 }
@@ -479,6 +479,63 @@ int parse_cmd(int argc, char **argv) {
 
     return 0;
 }
+
+
+
+//Ho preso il codice c++ da GeekforFGeeks e l’ho fatto adattare dall’intelligenza artificiale, 
+//per renderlo operabile con la struttura dati esistente 
+
+void bellman_ford(int sorgente) {
+    // Inizializzazione
+    for (int i = 0; i < n_nodi; i++) {
+        V_dist[i] = INFTY;
+        V_prev[i] = -1;
+        V_visitato[i] = 0;
+    }
+    V_dist[sorgente] = 0;
+
+    // Relax di tutti gli archi per (n_nodi - 1) volte
+    for (int i = 0; i < n_nodi - 1; i++) {
+        for (int u = 0; u < n_nodi; u++) {
+            node_t *elem = E[u]->head;
+            while (elem != NULL) {
+                int v = elem->val;
+                float peso = elem->w;
+                if (V_dist[u] + peso < V_dist[v]) {
+                    V_dist[v] = V_dist[u] + peso;
+                    V_prev[v] = u;
+                }
+                elem = elem->next;
+            }
+        }
+    }
+
+    // Controllo cicli negativi
+    for (int u = 0; u < n_nodi; u++) {
+        node_t *elem = E[u]->head;
+        while (elem != NULL) {
+            int v = elem->val;
+            float peso = elem->w;
+            if (V_dist[u] + peso < V_dist[v]) {
+                cout << "Errore: ciclo di peso negativo rilevato!" << endl;
+                return;
+            }
+            elem = elem->next;
+        }
+    }
+
+    // Opzionale: segna i nodi visitati per la visualizzazione
+    for (int i = 0; i < n_nodi; i++) {
+        if (V_dist[i] < INFTY)
+            V_visitato[i] = 1;
+    }
+
+    graph_print();
+}
+
+
+
+
 
 int main(int argc, char **argv) {
     int i, test;
