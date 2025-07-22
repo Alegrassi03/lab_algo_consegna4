@@ -43,9 +43,17 @@ int heap_node[MAX_SIZE];
 int heap_pos[MAX_SIZE];
 int heap_size = 0;
 
-int parent(int i) { return (i - 1) / 2; }
-int left(int i) { return 2 * i + 1; }
-int right(int i) { return 2 * i + 2; }
+int parent(int i) { 
+    return (i - 1) / 2;
+ }
+ 
+int left(int i) { 
+    return 2 * i + 1; 
+}
+    
+int right(int i) { 
+    return 2 * i + 2; 
+}
 
 void heap_insert(int nodo, float distanza) {
     int i = heap_size;
