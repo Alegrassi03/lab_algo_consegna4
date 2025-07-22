@@ -1221,4 +1221,667 @@ node_99_1
 node_99_1 -> node_89_1 [ len=1.5 ]
 node_99_1 -> node_98_1 [ len=1.5 ]
 node_99_1 -> node_98_1 [ color=blue, penwidth=5, len=0.1 ]
+node_0_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -166" ];
+node_0_2 -> node_1_2 [ len=1.5 ]
+node_0_2 -> node_10_2 [ len=1.5 ]
+node_0_2 -> node_1_2 [ color=blue, penwidth=5, len=0.1 ]
+node_1_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -183" ];
+node_1_2 -> node_2_2 [ len=0.1 ]
+node_1_2 -> node_2_2 [ len=1.5 ]
+node_1_2 -> node_11_2 [ len=1.5 ]
+node_1_2 -> node_0_2 [ len=1.5 ]
+node_1_2 -> node_3_2 [ color=blue, penwidth=5, len=0.1 ]
+node_2_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -180" ];
+node_2_2 -> node_3_2 [ len=0.1 ]
+node_2_2 -> node_3_2 [ len=1.5 ]
+node_2_2 -> node_12_2 [ len=1.5 ]
+node_2_2 -> node_1_2 [ len=1.5 ]
+node_2_2 -> node_1_2 [ color=blue, penwidth=5, len=0.1 ]
+node_3_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -179" ];
+node_3_2 -> node_1_2 [ len=-0.4 ]
+node_3_2 -> node_4_2 [ len=1.5 ]
+node_3_2 -> node_13_2 [ len=1.5 ]
+node_3_2 -> node_2_2 [ len=1.5 ]
+node_3_2 -> node_2_2 [ color=blue, penwidth=5, len=0.1 ]
+node_4_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -164" ];
+node_4_2 -> node_5_2 [ len=1.5 ]
+node_4_2 -> node_14_2 [ len=1.5 ]
+node_4_2 -> node_3_2 [ len=1.5 ]
+node_4_2 -> node_3_2 [ color=blue, penwidth=5, len=0.1 ]
+node_5_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -149" ];
+node_5_2 -> node_6_2 [ len=1.5 ]
+node_5_2 -> node_15_2 [ len=1.5 ]
+node_5_2 -> node_4_2 [ len=1.5 ]
+node_5_2 -> node_4_2 [ color=blue, penwidth=5, len=0.1 ]
+node_6_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -134" ];
+node_6_2 -> node_7_2 [ len=1.5 ]
+node_6_2 -> node_16_2 [ len=1.5 ]
+node_6_2 -> node_5_2 [ len=1.5 ]
+node_6_2 -> node_5_2 [ color=blue, penwidth=5, len=0.1 ]
+node_7_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -119" ];
+node_7_2 -> node_8_2 [ len=1.5 ]
+node_7_2 -> node_17_2 [ len=1.5 ]
+node_7_2 -> node_6_2 [ len=1.5 ]
+node_7_2 -> node_6_2 [ color=blue, penwidth=5, len=0.1 ]
+node_8_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -104" ];
+node_8_2 -> node_9_2 [ len=1.5 ]
+node_8_2 -> node_18_2 [ len=1.5 ]
+node_8_2 -> node_7_2 [ len=1.5 ]
+node_8_2 -> node_7_2 [ color=blue, penwidth=5, len=0.1 ]
+node_9_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -89" ];
+node_9_2 -> node_19_2 [ len=1.5 ]
+node_9_2 -> node_8_2 [ len=1.5 ]
+node_9_2 -> node_8_2 [ color=blue, penwidth=5, len=0.1 ]
+node_10_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -151" ];
+node_10_2 -> node_11_2 [ len=1.5 ]
+node_10_2 -> node_20_2 [ len=1.5 ]
+node_10_2 -> node_0_2 [ len=1.5 ]
+node_10_2 -> node_11_2 [ color=blue, penwidth=5, len=0.1 ]
+node_11_2
+[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: -166" ];
+node_11_2 -> node_12_2 [ len=1.5 ]
+node_11_2 -> node_21_2 [ len=1.5 ]
+node_11_2 -> node_1_2 [ len=1.5 ]
+node_11_2 -> node_10_2 [ len=1.5 ]
+node_11_2 -> node_1_2 [ color=blue, penwidth=5, len=0.1 ]
+node_12_2
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: -165" ];
+node_12_2 -> node_13_2 [ len=1.5 ]
+node_12_2 -> node_22_2 [ len=1.5 ]
+node_12_2 -> node_2_2 [ len=1.5 ]
+node_12_2 -> node_11_2 [ len=1.5 ]
+node_12_2 -> node_2_2 [ color=blue, penwidth=5, len=0.1 ]
+node_13_2
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: -164" ];
+node_13_2 -> node_14_2 [ len=1.5 ]
+node_13_2 -> node_23_2 [ len=1.5 ]
+node_13_2 -> node_3_2 [ len=1.5 ]
+node_13_2 -> node_12_2 [ len=1.5 ]
+node_13_2 -> node_3_2 [ color=blue, penwidth=5, len=0.1 ]
+node_14_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: -149" ];
+node_14_2 -> node_15_2 [ len=1.5 ]
+node_14_2 -> node_24_2 [ len=1.5 ]
+node_14_2 -> node_4_2 [ len=1.5 ]
+node_14_2 -> node_13_2 [ len=1.5 ]
+node_14_2 -> node_4_2 [ color=blue, penwidth=5, len=0.1 ]
+node_15_2
+[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: -134" ];
+node_15_2 -> node_16_2 [ len=1.5 ]
+node_15_2 -> node_25_2 [ len=1.5 ]
+node_15_2 -> node_5_2 [ len=1.5 ]
+node_15_2 -> node_14_2 [ len=1.5 ]
+node_15_2 -> node_5_2 [ color=blue, penwidth=5, len=0.1 ]
+node_16_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: -119" ];
+node_16_2 -> node_17_2 [ len=1.5 ]
+node_16_2 -> node_26_2 [ len=1.5 ]
+node_16_2 -> node_6_2 [ len=1.5 ]
+node_16_2 -> node_15_2 [ len=1.5 ]
+node_16_2 -> node_6_2 [ color=blue, penwidth=5, len=0.1 ]
+node_17_2
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: -104" ];
+node_17_2 -> node_18_2 [ len=1.5 ]
+node_17_2 -> node_27_2 [ len=1.5 ]
+node_17_2 -> node_7_2 [ len=1.5 ]
+node_17_2 -> node_16_2 [ len=1.5 ]
+node_17_2 -> node_7_2 [ color=blue, penwidth=5, len=0.1 ]
+node_18_2
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: -89" ];
+node_18_2 -> node_19_2 [ len=1.5 ]
+node_18_2 -> node_28_2 [ len=1.5 ]
+node_18_2 -> node_8_2 [ len=1.5 ]
+node_18_2 -> node_17_2 [ len=1.5 ]
+node_18_2 -> node_8_2 [ color=blue, penwidth=5, len=0.1 ]
+node_19_2
+[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: -74" ];
+node_19_2 -> node_29_2 [ len=1.5 ]
+node_19_2 -> node_9_2 [ len=1.5 ]
+node_19_2 -> node_18_2 [ len=1.5 ]
+node_19_2 -> node_9_2 [ color=blue, penwidth=5, len=0.1 ]
+node_20_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -136" ];
+node_20_2 -> node_21_2 [ len=1.5 ]
+node_20_2 -> node_30_2 [ len=1.5 ]
+node_20_2 -> node_10_2 [ len=1.5 ]
+node_20_2 -> node_21_2 [ color=blue, penwidth=5, len=0.1 ]
+node_21_2
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: -151" ];
+node_21_2 -> node_22_2 [ len=1.5 ]
+node_21_2 -> node_31_2 [ len=1.5 ]
+node_21_2 -> node_11_2 [ len=1.5 ]
+node_21_2 -> node_20_2 [ len=1.5 ]
+node_21_2 -> node_11_2 [ color=blue, penwidth=5, len=0.1 ]
+node_22_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: -150" ];
+node_22_2 -> node_23_2 [ len=1.5 ]
+node_22_2 -> node_32_2 [ len=1.5 ]
+node_22_2 -> node_12_2 [ len=1.5 ]
+node_22_2 -> node_21_2 [ len=1.5 ]
+node_22_2 -> node_12_2 [ color=blue, penwidth=5, len=0.1 ]
+node_23_2
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: -149" ];
+node_23_2 -> node_24_2 [ len=1.5 ]
+node_23_2 -> node_33_2 [ len=1.5 ]
+node_23_2 -> node_13_2 [ len=1.5 ]
+node_23_2 -> node_22_2 [ len=1.5 ]
+node_23_2 -> node_13_2 [ color=blue, penwidth=5, len=0.1 ]
+node_24_2
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: -134" ];
+node_24_2 -> node_25_2 [ len=1.5 ]
+node_24_2 -> node_34_2 [ len=1.5 ]
+node_24_2 -> node_14_2 [ len=1.5 ]
+node_24_2 -> node_23_2 [ len=1.5 ]
+node_24_2 -> node_14_2 [ color=blue, penwidth=5, len=0.1 ]
+node_25_2
+[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: -119" ];
+node_25_2 -> node_26_2 [ len=1.5 ]
+node_25_2 -> node_35_2 [ len=1.5 ]
+node_25_2 -> node_15_2 [ len=1.5 ]
+node_25_2 -> node_24_2 [ len=1.5 ]
+node_25_2 -> node_15_2 [ color=blue, penwidth=5, len=0.1 ]
+node_26_2
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: -104" ];
+node_26_2 -> node_27_2 [ len=1.5 ]
+node_26_2 -> node_36_2 [ len=1.5 ]
+node_26_2 -> node_16_2 [ len=1.5 ]
+node_26_2 -> node_25_2 [ len=1.5 ]
+node_26_2 -> node_16_2 [ color=blue, penwidth=5, len=0.1 ]
+node_27_2
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: -89" ];
+node_27_2 -> node_28_2 [ len=1.5 ]
+node_27_2 -> node_37_2 [ len=1.5 ]
+node_27_2 -> node_17_2 [ len=1.5 ]
+node_27_2 -> node_26_2 [ len=1.5 ]
+node_27_2 -> node_17_2 [ color=blue, penwidth=5, len=0.1 ]
+node_28_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: -74" ];
+node_28_2 -> node_29_2 [ len=1.5 ]
+node_28_2 -> node_38_2 [ len=1.5 ]
+node_28_2 -> node_18_2 [ len=1.5 ]
+node_28_2 -> node_27_2 [ len=1.5 ]
+node_28_2 -> node_18_2 [ color=blue, penwidth=5, len=0.1 ]
+node_29_2
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: -59" ];
+node_29_2 -> node_39_2 [ len=1.5 ]
+node_29_2 -> node_19_2 [ len=1.5 ]
+node_29_2 -> node_28_2 [ len=1.5 ]
+node_29_2 -> node_19_2 [ color=blue, penwidth=5, len=0.1 ]
+node_30_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -121" ];
+node_30_2 -> node_31_2 [ len=1.5 ]
+node_30_2 -> node_40_2 [ len=1.5 ]
+node_30_2 -> node_20_2 [ len=1.5 ]
+node_30_2 -> node_31_2 [ color=blue, penwidth=5, len=0.1 ]
+node_31_2
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: -136" ];
+node_31_2 -> node_32_2 [ len=1.5 ]
+node_31_2 -> node_41_2 [ len=1.5 ]
+node_31_2 -> node_21_2 [ len=1.5 ]
+node_31_2 -> node_30_2 [ len=1.5 ]
+node_31_2 -> node_21_2 [ color=blue, penwidth=5, len=0.1 ]
+node_32_2
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: -135" ];
+node_32_2 -> node_33_2 [ len=1.5 ]
+node_32_2 -> node_42_2 [ len=1.5 ]
+node_32_2 -> node_22_2 [ len=1.5 ]
+node_32_2 -> node_31_2 [ len=1.5 ]
+node_32_2 -> node_22_2 [ color=blue, penwidth=5, len=0.1 ]
+node_33_2
+[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: -134" ];
+node_33_2 -> node_34_2 [ len=1.5 ]
+node_33_2 -> node_43_2 [ len=1.5 ]
+node_33_2 -> node_23_2 [ len=1.5 ]
+node_33_2 -> node_32_2 [ len=1.5 ]
+node_33_2 -> node_23_2 [ color=blue, penwidth=5, len=0.1 ]
+node_34_2
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: -119" ];
+node_34_2 -> node_35_2 [ len=1.5 ]
+node_34_2 -> node_44_2 [ len=1.5 ]
+node_34_2 -> node_24_2 [ len=1.5 ]
+node_34_2 -> node_33_2 [ len=1.5 ]
+node_34_2 -> node_24_2 [ color=blue, penwidth=5, len=0.1 ]
+node_35_2
+[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: -104" ];
+node_35_2 -> node_36_2 [ len=1.5 ]
+node_35_2 -> node_45_2 [ len=1.5 ]
+node_35_2 -> node_25_2 [ len=1.5 ]
+node_35_2 -> node_34_2 [ len=1.5 ]
+node_35_2 -> node_25_2 [ color=blue, penwidth=5, len=0.1 ]
+node_36_2
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: -89" ];
+node_36_2 -> node_37_2 [ len=1.5 ]
+node_36_2 -> node_46_2 [ len=1.5 ]
+node_36_2 -> node_26_2 [ len=1.5 ]
+node_36_2 -> node_35_2 [ len=1.5 ]
+node_36_2 -> node_26_2 [ color=blue, penwidth=5, len=0.1 ]
+node_37_2
+[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: -74" ];
+node_37_2 -> node_38_2 [ len=1.5 ]
+node_37_2 -> node_47_2 [ len=1.5 ]
+node_37_2 -> node_27_2 [ len=1.5 ]
+node_37_2 -> node_36_2 [ len=1.5 ]
+node_37_2 -> node_27_2 [ color=blue, penwidth=5, len=0.1 ]
+node_38_2
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: -59" ];
+node_38_2 -> node_39_2 [ len=1.5 ]
+node_38_2 -> node_48_2 [ len=1.5 ]
+node_38_2 -> node_28_2 [ len=1.5 ]
+node_38_2 -> node_37_2 [ len=1.5 ]
+node_38_2 -> node_28_2 [ color=blue, penwidth=5, len=0.1 ]
+node_39_2
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: -44" ];
+node_39_2 -> node_49_2 [ len=1.5 ]
+node_39_2 -> node_29_2 [ len=1.5 ]
+node_39_2 -> node_38_2 [ len=1.5 ]
+node_39_2 -> node_29_2 [ color=blue, penwidth=5, len=0.1 ]
+node_40_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -106" ];
+node_40_2 -> node_41_2 [ len=1.5 ]
+node_40_2 -> node_50_2 [ len=1.5 ]
+node_40_2 -> node_30_2 [ len=1.5 ]
+node_40_2 -> node_41_2 [ color=blue, penwidth=5, len=0.1 ]
+node_41_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: -121" ];
+node_41_2 -> node_42_2 [ len=1.5 ]
+node_41_2 -> node_51_2 [ len=1.5 ]
+node_41_2 -> node_31_2 [ len=1.5 ]
+node_41_2 -> node_40_2 [ len=1.5 ]
+node_41_2 -> node_31_2 [ color=blue, penwidth=5, len=0.1 ]
+node_42_2
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: -120" ];
+node_42_2 -> node_43_2 [ len=1.5 ]
+node_42_2 -> node_52_2 [ len=1.5 ]
+node_42_2 -> node_32_2 [ len=1.5 ]
+node_42_2 -> node_41_2 [ len=1.5 ]
+node_42_2 -> node_32_2 [ color=blue, penwidth=5, len=0.1 ]
+node_43_2
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: -119" ];
+node_43_2 -> node_44_2 [ len=1.5 ]
+node_43_2 -> node_53_2 [ len=1.5 ]
+node_43_2 -> node_33_2 [ len=1.5 ]
+node_43_2 -> node_42_2 [ len=1.5 ]
+node_43_2 -> node_33_2 [ color=blue, penwidth=5, len=0.1 ]
+node_44_2
+[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: -104" ];
+node_44_2 -> node_45_2 [ len=1.5 ]
+node_44_2 -> node_54_2 [ len=1.5 ]
+node_44_2 -> node_34_2 [ len=1.5 ]
+node_44_2 -> node_43_2 [ len=1.5 ]
+node_44_2 -> node_34_2 [ color=blue, penwidth=5, len=0.1 ]
+node_45_2
+[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: -89" ];
+node_45_2 -> node_46_2 [ len=1.5 ]
+node_45_2 -> node_55_2 [ len=1.5 ]
+node_45_2 -> node_35_2 [ len=1.5 ]
+node_45_2 -> node_44_2 [ len=1.5 ]
+node_45_2 -> node_35_2 [ color=blue, penwidth=5, len=0.1 ]
+node_46_2
+[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: -74" ];
+node_46_2 -> node_47_2 [ len=1.5 ]
+node_46_2 -> node_56_2 [ len=1.5 ]
+node_46_2 -> node_36_2 [ len=1.5 ]
+node_46_2 -> node_45_2 [ len=1.5 ]
+node_46_2 -> node_36_2 [ color=blue, penwidth=5, len=0.1 ]
+node_47_2
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: -59" ];
+node_47_2 -> node_48_2 [ len=1.5 ]
+node_47_2 -> node_57_2 [ len=1.5 ]
+node_47_2 -> node_37_2 [ len=1.5 ]
+node_47_2 -> node_46_2 [ len=1.5 ]
+node_47_2 -> node_37_2 [ color=blue, penwidth=5, len=0.1 ]
+node_48_2
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: -44" ];
+node_48_2 -> node_49_2 [ len=1.5 ]
+node_48_2 -> node_58_2 [ len=1.5 ]
+node_48_2 -> node_38_2 [ len=1.5 ]
+node_48_2 -> node_47_2 [ len=1.5 ]
+node_48_2 -> node_38_2 [ color=blue, penwidth=5, len=0.1 ]
+node_49_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: -29" ];
+node_49_2 -> node_59_2 [ len=1.5 ]
+node_49_2 -> node_39_2 [ len=1.5 ]
+node_49_2 -> node_48_2 [ len=1.5 ]
+node_49_2 -> node_39_2 [ color=blue, penwidth=5, len=0.1 ]
+node_50_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -91" ];
+node_50_2 -> node_51_2 [ len=1.5 ]
+node_50_2 -> node_60_2 [ len=1.5 ]
+node_50_2 -> node_40_2 [ len=1.5 ]
+node_50_2 -> node_51_2 [ color=blue, penwidth=5, len=0.1 ]
+node_51_2
+[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: -106" ];
+node_51_2 -> node_52_2 [ len=1.5 ]
+node_51_2 -> node_61_2 [ len=1.5 ]
+node_51_2 -> node_41_2 [ len=1.5 ]
+node_51_2 -> node_50_2 [ len=1.5 ]
+node_51_2 -> node_41_2 [ color=blue, penwidth=5, len=0.1 ]
+node_52_2
+[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: -105" ];
+node_52_2 -> node_53_2 [ len=1.5 ]
+node_52_2 -> node_62_2 [ len=1.5 ]
+node_52_2 -> node_42_2 [ len=1.5 ]
+node_52_2 -> node_51_2 [ len=1.5 ]
+node_52_2 -> node_42_2 [ color=blue, penwidth=5, len=0.1 ]
+node_53_2
+[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: -104" ];
+node_53_2 -> node_54_2 [ len=1.5 ]
+node_53_2 -> node_63_2 [ len=1.5 ]
+node_53_2 -> node_43_2 [ len=1.5 ]
+node_53_2 -> node_52_2 [ len=1.5 ]
+node_53_2 -> node_43_2 [ color=blue, penwidth=5, len=0.1 ]
+node_54_2
+[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: -89" ];
+node_54_2 -> node_55_2 [ len=1.5 ]
+node_54_2 -> node_64_2 [ len=1.5 ]
+node_54_2 -> node_44_2 [ len=1.5 ]
+node_54_2 -> node_53_2 [ len=1.5 ]
+node_54_2 -> node_44_2 [ color=blue, penwidth=5, len=0.1 ]
+node_55_2
+[ shape = oval; fillcolor = "0.1 1 1"; style=filled; label = "Val: 1, dist: -74" ];
+node_55_2 -> node_56_2 [ len=1.5 ]
+node_55_2 -> node_65_2 [ len=1.5 ]
+node_55_2 -> node_45_2 [ len=1.5 ]
+node_55_2 -> node_54_2 [ len=1.5 ]
+node_55_2 -> node_45_2 [ color=blue, penwidth=5, len=0.1 ]
+node_56_2
+[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: -59" ];
+node_56_2 -> node_57_2 [ len=1.5 ]
+node_56_2 -> node_66_2 [ len=1.5 ]
+node_56_2 -> node_46_2 [ len=1.5 ]
+node_56_2 -> node_55_2 [ len=1.5 ]
+node_56_2 -> node_46_2 [ color=blue, penwidth=5, len=0.1 ]
+node_57_2
+[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: -44" ];
+node_57_2 -> node_58_2 [ len=1.5 ]
+node_57_2 -> node_67_2 [ len=1.5 ]
+node_57_2 -> node_47_2 [ len=1.5 ]
+node_57_2 -> node_56_2 [ len=1.5 ]
+node_57_2 -> node_47_2 [ color=blue, penwidth=5, len=0.1 ]
+node_58_2
+[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: -29" ];
+node_58_2 -> node_59_2 [ len=1.5 ]
+node_58_2 -> node_68_2 [ len=1.5 ]
+node_58_2 -> node_48_2 [ len=1.5 ]
+node_58_2 -> node_57_2 [ len=1.5 ]
+node_58_2 -> node_48_2 [ color=blue, penwidth=5, len=0.1 ]
+node_59_2
+[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: -14" ];
+node_59_2 -> node_69_2 [ len=1.5 ]
+node_59_2 -> node_49_2 [ len=1.5 ]
+node_59_2 -> node_58_2 [ len=1.5 ]
+node_59_2 -> node_49_2 [ color=blue, penwidth=5, len=0.1 ]
+node_60_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -76" ];
+node_60_2 -> node_61_2 [ len=1.5 ]
+node_60_2 -> node_70_2 [ len=1.5 ]
+node_60_2 -> node_50_2 [ len=1.5 ]
+node_60_2 -> node_61_2 [ color=blue, penwidth=5, len=0.1 ]
+node_61_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: -91" ];
+node_61_2 -> node_62_2 [ len=1.5 ]
+node_61_2 -> node_71_2 [ len=1.5 ]
+node_61_2 -> node_51_2 [ len=1.5 ]
+node_61_2 -> node_60_2 [ len=1.5 ]
+node_61_2 -> node_51_2 [ color=blue, penwidth=5, len=0.1 ]
+node_62_2
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: -90" ];
+node_62_2 -> node_63_2 [ len=1.5 ]
+node_62_2 -> node_72_2 [ len=1.5 ]
+node_62_2 -> node_52_2 [ len=1.5 ]
+node_62_2 -> node_61_2 [ len=1.5 ]
+node_62_2 -> node_52_2 [ color=blue, penwidth=5, len=0.1 ]
+node_63_2
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: -89" ];
+node_63_2 -> node_64_2 [ len=1.5 ]
+node_63_2 -> node_73_2 [ len=1.5 ]
+node_63_2 -> node_53_2 [ len=1.5 ]
+node_63_2 -> node_62_2 [ len=1.5 ]
+node_63_2 -> node_53_2 [ color=blue, penwidth=5, len=0.1 ]
+node_64_2
+[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: -74" ];
+node_64_2 -> node_65_2 [ len=1.5 ]
+node_64_2 -> node_74_2 [ len=1.5 ]
+node_64_2 -> node_54_2 [ len=1.5 ]
+node_64_2 -> node_63_2 [ len=1.5 ]
+node_64_2 -> node_54_2 [ color=blue, penwidth=5, len=0.1 ]
+node_65_2
+[ shape = oval; fillcolor = "0.1 1 0.894427"; style=filled; label = "Val: 0.8, dist: -59" ];
+node_65_2 -> node_66_2 [ len=1.5 ]
+node_65_2 -> node_75_2 [ len=1.5 ]
+node_65_2 -> node_55_2 [ len=1.5 ]
+node_65_2 -> node_64_2 [ len=1.5 ]
+node_65_2 -> node_55_2 [ color=blue, penwidth=5, len=0.1 ]
+node_66_2
+[ shape = oval; fillcolor = "0.1 1 0.8"; style=filled; label = "Val: 0.64, dist: -44" ];
+node_66_2 -> node_67_2 [ len=1.5 ]
+node_66_2 -> node_76_2 [ len=1.5 ]
+node_66_2 -> node_56_2 [ len=1.5 ]
+node_66_2 -> node_65_2 [ len=1.5 ]
+node_66_2 -> node_56_2 [ color=blue, penwidth=5, len=0.1 ]
+node_67_2
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: -29" ];
+node_67_2 -> node_68_2 [ len=1.5 ]
+node_67_2 -> node_77_2 [ len=1.5 ]
+node_67_2 -> node_57_2 [ len=1.5 ]
+node_67_2 -> node_66_2 [ len=1.5 ]
+node_67_2 -> node_57_2 [ color=blue, penwidth=5, len=0.1 ]
+node_68_2
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: -14" ];
+node_68_2 -> node_69_2 [ len=1.5 ]
+node_68_2 -> node_78_2 [ len=1.5 ]
+node_68_2 -> node_58_2 [ len=1.5 ]
+node_68_2 -> node_67_2 [ len=1.5 ]
+node_68_2 -> node_58_2 [ color=blue, penwidth=5, len=0.1 ]
+node_69_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 1" ];
+node_69_2 -> node_79_2 [ len=1.5 ]
+node_69_2 -> node_59_2 [ len=1.5 ]
+node_69_2 -> node_68_2 [ len=1.5 ]
+node_69_2 -> node_59_2 [ color=blue, penwidth=5, len=0.1 ]
+node_70_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -61" ];
+node_70_2 -> node_71_2 [ len=1.5 ]
+node_70_2 -> node_80_2 [ len=1.5 ]
+node_70_2 -> node_60_2 [ len=1.5 ]
+node_70_2 -> node_71_2 [ color=blue, penwidth=5, len=0.1 ]
+node_71_2
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: -76" ];
+node_71_2 -> node_72_2 [ len=1.5 ]
+node_71_2 -> node_81_2 [ len=1.5 ]
+node_71_2 -> node_61_2 [ len=1.5 ]
+node_71_2 -> node_70_2 [ len=1.5 ]
+node_71_2 -> node_61_2 [ color=blue, penwidth=5, len=0.1 ]
+node_72_2
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: -75" ];
+node_72_2 -> node_73_2 [ len=1.5 ]
+node_72_2 -> node_82_2 [ len=1.5 ]
+node_72_2 -> node_62_2 [ len=1.5 ]
+node_72_2 -> node_71_2 [ len=1.5 ]
+node_72_2 -> node_62_2 [ color=blue, penwidth=5, len=0.1 ]
+node_73_2
+[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: -74" ];
+node_73_2 -> node_74_2 [ len=1.5 ]
+node_73_2 -> node_83_2 [ len=1.5 ]
+node_73_2 -> node_63_2 [ len=1.5 ]
+node_73_2 -> node_72_2 [ len=1.5 ]
+node_73_2 -> node_63_2 [ color=blue, penwidth=5, len=0.1 ]
+node_74_2
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: -59" ];
+node_74_2 -> node_75_2 [ len=1.5 ]
+node_74_2 -> node_84_2 [ len=1.5 ]
+node_74_2 -> node_64_2 [ len=1.5 ]
+node_74_2 -> node_73_2 [ len=1.5 ]
+node_74_2 -> node_64_2 [ color=blue, penwidth=5, len=0.1 ]
+node_75_2
+[ shape = oval; fillcolor = "0.1 1 0.774597"; style=filled; label = "Val: 0.6, dist: -44" ];
+node_75_2 -> node_76_2 [ len=1.5 ]
+node_75_2 -> node_85_2 [ len=1.5 ]
+node_75_2 -> node_65_2 [ len=1.5 ]
+node_75_2 -> node_74_2 [ len=1.5 ]
+node_75_2 -> node_65_2 [ color=blue, penwidth=5, len=0.1 ]
+node_76_2
+[ shape = oval; fillcolor = "0.1 1 0.69282"; style=filled; label = "Val: 0.48, dist: -29" ];
+node_76_2 -> node_77_2 [ len=1.5 ]
+node_76_2 -> node_86_2 [ len=1.5 ]
+node_76_2 -> node_66_2 [ len=1.5 ]
+node_76_2 -> node_75_2 [ len=1.5 ]
+node_76_2 -> node_66_2 [ color=blue, penwidth=5, len=0.1 ]
+node_77_2
+[ shape = oval; fillcolor = "0.1 1 0.6"; style=filled; label = "Val: 0.36, dist: -14" ];
+node_77_2 -> node_78_2 [ len=1.5 ]
+node_77_2 -> node_87_2 [ len=1.5 ]
+node_77_2 -> node_67_2 [ len=1.5 ]
+node_77_2 -> node_76_2 [ len=1.5 ]
+node_77_2 -> node_67_2 [ color=blue, penwidth=5, len=0.1 ]
+node_78_2
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 1" ];
+node_78_2 -> node_79_2 [ len=1.5 ]
+node_78_2 -> node_88_2 [ len=1.5 ]
+node_78_2 -> node_68_2 [ len=1.5 ]
+node_78_2 -> node_77_2 [ len=1.5 ]
+node_78_2 -> node_68_2 [ color=blue, penwidth=5, len=0.1 ]
+node_79_2
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 16" ];
+node_79_2 -> node_89_2 [ len=1.5 ]
+node_79_2 -> node_69_2 [ len=1.5 ]
+node_79_2 -> node_78_2 [ len=1.5 ]
+node_79_2 -> node_69_2 [ color=blue, penwidth=5, len=0.1 ]
+node_80_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -46" ];
+node_80_2 -> node_81_2 [ len=1.5 ]
+node_80_2 -> node_90_2 [ len=1.5 ]
+node_80_2 -> node_70_2 [ len=1.5 ]
+node_80_2 -> node_81_2 [ color=blue, penwidth=5, len=0.1 ]
+node_81_2
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: -61" ];
+node_81_2 -> node_82_2 [ len=1.5 ]
+node_81_2 -> node_91_2 [ len=1.5 ]
+node_81_2 -> node_71_2 [ len=1.5 ]
+node_81_2 -> node_80_2 [ len=1.5 ]
+node_81_2 -> node_71_2 [ color=blue, penwidth=5, len=0.1 ]
+node_82_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: -60" ];
+node_82_2 -> node_83_2 [ len=1.5 ]
+node_82_2 -> node_92_2 [ len=1.5 ]
+node_82_2 -> node_72_2 [ len=1.5 ]
+node_82_2 -> node_81_2 [ len=1.5 ]
+node_82_2 -> node_72_2 [ color=blue, penwidth=5, len=0.1 ]
+node_83_2
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: -59" ];
+node_83_2 -> node_84_2 [ len=1.5 ]
+node_83_2 -> node_93_2 [ len=1.5 ]
+node_83_2 -> node_73_2 [ len=1.5 ]
+node_83_2 -> node_82_2 [ len=1.5 ]
+node_83_2 -> node_73_2 [ color=blue, penwidth=5, len=0.1 ]
+node_84_2
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: -44" ];
+node_84_2 -> node_85_2 [ len=1.5 ]
+node_84_2 -> node_94_2 [ len=1.5 ]
+node_84_2 -> node_74_2 [ len=1.5 ]
+node_84_2 -> node_83_2 [ len=1.5 ]
+node_84_2 -> node_74_2 [ color=blue, penwidth=5, len=0.1 ]
+node_85_2
+[ shape = oval; fillcolor = "0.1 1 0.632456"; style=filled; label = "Val: 0.4, dist: -29" ];
+node_85_2 -> node_86_2 [ len=1.5 ]
+node_85_2 -> node_95_2 [ len=1.5 ]
+node_85_2 -> node_75_2 [ len=1.5 ]
+node_85_2 -> node_84_2 [ len=1.5 ]
+node_85_2 -> node_75_2 [ color=blue, penwidth=5, len=0.1 ]
+node_86_2
+[ shape = oval; fillcolor = "0.1 1 0.565685"; style=filled; label = "Val: 0.32, dist: -14" ];
+node_86_2 -> node_87_2 [ len=1.5 ]
+node_86_2 -> node_96_2 [ len=1.5 ]
+node_86_2 -> node_76_2 [ len=1.5 ]
+node_86_2 -> node_85_2 [ len=1.5 ]
+node_86_2 -> node_76_2 [ color=blue, penwidth=5, len=0.1 ]
+node_87_2
+[ shape = oval; fillcolor = "0.1 1 0.489898"; style=filled; label = "Val: 0.24, dist: 1" ];
+node_87_2 -> node_88_2 [ len=1.5 ]
+node_87_2 -> node_97_2 [ len=1.5 ]
+node_87_2 -> node_77_2 [ len=1.5 ]
+node_87_2 -> node_86_2 [ len=1.5 ]
+node_87_2 -> node_77_2 [ color=blue, penwidth=5, len=0.1 ]
+node_88_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 16" ];
+node_88_2 -> node_89_2 [ len=1.5 ]
+node_88_2 -> node_98_2 [ len=1.5 ]
+node_88_2 -> node_78_2 [ len=1.5 ]
+node_88_2 -> node_87_2 [ len=1.5 ]
+node_88_2 -> node_78_2 [ color=blue, penwidth=5, len=0.1 ]
+node_89_2
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 31" ];
+node_89_2 -> node_99_2 [ len=1.5 ]
+node_89_2 -> node_79_2 [ len=1.5 ]
+node_89_2 -> node_88_2 [ len=1.5 ]
+node_89_2 -> node_79_2 [ color=blue, penwidth=5, len=0.1 ]
+node_90_2
+[ shape = oval; fillcolor = "0.1 1 0"; style=filled; label = "Val: 0, dist: -31" ];
+node_90_2 -> node_91_2 [ len=1.5 ]
+node_90_2 -> node_80_2 [ len=1.5 ]
+node_90_2 -> node_91_2 [ color=blue, penwidth=5, len=0.1 ]
+node_91_2
+[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: -46" ];
+node_91_2 -> node_92_2 [ len=1.5 ]
+node_91_2 -> node_81_2 [ len=1.5 ]
+node_91_2 -> node_90_2 [ len=1.5 ]
+node_91_2 -> node_81_2 [ color=blue, penwidth=5, len=0.1 ]
+node_92_2
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: -45" ];
+node_92_2 -> node_93_2 [ len=1.5 ]
+node_92_2 -> node_82_2 [ len=1.5 ]
+node_92_2 -> node_91_2 [ len=1.5 ]
+node_92_2 -> node_82_2 [ color=blue, penwidth=5, len=0.1 ]
+node_93_2
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: -44" ];
+node_93_2 -> node_94_2 [ len=1.5 ]
+node_93_2 -> node_83_2 [ len=1.5 ]
+node_93_2 -> node_92_2 [ len=1.5 ]
+node_93_2 -> node_83_2 [ color=blue, penwidth=5, len=0.1 ]
+node_94_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: -29" ];
+node_94_2 -> node_95_2 [ len=1.5 ]
+node_94_2 -> node_84_2 [ len=1.5 ]
+node_94_2 -> node_93_2 [ len=1.5 ]
+node_94_2 -> node_84_2 [ color=blue, penwidth=5, len=0.1 ]
+node_95_2
+[ shape = oval; fillcolor = "0.1 1 0.447214"; style=filled; label = "Val: 0.2, dist: -14" ];
+node_95_2 -> node_96_2 [ len=1.5 ]
+node_95_2 -> node_85_2 [ len=1.5 ]
+node_95_2 -> node_94_2 [ len=1.5 ]
+node_95_2 -> node_85_2 [ color=blue, penwidth=5, len=0.1 ]
+node_96_2
+[ shape = oval; fillcolor = "0.1 1 0.4"; style=filled; label = "Val: 0.16, dist: 1" ];
+node_96_2 -> node_97_2 [ len=1.5 ]
+node_96_2 -> node_86_2 [ len=1.5 ]
+node_96_2 -> node_95_2 [ len=1.5 ]
+node_96_2 -> node_86_2 [ color=blue, penwidth=5, len=0.1 ]
+node_97_2
+[ shape = oval; fillcolor = "0.1 1 0.34641"; style=filled; label = "Val: 0.12, dist: 16" ];
+node_97_2 -> node_98_2 [ len=1.5 ]
+node_97_2 -> node_87_2 [ len=1.5 ]
+node_97_2 -> node_96_2 [ len=1.5 ]
+node_97_2 -> node_87_2 [ color=blue, penwidth=5, len=0.1 ]
+node_98_2
+[ shape = oval; fillcolor = "0.1 1 0.282843"; style=filled; label = "Val: 0.08, dist: 31" ];
+node_98_2 -> node_99_2 [ len=1.5 ]
+node_98_2 -> node_88_2 [ len=1.5 ]
+node_98_2 -> node_97_2 [ len=1.5 ]
+node_98_2 -> node_88_2 [ color=blue, penwidth=5, len=0.1 ]
+node_99_2
+[ shape = oval; fillcolor = "0.1 1 0.2"; style=filled; label = "Val: 0.04, dist: 46" ];
+node_99_2 -> node_89_2 [ len=1.5 ]
+node_99_2 -> node_98_2 [ len=1.5 ]
+node_99_2 -> node_89_2 [ color=blue, penwidth=5, len=0.1 ]
 }

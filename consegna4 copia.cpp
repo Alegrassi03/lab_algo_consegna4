@@ -635,9 +635,7 @@ int main(int argc, char **argv) {
 
     shortest_path(0);
 
-    list_insert_front(E[1], 2, 1);  // 1 → 2
-    list_insert_front(E[2], 3, 1);  // 2 → 3
-    list_insert_front(E[3], 1, -4); // 3 → 1 ciclo negativo 
+    list_insert_front(E[1],2, -3); // arco da nodo 5 a 10 con peso -3
 
     bellman_ford(0);
 
