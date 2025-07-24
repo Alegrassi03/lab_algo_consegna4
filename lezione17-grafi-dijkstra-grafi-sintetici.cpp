@@ -298,6 +298,54 @@ void shortest_path(int n) {
     graph_print();
 }
 
+void bellman_ford(int sorgente) {
+    // Inizializzazione
+    for (int i = 0; i < n_nodi; i++) {
+        V_dist[i] = INFTY;
+        V_prev[i] = -1;
+        V_visitato[i] = 0;
+    }
+    V_dist[sorgente] = 0;
+
+    // Relax di tutti gli archi per (n_nodi - 1) volte
+    for (int i = 0; i < n_nodi - 1; i++) {
+        for (int u = 0; u < n_nodi; u++) {
+            node_t *elem = E[u]->head;
+            while (elem != NULL) {
+                int v = elem->val;
+                float peso = elem->w;
+                if (V_dist[u] + peso < V_dist[v]) {
+                    V_dist[v] = V_dist[u] + peso;
+                    V_prev[v] = u;
+                }
+                elem = elem->next;
+            }
+        }
+    }
+
+    // Controllo cicli negativi
+    for (int u = 0; u < n_nodi; u++) {
+        node_t *elem = E[u]->head;
+        while (elem != NULL) {
+            int v = elem->val;
+            float peso = elem->w;
+            if (V_dist[u] + peso < V_dist[v]) {
+                cout << "Errore: ciclo di peso negativo rilevato!" << endl;
+                return;
+            }
+            elem = elem->next;
+        }
+    }
+
+    // Opzionale: segna i nodi visitati per la visualizzazione
+    for (int i = 0; i < n_nodi; i++) {
+        if (V_dist[i] < INFTY)
+            V_visitato[i] = 1;
+    }
+
+    graph_print();
+}
+
 int DFS(int n) {
 
     graph_print();
