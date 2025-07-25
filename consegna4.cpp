@@ -43,15 +43,15 @@ int heap_node[MAX_SIZE];
 int heap_pos[MAX_SIZE];
 int heap_size = 0;
 
-int parent(int i) { 
+int parent_idx(int i) { 
     return (i - 1) / 2;
  }
 
-int left(int i) { 
+int left_idx(int i) { 
     return 2 * i + 1; 
 }
     
-int right(int i) { 
+int right_idx(int i) { 
     return 2 * i + 2; 
 }
 
@@ -63,8 +63,8 @@ void heap_insert(int nodo, float distanza) {
     heap_size++;
 
 
-    while (i > 0 && heap[parent(i)] > heap[i]) {
-        int p = parent(i);
+    while (i > 0 && heap[parent_idx(i)] > heap[i]) {
+        int p = parent_idx(i);
 
         // swap heap[i] <-> heap[p]
         float tmp_dist = heap[i];
@@ -95,8 +95,8 @@ int heap_remove_min() {
     // heapify down inline
     int i = 0;
     while (true) {
-        int l = left(i);
-        int r = right(i);
+        int l = left_idx(i);
+        int r = right_idx(i);
         int smallest = i;
 
         if (l < heap_size && heap[l] < heap[smallest]) smallest = l;
@@ -129,8 +129,8 @@ void decrease_key(int nodo, float nuova_distanza) {
     heap[i] = nuova_distanza;
 
     // heapify up inline
-    while (i > 0 && heap[parent(i)] > heap[i]) {
-        int p = parent(i);
+    while (i > 0 && heap[parent_idx(i)] > heap[i]) {
+        int p = parent_idx(i);
 
         float tmp_dist = heap[i];
         heap[i] = heap[p];
@@ -152,7 +152,7 @@ void decrease_key(int nodo, float nuova_distanza) {
 
 
 //////////////////////////////////////////////////
-/// Heap
+/// FINE Heap
 //////////////////////////////////////////////////
 
 
@@ -367,42 +367,10 @@ void print_array_graph(int *A, int n, string c, int a, int l, int m, int r) {
     output_graph << ">];" << endl;
 }
 
-void shortest_path(int n) {
 
-    /*      V_visitato[i]=0;  // flag = non visitato
-      V_prev[i]=-1;  // non c'e' precedente
-      V_dist[i]=INFTY;  // infinito
-    */
 
-    V_dist[n] = 0;
 
-    int q_size = n_nodi; /// contatore degli elementi in coda (V_visitato)
 
-    V_dist[n] = 0;
-    for (int i = 0; i < n_nodi; i++) {
-        heap_insert(i, V_dist[i]);
-    }
-
-    while (heap_size > 0) {
-        int u = heap_remove_min();
-        if (V_visitato[u]) continue;
-        V_visitato[u] = 1;
-
-        node_t *elem = E[u]->head;
-        while (elem != NULL) {
-            int v = elem->val;
-            float alt = V_dist[u] + elem->w;
-            if (alt < V_dist[v]) {
-                V_dist[v] = alt;
-                V_prev[v] = u;
-                decrease_key(v, alt);
-            }
-            elem = elem->next;
-        }
-    }
-
-    graph_print();
-}
 
 int DFS(int n) {
 
@@ -485,6 +453,48 @@ int parse_cmd(int argc, char **argv) {
 //Ho preso il codice c++ da GeekforFGeeks e l’ho fatto adattare dall’intelligenza artificiale, 
 //per renderlo operabile con la struttura dati esistente 
 
+
+//////////////////////////////////////////////////
+/// Funzioni Consegna4.  //l'heap è stato modificato in un min-heap e shortest path modificato per usare l'heap 
+//////////////////////////////////////////////////
+
+void shortest_path(int n) {
+
+    /*      V_visitato[i]=0;  // flag = non visitato
+      V_prev[i]=-1;  // non c'e' precedente
+      V_dist[i]=INFTY;  // infinito
+    */
+
+    V_dist[n] = 0;
+
+    int q_size = n_nodi; /// contatore degli elementi in coda (V_visitato)
+
+    V_dist[n] = 0;
+    for (int i = 0; i < n_nodi; i++) {
+        heap_insert(i, V_dist[i]);
+    }
+
+    while (heap_size > 0) {
+        int u = heap_remove_min();
+        if (V_visitato[u]) continue;
+        V_visitato[u] = 1;
+
+        node_t *elem = E[u]->head;
+        while (elem != NULL) {
+            int v = elem->val;
+            float alt = V_dist[u] + elem->w;
+            if (alt < V_dist[v]) {
+                V_dist[v] = alt;
+                V_prev[v] = u;
+                decrease_key(v, alt);
+            }
+            elem = elem->next;
+        }
+    }
+
+    graph_print();
+}
+
 void bellman_ford(int sorgente) {
 
     for (int i = 0; i < n_nodi; i++) {
@@ -534,7 +544,9 @@ void bellman_ford(int sorgente) {
 }
 
 
-
+//////////////////////////////////////////////////
+/// Fine Funzioni consegna4
+//////////////////////////////////////////////////
 
 
 int main(int argc, char **argv) {
@@ -616,13 +628,7 @@ int main(int argc, char **argv) {
     int arrivo = n_nodi - 1;
     int w_max = 100;
 
-    // for (int i = 0; i < n_nodi - 1; i++) {
-    //     /// arco costoso
-    //     list_insert_front(E[i], arrivo, w_max - 2 * i);
-    //     /// arco 1
-    //     if (i > 0)
-    //         list_insert_front(E[i-1], i , 1);
-    // }
+
 
     graph_print();
 
@@ -633,8 +639,11 @@ int main(int argc, char **argv) {
         list_print(E[i]);
     }
 
+
+        //test shortest path 
     shortest_path(0);
 
+        //aggiungo ciclo negativo per test di bellman ford 
     list_insert_front(E[1], 2, 1);  // 1 → 2
     list_insert_front(E[2], 3, 1);  // 2 → 3
     list_insert_front(E[3], 1, -4); // 3 → 1 ciclo negativo 
