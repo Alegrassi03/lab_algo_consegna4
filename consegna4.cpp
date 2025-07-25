@@ -495,6 +495,9 @@ void shortest_path(int n) {
     graph_print();
 }
 
+
+//il codice di bellman-ford è stato preso da GeekforGeeks online e poi fatto adattare dall'IA per renderlo funzionante con la struttura del grafo pgià presente
+
 void bellman_ford(int sorgente) {
 
     for (int i = 0; i < n_nodi; i++) {
