@@ -509,12 +509,12 @@ void bellman_ford(int sorgente) {
 
     // Rilassamento di tutti gli archi per (n - 1) volte
     for (int i = 0; i < n_nodi - 1; i++) {
-        for (int u = 0; u < n_nodi; u++) {
+        for (int u = 0; u < n_nodi; u++) { // per ogni nodo scorro la sua lista di adiacenza 
             node_t *elem = E[u]->head;
             while (elem != NULL) {
                 int v = elem->val;
                 float peso = elem->w;
-                if (V_dist[u] + peso < V_dist[v]) {
+                if (V_dist[u] + peso < V_dist[v]) { //se si ottiene una distanza migliore allora aggiorno 
                     V_dist[v] = V_dist[u] + peso;
                     V_prev[v] = u;
                 }
@@ -529,7 +529,7 @@ void bellman_ford(int sorgente) {
         while (elem != NULL) {
             int v = elem->val;
             float peso = elem->w;
-            if (V_dist[u] + peso < V_dist[v]) {
+            if (V_dist[u] + peso < V_dist[v]) { //perchè se è ancora possibile un rilassanmento vuol dire che ce un ciclo negativo 
                 cout << "Errore: ciclo di peso negativo rilevato!" << endl;
                 return;
             }
